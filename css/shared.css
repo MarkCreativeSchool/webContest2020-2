@@ -176,8 +176,10 @@
 
 .footer_jp p{
     color: #ffa000;
+    margin-top: 50px;
 }
 
 .footer_jp ul li a{
     color: #ffa000;
+    font-weight: 800;
 }
