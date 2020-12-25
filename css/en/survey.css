@@ -1,0 +1,57 @@
+.surveytitle{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+     width: 67%;
+  }
+  
+  .two_survey{
+    font-family: "Noto Sans JP";
+    width: 63%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 18px;
+    text-indent: 1em;
+  }
+   .start_survey{
+      font-weight: bold;
+      font-size: 30px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      width: 67%;
+      color: black;
+    }
+  
+  .drawing{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 575px;
+    margin-top: 0px;
+  }
+  
+  
+  .graphimage{
+      width: 35%;
+      height: 2%;
+      display: inline-block;
+      margin: 0 auto;
+  }
+  
+  .logograph{
+      text-align: center;
+  }
+  
+  figure {
+    padding: 2px;
+    margin: auto;
+  }
+  
+  figcaption {
+    font-family: "Noto Sans JP";
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+  }
