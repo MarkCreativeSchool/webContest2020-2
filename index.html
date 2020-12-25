@@ -23,18 +23,17 @@
             <!-- </div>
             <div class="toggle">-->
             <div class="uppersub_jp">
-                <a href="index.html" class="bar_jp" class="{ isHome: isHome === true }">
+                <a>
                 <span>トップ</span>
                 <ul class="sub_jp">
                     <li><a href="index.html" class="downsub">ホーム</a></li>
                     <li><a href="what.html" class="downsub">差別とは？</a></li>
                     <li><a href="survey.html" class="downsub">アンケート結果</a></li>
                     <li><a href="sdgs.html" class="downsub">SDGsとの関係</a></li>
-                    </ul>
-                </nuxt-link>
-                <nuxt-link to="/history" class="bar_jp" :class="{ isHome: isHome === true }">歴史</nuxt-link>
-                <nuxt-link to="/currentproblems" class="bar_jp" class="{ isHome: isHome === true }">現問題</nuxt-link>
-        
+                </ul>
+                </a>
+                <!-- <nuxt-link to="/history" class="bar_jp" :class="{ isHome: isHome === true }">歴史</nuxt-link> -->
+                <!-- <nuxt-link to="/currentproblems" class="bar_jp" class="{ isHome: isHome === true }">現問題</nuxt-link> -->
                 <nuxt-link to="" class="bar_jp" class="{ isHome: isHome === true }">
                 <span>現状</span>
                 <ul class="sub_jp" >
@@ -63,10 +62,10 @@
                     <li><a href="sitemap.html" class="downsub">サイトマップ</a></li>
                     <li><a href="profile.html" class="downsub">製作者紹介</a></li>
                     <li><a href="references.html" class="downsub">参考文献</a></li>
-                    </ul>
+                </ul>
                 </nuxt-link>
                 <a @click="toeng" class="bar_jp" :class="{ isHome: isHome === true }">English</a>
-                </div>
+            </div>
         </div>
     </div>
     <div class="info">
