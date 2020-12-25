@@ -1,0 +1,67 @@
+.two_religion{
+    font-family: "Noto Sans JP";
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 18px;
+    text-indent: 1em;
+  }
+  
+  .start_religion{
+      font-weight: bold;
+      font-size: 30px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      width: 50%;
+      color: black;
+    }
+  
+  .activity{
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 30px;
+      font-family: "Noto Sans JP";
+  }
+  
+  .program_religion{
+      width: 50%;
+      margin: 0 auto;
+      font-size: 21px;
+      font-weight: bold;
+  }
+  .campaign_religion{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+  
+  
+  .drawing3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 370px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  
+  .next{
+      display: inline-block;
+      float: right;
+      margin-left: auto;
+      margin-right: 40px;
+      width: 100px;
+  }
+  
+  .back{
+      display: inline-block;
+      margin-left: 40px;
+      float: left;
+      margin-right: auto;
+      width: 100px;
+  }
+  
+  .nextback{
+      text-align: center;
+  }

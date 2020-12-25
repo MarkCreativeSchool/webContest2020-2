@@ -1,0 +1,71 @@
+.two_gender{
+    font-family: "Noto Sans JP";
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 18px;
+    text-indent: 1em;
+  }
+  
+  .start_gender{
+      font-weight: bold;
+      font-size: 30px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      width: 50%;
+      color: black;
+    }
+  
+  .activity{
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 30px;
+      font-family: "Noto Sans JP";
+  }
+  
+  .program_gender{
+      width: 50%;
+      margin: 0 auto;
+      font-size: 21px;
+      font-weight: bold;
+  }
+  .campaign_gender{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+  
+  
+  .drawing4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 370px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+  .next{
+      display: inline-block;
+      float: right;
+      margin-left: auto;
+      margin-right: 40px;
+      width: 100px;
+  }
+  
+  .back{
+      display: inline-block;
+      margin-left: 40px;
+      float: left;
+      margin-right: auto;
+      width: 100px;
+  }
+  
+  .nextback{
+      text-align: center;
+  }
+  
+  hr{
+    width: 50%;
+    margin:0 auto;
+  }
