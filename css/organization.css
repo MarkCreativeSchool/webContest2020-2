@@ -1,0 +1,147 @@
+.two_organization{
+    font-family: "Noto Sans JP";
+    width: 67%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 18px;
+    text-indent: 1em;
+  
+  }
+  
+  .paragraph{
+    font-family: "Noto Sans JP";
+    width: 42%;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 18px;
+    display: inline-block;
+    float: left;
+    margin-left: 18%;
+    color: black;
+  }
+  
+  .paragraph2{
+    font-family: "Noto Sans JP";
+    width: 42%;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 15%;
+    padding-top: 25px;
+    float: left;
+  }
+  .border{
+    background-color: #00ced1;
+  }
+  .start_organization{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+    width: 67%;
+    color: black;
+  }
+  
+  .under{
+    border-bottom: solid 10px #ffa000;
+  }
+  
+  /* .start{
+    font-family: "Noto Sans JP";
+    color: #ffffff;
+    background-color: #000000;
+    background-position: center center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    border-radius: 3px;
+    text-shadow: 0.5px 0.5px #f6d405;
+    text-align: center;
+  } */
+  
+  
+  .activity{
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 30px;
+      font-family: "Noto Sans JP";
+  }
+  
+  .program1{
+      width: 90%;
+      margin: 0 auto;
+      font-size: 21px;
+      font-weight: bold;
+  }
+  
+  
+  .campaign1{
+    width: 85%;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+  
+  .logoblm{
+      height: 250px;
+      width: 250px;
+      display: inline-block;
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+      margin-left: 100px;
+  }
+  
+  .logom4bl{
+      width: 270px;
+      height: 250px;
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 5px;
+      margin-left: 40px;
+      margin-left: 100px;
+  }
+  
+  .start_o{
+    font-family: "Noto Sans JP";
+    color: black;
+    /* background-color: #ffa000; */
+    /* background-position: center center; */
+    border-left: solid 10px #ffa000;
+    width: 67%;
+    margin: 0 auto;
+    font-size: 30px;
+    border-radius: 3px;
+    font-weight: 800;
+    /* text-align: center;  */
+  }
+  
+  .activity{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 30px;
+      font-family: "Noto Sans JP";
+  }
+  
+  .next{
+      display: inline-block;
+      float: right;
+      margin-left: auto;
+      margin-right: 40px;
+      width: 100px;
+  }
+  
+  .back{
+      display: inline-block;
+      margin-left: 40px;
+      float: left;
+      margin-right: auto;
+      width: 100px;
+  }
+  
+  .nextback{
+      text-align: center;
+  }
+  
+  .briefinfo{
+      display: inline-block;
+  }

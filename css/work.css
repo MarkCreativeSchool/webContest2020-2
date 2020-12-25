@@ -1,0 +1,86 @@
+.two_work{
+    font-family: "Noto Sans JP";
+    width: 47%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 18px;
+    text-indent: 1em;
+  
+  }
+  
+  .start_work{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
+  /*
+  .start{
+    font-family: "Noto Sans JP";
+    color: black;
+    background-color: #000000;
+    background-position: center center;
+    width: 50%;
+    left: 0%;
+    font-size: 35px;
+    font-weight: 800;
+    border-radius: 3px;
+    text-shadow: 0.5px 0.5px #f6d405;
+    text-align: center;
+  } */
+  
+  .activity{
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 30px;
+      font-family: "Noto Sans JP";
+  }
+  
+  .program{
+      width: 85%;
+      margin: 0 auto;
+      font-size: 21px;
+      font-weight: bold;
+  }
+  .campaign{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+  
+  .highlights{
+    background:#ffff66;
+  }
+  
+  .next{
+      display: inline-block;
+      float: right;
+      margin-left: auto;
+      margin-right: 40px;
+      width: 100px;
+  }
+  
+  .back{
+      display: inline-block;
+      margin-left: 40px;
+      float: left;
+      margin-right: auto;
+      width: 100px;
+  }
+  
+  .nextback{
+      text-align: center;
+  }
+  
+  .bargraph{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .under{
+    border-bottom: solid 10px #ffa000;
+  }
