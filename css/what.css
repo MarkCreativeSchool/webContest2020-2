@@ -1,0 +1,50 @@
+.two_what{
+    font-family: "Noto Sans JP";
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 18px;
+    text-indent: 1em;
+  }
+  
+   .start_what{
+      font-weight: bold;
+      font-size: 30px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      width: 50%;
+      color: black;
+    }
+  
+  /*
+  .start{
+    font-family: "Noto Sans JP";
+    color: #ffffff;
+    background-color: #000000;
+    background-position: center center;
+    width: 83%;
+    margin: 0 auto;
+    font-size: 30px;
+    border-radius: 3px;
+    text-shadow: 0.5px 0.5px #f6d405;
+    text-align: center;
+  }*/
+  
+  .drawing3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 370px;
+    margin-top: 0px;
+  }
+  
+  .drawing1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
