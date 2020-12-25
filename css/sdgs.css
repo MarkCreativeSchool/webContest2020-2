@@ -16,19 +16,21 @@
       color: black;
     }
   
-  /*
-  .start{
-    font-family: "Noto Sans JP";
-    color: #ffffff;
-    background-color: #000000;
-    background-position: center center;
-    width: 83%;
-    margin: 0 auto;
-    font-size: 30px;
-    border-radius: 3px;
-    text-shadow: 0.5px 0.5px #f6d405;
-    text-align: center;
-  }*/
+  .opening-title{
+      margin: 0 auto;
+      width: 50%;
+      font-weight: 800;
+      font-size: 20px;
+      color:red;
+  }
+  
+  .contents{
+      width: 50%;
+      margin: 0 auto;
+      font-size: 15px;
+      text-indent: 1em;
+      color: black;
+  }
   
   .drawing3{
     display: block;
@@ -47,6 +49,17 @@
     height: 500px;
     margin-top: 0px;
     margin-bottom: 30px;
+  }
+  
+  .logograph{
+      text-align: center;
+  }
+  
+  .graphimage{
+      width: 35%;
+      height: 2%;
+      display: inline-block;
+      margin: 0 auto;
   }
 
   .next{
