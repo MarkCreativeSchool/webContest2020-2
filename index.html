@@ -14,6 +14,7 @@
 
 </head>
 <body>
+    <div class="fullhead">
     <div class="toggle" :class="{ isHome: isHome === true }">
         <div class="up-jp">
          <!-- <a href="index.html" v-if="isHome"><img class="logo" src="./img/newlogo.png"></a> -->
@@ -22,7 +23,7 @@
         <!-- </div>
          <div class="toggle">-->
          <div class="uppersub_jp">
-             <nuxt-link to="" class="bar_jp" :class="{ isHome: isHome === true }">
+             <a href="index.html" class="bar_jp" :class="{ isHome: isHome === true }">
              <span>トップ</span>
              <ul class="sub_jp">
                    <li><a href="index.html" class="downsub">ホーム</a></li>
@@ -68,6 +69,7 @@
              </div>
        </div>
        </div>
+    </div>
     <div class="info">
         <div class="test">
         <video id="video" width="1920" height="1080" loop autoplay muted>
