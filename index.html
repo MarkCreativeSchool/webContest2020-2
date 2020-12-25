@@ -23,7 +23,7 @@
             <!-- </div>
             <div class="toggle">-->
             <div class="uppersub_jp">
-                <a>
+                <a class="bar_jp">
                 <span>トップ</span>
                 <ul class="sub_jp">
                     <li><a href="index.html" class="downsub">ホーム</a></li>
@@ -35,6 +35,7 @@
                 <!-- <nuxt-link to="/history" class="bar_jp" :class="{ isHome: isHome === true }">歴史</nuxt-link> -->
                 <!-- <nuxt-link to="/currentproblems" class="bar_jp" class="{ isHome: isHome === true }">現問題</nuxt-link> -->
                 <nuxt-link to="" class="bar_jp" class="{ isHome: isHome === true }">
+                <a class="bar_jp">
                 <span>現状</span>
                 <ul class="sub_jp" >
                     <li><a href="work.html" class="downsub">雇用</a></li>
@@ -42,9 +43,10 @@
                     <li><a href="policebrutality.html" class="downsub">逮捕率など</a></li>
                     <li><a href="organization.html" class="downsub">組織</a></li>
                     </ul>
-                </nuxt-link>
+                </a>
         
                 <nuxt-link to="" class="bar_jp" class="{ isHome: isHome === true }">
+                <a class="bar_jp">
                 <span>他の差別</span>
                 <ul class="sub_jp">
                     <li><a href="genderdiscrimination.html" class="downsub">性差別</a></li>
@@ -53,17 +55,17 @@
                     <li><a href="religiousdiscrimination.html" class="downsub">宗教差別</a></li>
                     <li><a href="littleknowndiscrimination.html" class="downsub">他</a></li>
                     </ul>
-                </nuxt-link>
-        
+                </a>
                 <nuxt-link to="" class="bar_jp" class="{ isHome: isHome === true }">
+                <a class="bar_jp">
                 <span>その他</span>
-                <ul class="sub_jp">
-                    <!--  <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>-->
-                    <li><a href="sitemap.html" class="downsub">サイトマップ</a></li>
-                    <li><a href="profile.html" class="downsub">製作者紹介</a></li>
-                    <li><a href="references.html" class="downsub">参考文献</a></li>
-                </ul>
-                </nuxt-link>
+                    <ul class="sub_jp">
+                        <!--  <li><nuxt-link to="/others/why" class="subpage">何故？</nuxt-link></li>-->
+                        <li><a href="sitemap.html" class="downsub">サイトマップ</a></li>
+                        <li><a href="profile.html" class="downsub">製作者紹介</a></li>
+                        <li><a href="references.html" class="downsub">参考文献</a></li>
+                    </ul>
+                </a>
                 <a @click="toeng" class="bar_jp" :class="{ isHome: isHome === true }">English</a>
             </div>
         </div>
