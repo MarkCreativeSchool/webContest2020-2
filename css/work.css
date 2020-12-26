@@ -16,6 +16,10 @@
     width: 50%;
     color: black;
   }
+
+  .sourcecaption{
+    font-size: 12px;
+  }
   /*
   .start{
     font-family: "Noto Sans JP";

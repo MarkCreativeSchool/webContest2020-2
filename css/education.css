@@ -28,6 +28,10 @@
     width: 50%;
     color: black;
   }
+
+  .sourcecaption{
+    font-size: 12px;
+  }
   
   .under{
     border-bottom: solid 10px #ffa000;
