@@ -184,3 +184,11 @@
     color: #ffa000;
     font-weight: 800;
 }
+
+.footer_jp i{
+    /* position: absolute; */
+    color: #1DA2F2;
+    /* font-size: 50px; */
+    /* top: 50px; */
+    /* right: 100px; */
+}

@@ -24,6 +24,14 @@
     color:red;
 }
 
+.sub-title-sdgs{
+  margin: 0 auto;
+    width: 50%;
+    font-weight: 800;
+    font-size: 20px;
+    color: black;
+}
+
 .contents{
     width: 50%;
     margin: 0 auto;
