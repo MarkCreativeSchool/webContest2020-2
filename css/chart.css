@@ -1,6 +1,10 @@
+.row{
+    display: flex;
+}
+
 .chart1{
-    position: absolute;
-    left: 250px;
+    left: 200px;
+    position: relative;
 }
 
 #myChart1{
@@ -9,8 +13,8 @@
 }
 
 .chart2{
-    position: absolute;
-    right: 250px;
+    position: relative;
+    left: 300px;
 }
 
 #myChart2{

@@ -211,8 +211,13 @@
       margin: 0 auto;
   }
   
-  .logograph{
-      text-align: center;
+  /* .logograph{
+    display: inline-block;
+    text-align: center;
+  } */
+
+  .row{
+    display: inline-block;
   }
   
   figure {
