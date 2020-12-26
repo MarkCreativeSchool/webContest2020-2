@@ -1,0 +1,19 @@
+.chart1{
+    position: absolute;
+    left: 250px;
+}
+
+#myChart1{
+    width: 450px;
+    height: 350px;
+}
+
+.chart2{
+    position: absolute;
+    right: 250px;
+}
+
+#myChart2{
+    width: 450px;
+    height: 350px;
+}

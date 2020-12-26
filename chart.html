@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="./css/bulma.css" />
+    <link rel="stylesheet" href="./css/chart.css">
+</head>
+<body>
+    <div class="row" style="width: 70%;" >
+        <div class="chart1">
+            <canvas id="myChart1"></canvas>
+        </div>
+        <div class="chart2">
+            <canvas id="myChart2"></canvas>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://unpkg.com/chartjs-plugin-colorschemes"></script>
+    <script>
+        Chart.defaults.global.legend.labels.usePointStyle = false; //以降の凡例スタイルを矩形のまま
+        var ctx = document.getElementById("myChart1");
+        var myPieChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['日本', '中国', '台湾・日本', '日本・中国'],
+            datasets: [
+                {
+                label: 'Data One',
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.3)',
+                    'rgba(54, 162, 235, 0.3)',
+                    'rgba(75, 192, 192, 0.3)',
+                    'rgba(225,225,225, 0.3)',
+                    ],
+                data: [269, 2, 1, 1],
+                },
+            ],
+            },
+            options: {
+            plugins: {
+                    colorschemes: {scheme: 'office.Slice6'}},
+                responsive: false,  // canvasサイズ自動設定機能を使わない。HTMLで指定したサイズに固定   
+            title: {
+                display: true,
+                text:'日本の県立高校における高校１年生・高校２年生の国籍分布',   
+                position: "top" },
+        　　　　legend: {                          // 凡例
+                display: false,                     // 表示の有無
+                position: 'bottom' }           // 表示位置             
+            }});
+        Chart.defaults.global.legend.labels.usePointStyle = true; //以降の凡例スタイルを矩形を円に変える
+        var ctx = document.getElementById("myChart2");
+        var myPieChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+            labels: ['日本', 'インド', "オーストラリア・日本", "パキスタン", "モンゴル", "マレーシア", "アメリカ・日本", "トルコ", "韓国", "南アフリカ", "カナダ", "イギリス・日本", "モンゴル", "インドネシア・日本", "アメリカ"],
+            datasets: [
+                {
+                label: 'Data One',
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.3)',
+                    'rgba(251, 118, 4, 0.3)',
+                    'rgba(52, 168, 84, 0.3)',
+                    'rgba(255,110,4, 0.3)',
+                    'rgba(69,189,198, 0.3)',
+                    'rgba(123,170,247, 0.3)',
+                    'rgba(241,123,114, 0.3)',
+                    'rgba(252,208,80, 0.3)',
+                    'rgba(112,194,135, 0.3)',
+                    'rgba(255,153,78, 0.3)',
+                    'rgba(126,209,215, 0.3)',
+                    'rgba(179,206,251, 0.3)',
+                    'rgba(247,180,174, 0.3)',
+                    'rgba(253,228,155, 0.3)',
+                    'rgba(175,220,186, 0.3)',
+                    'rgba(65,133,244, 0.3)',
+                    ],
+                data: [11,8,1,3,1,1,3,1,2,1,1,1,1,1,1],
+                },
+            ],
+            },
+            options: {
+            plugins: {
+                    colorschemes: {scheme: 'office.Slice6'}},
+                responsive: false,  // canvasサイズ自動設定機能を使わない。HTMLで指定したサイズに固定   
+            title: {
+                display: true,
+                text:'日本のインターナショナルスクールにおける高校１年生・高校２年生の国籍分布',   
+                position: "top" },
+        　　　　legend: {                          // 凡例
+                display: false,                     // 表示の有無
+                position: 'bottom' }           // 表示位置             
+            }}); 
+    </script>
+</body>
+   </html>
