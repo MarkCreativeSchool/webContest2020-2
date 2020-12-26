@@ -71,3 +71,11 @@
   .bardata{
       text-align: center;
   }
+
+  mark {
+    background: linear-gradient(transparent 70%, #f6d405 70%);
+  }
+
+  .under{
+    border-bottom: solid 10px #ffa000;
+  }

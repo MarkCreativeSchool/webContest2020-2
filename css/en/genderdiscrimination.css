@@ -1,20 +1,21 @@
-.start_education{
-    font-weight: bold;
-    font-size: 30px;
+.two_gender{
     font-family: "Noto Sans JP";
-    margin: 0 auto;
     width: 50%;
-    color: black;
-  }
-  
-  .two_education{
-    font-family: "Noto Sans JP";
-    width: 47%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 18px;
     text-indent: 1em;
   }
+  
+  .start_gender{
+      font-weight: bold;
+      font-size: 30px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      width: 50%;
+      color: black;
+    }
   
   .activity{
       width: 80%;
@@ -23,16 +24,27 @@
       font-family: "Noto Sans JP";
   }
   
-  .program{
-      width: 85%;
+  
+  .program_gender{
+      width: 50%;
       margin: 0 auto;
       font-size: 21px;
       font-weight: bold;
   }
-  .campaign{
-    width: 80%;
+  .campaign_gender{
+    width: 50%;
     margin: 0 auto;
     font-size: 15px;
+  }
+  
+  .drawing4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    height: 370px;
+    margin-bottom: 20px;
+    margin-top: 0px;
   }
   .next{
       display: inline-block;
@@ -52,13 +64,6 @@
   
   .nextback{
       text-align: center;
-  }
-  
-  .bargraph{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
   }
 
   mark {
