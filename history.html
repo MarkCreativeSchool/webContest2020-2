@@ -65,6 +65,42 @@
     </div>
 </div>
 
+<div class="currentproblems">
+    <!-- 章を分けるタブ-->
+    <div class="tabs is-centered currentproblems">
+      <ul>
+<!--          class="is-active"-->
+        <li><a href="#" class="button">第一章</a></li>
+        <li><a href="#" class="button">第二章</a></li>
+        <li><a href="#" class="button">第三章</a></li>
+        <li><a href="#" class="button">第四章</a></li>
+        <li><a href="#" class="button">第五章</a></li>
+        <li><a href="#" class="button">第六章</a></li>
+        <li><a href="#" class="button">第七章</a></li>
+        <li><a href="#" class="button">第八章</a></li>
+        <li><a href="#" class="button">第九章</a></li>
+        <li><a href="#" class="button">黒人差別</a></li>
+      </ul>
+    </div>
+
+    <!-- 実際のテーブル-->
+    <div class="event-modal">
+      <div class="event-title">第1章:大陸の発見 / 13の植民地(13 colonies)の誕生</div>
+      <!--イベント-->
+        <div class="linebar line1" @click="onClick('line1')"></div>
+
+      <div class="linebar"></div>
+      <div class="year">
+        <h6>
+          <div class="timelineFirst">1500</div>
+        </h6>
+        <h6>
+          <div class="timelineLast">1774</div>
+        </h6>
+      </div>
+    </div>
+</div>
+
 <!-- フッダー -->
 <div class="footer_jp">
     <ul>
@@ -74,7 +110,7 @@
     <p>第23回全国中学高校WEBコンテスト参加作品</p>
 </div>
 
-
+<line1 v-if="locationName==='line1'" @onClose="locationName=null"></line1>
 
 </body>
 </html>
