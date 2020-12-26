@@ -1,20 +1,14 @@
-import line1 from "~/lines/html/line1.html"
-
-export default {
-  name: "history.js",
-  components: {line1, },
-
-  data(){
+var app = new Vue({
+  el: "#app",
+  components: {lineBar: lineBar, },
+  data() {
     return{
-      locationName:null
+      selectTabIndex: 0,
     }
   },
-
   methods:{
-    onClick(locationName){
-      // alert(locationName);
-      alert("line1");
-      // this.locationName=locationName
+    onTabClick(index){
+      this.selectTabIndex = index;
     }
   }
-}
+})

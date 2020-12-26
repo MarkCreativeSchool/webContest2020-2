@@ -1,16 +1,23 @@
-.event-modal{
-  position: fixed;
-  top: 26%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1000px;
-  height: 200px;
-  background: #ffffff;
-  /*z-index: 1001;*/
-  border-radius: 15px;
-  border: solid 5px burlywood;
-}
 .button_history:hover{
   background-color: #F4D03F; !important
 
+}
+.timeLine{
+  width: 1524px;
+  background-color: red;
+  margin: 0 auto;
+  border: solid 3px black;
+}
+.yearList{
+  display: flex;
+  justify-content: space-between
+}
+.timeLineInner{
+  background-color:#eee;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.lineBar{
+  background-color:yellow;
+  position: relative;
 }

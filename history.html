@@ -15,7 +15,6 @@
     <meta name="description" content="このサイトを作成するために使用した文献がリスト上表記されています。">
 </head>
 <body>
-<script type="text/javascript" src="./js/history.js"></script>
 <!-- それ以外の通常ヘッダー -->
 <div class="fullhead">
     <div class="toggle">
@@ -68,13 +67,13 @@
 </div>
 
 
-<div class="currentproblems">
+<div class="currentproblems" id="app">
     <!-- 章を分けるタブ-->
     <div class="tabs is-centered currentproblems">
       <ul>
 <!--          class="is-active"-->
-        <li><a href="#" class="button_history line1" @click="onClick('line1')">第一章</a></li>
-        <li><a href="#" class="button_history">第二章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(0)">第一章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(1)">第二章</a></li>
         <li><a href="#" class="button_history">第三章</a></li>
         <li><a href="#" class="button_history">第四章</a></li>
         <li><a href="#" class="button_history">第五章</a></li>
@@ -86,7 +85,39 @@
       </ul>
     </div>
     <!-- 実際のテーブル-->
-    <div class="event-modal"></div>
+    <!--一章-->
+    <div class="timeLine" v-if="selectTabIndex === 0">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第一章:</div>
+            <div class="timelineMain">
+                <line-bar left="100" width="100">新大陸の発見</line-bar>
+                <line-bar>い</line-bar>
+                <line-bar>う</line-bar>
+                <line-bar>え</line-bar>
+                <line-bar>お</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
+    <!--二章-->
+    <div class="timeLine" v-if="selectTabIndex === 1">
+        <div class="timeLineInner">
+            <div class="timeLineMain">
+                <line-bar left="100" width="100">a</line-bar>
+                <line-bar>b</line-bar>
+                <line-bar>c</line-bar>
+                <line-bar>d</line-bar>
+                <line-bar>e</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
 
 </div>
 <!-- フッダー -->
@@ -100,7 +131,11 @@
     <a href="https://www.instagram.com/learning.racism/?hl=ja"><i class="fab fa-instagram-square"></i></a>
 </div>
 
-<line1 v-if="locationName==='line1'"></line1>
+<!--<line1 v-if="locationName==='line1'"></line1>-->
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script type="text/javascript" src="js/history/linebar.js"></script>
+<script type="text/javascript" src="js/history.js"></script>
 
 </body>
 </html>
