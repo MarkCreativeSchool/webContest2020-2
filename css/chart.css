@@ -3,21 +3,106 @@
 }
 
 .chart1{
-    left: 200px;
+    left: 230px;
     position: relative;
 }
 
 #myChart1{
     width: 450px;
     height: 350px;
+    padding-top: 10px;
 }
-
 .chart2{
     position: relative;
-    left: 300px;
+    left: 240px;
 }
 
 #myChart2{
     width: 450px;
     height: 350px;
+    padding-top: 10px;
+}
+
+.chart3{
+    left: 230px;
+    position: relative;
+}
+
+#myChart3{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
+}
+.chart4{
+    position: relative;
+    left: 240px;
+}
+
+#myChart4{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
+}
+
+.chart5{
+    left: 230px;
+    position: relative;
+}
+
+#myChart5{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
+}
+.chart6{
+    position: relative;
+    left: 240px;
+}
+
+#myChart6{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
+}
+
+.chart7{
+    left: 230px;
+    position: relative;
+}
+
+#myChart7{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
+}
+.chart8{
+    position: relative;
+    left: 240px;
+}
+
+#myChart8{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
+}
+
+.chart9{
+    left: 230px;
+    position: relative;
+}
+
+#myChart9{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
+}
+.chart10{
+    position: relative;
+    left: 240px;
+}
+
+#myChart10{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
 }
