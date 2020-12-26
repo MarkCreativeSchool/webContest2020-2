@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Title</title>
+        <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="./css/bulma.css" />
-    <link rel="stylesheet" href="./css/sitemap.css">
+    <link rel="stylesheet" href="./css/currentproblems.css">
     <link rel="stylesheet" href="./css/shared.css">
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-    <meta name="description" content="このサイトのサイトマップが書かれています。">
-    <title>高校生の高校生による高校生のための黒人差別問題</title>
+    <meta name="description" content="このサイトを作成するために使用した文献がリスト上表記されています。">
 </head>
 <body>
-  <div class="fullhead">
+<!-- それ以外の通常ヘッダー -->
+<div class="fullhead">
     <div class="toggle">
         <div class="up-jp">
             <a href="index.html"><img class="logo" src="./img/black_logo.png"></a>
@@ -62,60 +64,51 @@
         </div>
     </div>
 </div>
-<div class="info">
-  <ol class="bread">
-    <li class="breadcrumb-item"> <a href="index.html">ホーム</a></li>
-    <li class="breadcrumb-item"> その他</li>
-    <li class="breadcrumb-item"> <a href="sitemap.html">サイトマップ</a></li>
-  </ol>
-  <br>
-  <h3 class="start_sitemap"><span class="under">サイトマップ</span></h3>
-  <br>
-  <h6 class="title_sitemap">トップ</h6>
-  <ul class="list_sitemap">
-    <li><a href="index">ホーム</a></li>
-    <li><a href="what.html">差別とは？</a></li>
-    <li><a href="survey.html">アンケート結果</a></li>
-  </ul>
-  <br>
-  <h6 class="title_sitemap"><nuxt-link to="/history">歴史</nuxt-link></h6>
-  <br>
-  <h6 class="title_sitemap"><nuxt-link to="/currentproblems">現問題</nuxt-link></h6>
-  <br>
-  <h6 class="title_sitemap">現状</h6>
-  <ul class="list_sitemap">
-    <li><a href="work.html">雇用</a></li>
-    <li><a href="education.html">教育</a></li>
-    <li><a href="policebrutality.html">逮捕率など</a></li>
-    <li><a href="organization.html">組織</a></li>
-  </ul>
-  <br>
-  <h6 class="title_sitemap">他の差別</h6>
-  <ul class="list_sitemap">
-    <li><a href="genderdiscrimination.html">性差別</a></li>
-    <li><a href="asiandiscrimination.html">アジア人差別</a></li>
-    <li><a href="sexualorientationdiscrimination.html">性的指向</a></li>
-    <li><a href="religiousdiscrimination.html">宗教差別</a></li>
-    <li><a href="littleknowndiscrimination.html">他</a></li>
-  </ul>
-  <br>
-  <h6 class="title_sitemap">その他</h6>
-  <ul class="list_sitemap">
-    <li><a href="sitemap.html">サイトマップ</a></li>
-    <li><a href="profile.html">制作者紹介</a></li>
-    <li><a href="references.html">参考文献</a></li>
-  </ul>
-  <br><br>
+
+<div class="currentproblems">
+    <!-- 章を分けるタブ-->
+    <div class="tabs is-centered currentproblems">
+      <ul>
+        <li class="is-active"><a>第一章</a></li>
+        <li><a>第二章</a></li>
+        <li><a>第三章</a></li>
+        <li><a>第四章</a></li>
+        <li><a>第五章</a></li>
+        <li><a>第六章</a></li>
+        <li><a>第七章</a></li>
+        <li><a>第八章</a></li>
+        <li><a>第九章</a></li>
+        <li><a>黒人差別</a></li>
+      </ul>
+    </div>
+
+    <!-- 実際のテーブル-->
+    <div class="event-modal">
+      <div class="event-title">第1章:大陸の発見 / 13の植民地(13 colonies)の誕生</div>
+      <!--イベント-->
+
+      <div class="linebar"></div>
+      <div class="year">
+        <h6>
+          <div class="timelineFirst">1500</div>
+        </h6>
+        <h6>
+          <div class="timelineLast">1774</div>
+        </h6>
+      </div>
+    </div>
 </div>
-<div class="nextback">
-  <a href="profile.html"><img class="next" src="./img/tugi.png"></a>
-</div>
+
+<!-- フッダー -->
 <div class="footer_jp">
-  <ul>
-    <li><a href="index.html">ホーム</a></li>
-    <li><a href="sitemap.html">サイトマップ</a></li>
-  </ul>
-  <p>第23回全国中学高校WEBコンテスト参加作品</p>
+    <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="sitemap.html">サイトマップ</a></li>
+    </ul>
+    <p>第23回全国中学高校WEBコンテスト参加作品</p>
 </div>
+
+
+
 </body>
 </html>
