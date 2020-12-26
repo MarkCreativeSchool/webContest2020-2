@@ -22,6 +22,10 @@
       margin-top: 30px;
       font-family: "Noto Sans JP";
   }
+
+  .sourcecaption{
+    font-size: 12px;
+  }
   
   .program_religion{
       width: 50%;

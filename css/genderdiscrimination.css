@@ -15,6 +15,10 @@
       width: 50%;
       color: black;
     }
+
+    .sourcecaption{
+      font-size: 12px;
+    }
   
   .activity{
       width: 75%;

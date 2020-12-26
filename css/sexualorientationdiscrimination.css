@@ -29,6 +29,11 @@
       font-size: 21px;
       font-weight: bold;
   }
+
+  .sourcecaption{
+    font-size: 12px;
+  }
+
   .campaign_sexualorientation{
     width: 50%;
     margin: 0 auto;
