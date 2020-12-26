@@ -1,7 +1,7 @@
 import line1 from "~/lines/html/line1.html"
 
 export default {
-  name: "Index",
+  name: "history.js",
   components: {line1, },
 
   data(){
@@ -9,9 +9,12 @@ export default {
       locationName:null
     }
   },
+
   methods:{
     onClick(locationName){
-      this.locationName=locationName
+      // alert(locationName);
+      alert("line1");
+      // this.locationName=locationName
     }
   }
 }

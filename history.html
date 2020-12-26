@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="./css/bulma.css" />
     <link rel="stylesheet" href="./css/history.css">
     <link rel="stylesheet" href="./css/shared.css">
+<!--    <script type="text/javascript" src="./js/history.js"></script>-->
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <meta name="description" content="このサイトを作成するために使用した文献がリスト上表記されています。">
 </head>
 <body>
+<script type="text/javascript" src="./js/history.js"></script>
 <!-- それ以外の通常ヘッダー -->
 <div class="fullhead">
     <div class="toggle">
@@ -71,7 +73,7 @@
     <div class="tabs is-centered currentproblems">
       <ul>
 <!--          class="is-active"-->
-        <li><a href="#" class="button_history" @click="onClick('line1')">第一章</a></li>
+        <li><a href="#" class="button_history line1" @click="onClick('line1')">第一章</a></li>
         <li><a href="#" class="button_history">第二章</a></li>
         <li><a href="#" class="button_history">第三章</a></li>
         <li><a href="#" class="button_history">第四章</a></li>
@@ -83,25 +85,10 @@
         <li><a href="#" class="button_history">黒人差別</a></li>
       </ul>
     </div>
-
     <!-- 実際のテーブル-->
-    <div class="event-modal">
-      <div class="event-title">第1章:大陸の発見 / 13の植民地(13 colonies)の誕生</div>
-      <!--イベント-->
-        <div class="linebar line1" @click="onClick('line1')"></div>
+    <div class="event-modal"></div>
 
-      <div class="linebar"></div>
-      <div class="year">
-        <h6>
-          <div class="timelineFirst">1500</div>
-        </h6>
-        <h6>
-          <div class="timelineLast">1774</div>
-        </h6>
-      </div>
-    </div>
 </div>
-
 <!-- フッダー -->
 <div class="footer_jp">
     <ul>
@@ -113,7 +100,7 @@
     <a href="https://www.instagram.com/learning.racism/?hl=ja"><i class="fab fa-instagram-square"></i></a>
 </div>
 
-<line1 v-if="locationName==='line1'" @onClose="locationName=null"></line1>
+<line1 v-if="locationName==='line1'"></line1>
 
 </body>
 </html>
