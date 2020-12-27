@@ -20,4 +20,5 @@
 .lineBar{
   background-color:yellow;
   position: relative;
+  border-radius: 20px;
 }
