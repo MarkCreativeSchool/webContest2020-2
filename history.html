@@ -74,14 +74,14 @@
 <!--          class="is-active"-->
         <li><a href="#" class="button_history" @click="onTabClick(0)">第一章</a></li>
         <li><a href="#" class="button_history" @click="onTabClick(1)">第二章</a></li>
-        <li><a href="#" class="button_history">第三章</a></li>
-        <li><a href="#" class="button_history">第四章</a></li>
-        <li><a href="#" class="button_history">第五章</a></li>
-        <li><a href="#" class="button_history">第六章</a></li>
-        <li><a href="#" class="button_history">第七章</a></li>
-        <li><a href="#" class="button_history">第八章</a></li>
-        <li><a href="#" class="button_history">第九章</a></li>
-        <li><a href="#" class="button_history">黒人差別</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(2)">第三章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(3)">第四章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(4)">第五章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(5)">第六章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(6)">第七章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(7)">第八章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(8)">第九章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(9)">黒人差別</a></li>
       </ul>
     </div>
     <!-- 実際のテーブル-->
@@ -105,6 +105,7 @@
     <!--二章-->
     <div class="timeLine" v-if="selectTabIndex === 1">
         <div class="timeLineInner">
+            <div class="timeLineTitle">第二章:</div>
             <div class="timeLineMain">
                 <line-bar left="100" width="100">a</line-bar>
                 <line-bar>b</line-bar>
@@ -118,7 +119,142 @@
             </div>
         </div>
     </div>
-
+    <!--三章-->
+    <div class="timeLine" v-if="selectTabIndex === 2">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第三章:</div>
+            <div class="timeLineMain">
+                <line-bar left="100" width="100">a</line-bar>
+                <line-bar>b</line-bar>
+                <line-bar>c</line-bar>
+                <line-bar>d</line-bar>
+                <line-bar>e</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
+    <!--四章-->
+    <div class="timeLine" v-if="selectTabIndex === 3">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第四章:</div>
+            <div class="timeLineMain">
+                <line-bar left="100" width="100">a</line-bar>
+                <line-bar>b</line-bar>
+                <line-bar>c</line-bar>
+                <line-bar>d</line-bar>
+                <line-bar>e</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
+    <!--五章-->
+    <div class="timeLine" v-if="selectTabIndex === 4">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第五章:</div>
+            <div class="timeLineMain">
+                <line-bar left="100" width="100">a</line-bar>
+                <line-bar>b</line-bar>
+                <line-bar>c</line-bar>
+                <line-bar>d</line-bar>
+                <line-bar>e</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
+    <!--六章-->
+    <div class="timeLine" v-if="selectTabIndex === 5">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第六章:</div>
+            <div class="timeLineMain">
+                <line-bar left="100" width="100">a</line-bar>
+                <line-bar>b</line-bar>
+                <line-bar>c</line-bar>
+                <line-bar>d</line-bar>
+                <line-bar>e</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
+    <!--七章-->
+    <div class="timeLine" v-if="selectTabIndex === 6">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第七章:</div>
+            <div class="timeLineMain">
+                <line-bar left="100" width="100">a</line-bar>
+                <line-bar>b</line-bar>
+                <line-bar>c</line-bar>
+                <line-bar>d</line-bar>
+                <line-bar>e</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
+    <!--八章-->
+    <div class="timeLine" v-if="selectTabIndex === 7">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第八章:</div>
+            <div class="timeLineMain">
+                <line-bar left="100" width="100">a</line-bar>
+                <line-bar>b</line-bar>
+                <line-bar>c</line-bar>
+                <line-bar>d</line-bar>
+                <line-bar>e</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
+    <!--九章-->
+    <div class="timeLine" v-if="selectTabIndex === 8">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第九章:</div>
+            <div class="timeLineMain">
+                <line-bar left="100" width="100">a</line-bar>
+                <line-bar>b</line-bar>
+                <line-bar>c</line-bar>
+                <line-bar>d</line-bar>
+                <line-bar>e</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
+    <!--黒人差別-->
+    <div class="timeLine" v-if="selectTabIndex === 9">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">黒人差別:</div>
+            <div class="timeLineMain">
+                <line-bar left="100" width="100">a</line-bar>
+                <line-bar>b</line-bar>
+                <line-bar>c</line-bar>
+                <line-bar>d</line-bar>
+                <line-bar>e</line-bar>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1700</div>
+                <div class="yearListEnd">1890</div>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- フッダー -->
 <div class="footer_jp">
