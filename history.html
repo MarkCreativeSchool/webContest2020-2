@@ -91,7 +91,7 @@
             <div class="timeLineTitle">第一章: 大陸の発見 / 13の植民地(13 colonies)の誕生</div>
             <div class="timeLineMain">
                 <!-- 出来事-->
-                <line-bar left="25" width="50">新大陸の発見</line-bar>
+                <line-bar left="25" width="50" @clicked="clicked">新大陸の発見</line-bar>
                 <line-bar left="100" width="50">奴隷輸入</line-bar>
                 <line-bar left="750" width="50">13の植民地誕生</line-bar>
                 <line-bar left="800" width="150">七年戦争(1756年~1763年)</line-bar>
@@ -272,6 +272,8 @@
             </div>
         </div>
     </div>
+
+    <modal isOpen="true"></modal>
 </div>
 <!-- フッダー -->
 <div class="footer_jp">
@@ -288,6 +290,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
 <script type="text/javascript" src="js/history/linebar.js"></script>
+<script type="text/javascript" src="js/history/modal.js"></script>
 <script type="text/javascript" src="js/history.js"></script>
 
 </body>
