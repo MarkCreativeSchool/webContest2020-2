@@ -6,6 +6,7 @@ var app = new Vue({
       selectTabIndex: 0,
       isOpen: false,
       coreData: [],
+      chapter: 0,
     }
   },
   methods:{
@@ -14,6 +15,8 @@ var app = new Vue({
     },
     clicked(number){
       var data = historyData[this.selectTabIndex][number]
+      var section = chapterData[this.selectTabIndex].chapter
+      this.chapter = section
       this.coreData = data
       this.isOpen = true;
     },

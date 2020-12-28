@@ -77,3 +77,10 @@
 .button{
   background-color: #00c7a9;
 }
+.history-title{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.history-text{
+  text-indent: 20px;
+}

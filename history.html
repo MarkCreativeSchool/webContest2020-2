@@ -93,13 +93,13 @@
                 <!-- 出来事-->
                 <line-bar left="25" width="50" number="0" @clicked="clicked">新大陸の発見</line-bar>
                 <line-bar left="100" width="50" number="1" @clicked="clicked">奴隷輸入</line-bar>
-                <line-bar left="750" width="50">13の植民地誕生</line-bar>
-                <line-bar left="800" width="150">七年戦争(1756年~1763年)</line-bar>
-                <line-bar left="1000" width="50">砂糖法(1764年)</line-bar>
-                <line-bar left="1075" width="50">印紙法(1765年)</line-bar>
-                <line-bar left="1150" width="50">タウンゼンド諸法(1767年)</line-bar>
-                <line-bar left="1350" width="50">ボストン茶会事件(1773年)</line-bar>
-                <line-bar left="1425" width="50">強圧的諸条令(1774年)</line-bar>
+                <line-bar left="750" width="50" number="2" @clicked="clicked">13の植民地誕生</line-bar>
+                <line-bar left="800" width="150" number="3" @clicked="clicked">七年戦争(1756年~1763年)</line-bar>
+                <line-bar left="1000" width="50" number="4" @clicked="clicked">砂糖法(1764年)</line-bar>
+                <line-bar left="1075" width="50" number="5" @clicked="clicked">印紙法(1765年)</line-bar>
+                <line-bar left="1150" width="50" number="6" @clicked="clicked">タウンゼンド諸法(1767年)</line-bar>
+                <line-bar left="1350" width="50" number="7" @clicked="clicked">ボストン茶会事件(1773年)</line-bar>
+                <line-bar left="1425" width="50" number="8" @clicked="clicked">強圧的諸条令(1774年)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
@@ -113,7 +113,7 @@
         <div class="timeLineInner">
             <div class="timeLineTitle">第二章: 独立戦争の開幕</div>
             <div class="timeLineMain">
-                <line-bar left="25" width="50">レキシントン・コンコードの戦い(1775年)</line-bar>
+                <line-bar left="25" width="50" number="0" @clicked="clicked">レキシントン・コンコードの戦い(1775年)</line-bar>
                 <line-bar left="100" width="50">第二回大陸会議(1775年5月)</line-bar>
                 <line-bar left="300" width="50">トマス=ペインによる「コモン=センス」の発行(1776年1月)</line-bar>
                 <line-bar left="500" width="50">アメリカ独立宣言(1776年7月)</line-bar>
@@ -273,7 +273,7 @@
         </div>
     </div>
 
-    <modal :isopen="isOpen" :data="coreData" @close="close"></modal>
+    <modal :isopen="isOpen" :data="coreData"  :chapter="chapter" @close="close"></modal>
 </div>
 <!-- フッダー -->
 <div class="footer_jp">
@@ -289,6 +289,7 @@
 <!--<line1 v-if="locationName==='line1'"></line1>-->
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script type="text/javascript" src="js/history/chapter.js"></script>
 <script type="text/javascript" src="js/history/data.js"></script>
 <script type="text/javascript" src="js/history/linebar.js"></script>
 <script type="text/javascript" src="js/history/modal.js"></script>

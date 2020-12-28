@@ -5,7 +5,7 @@ var modal = Vue.component("modal", {
       <div class="modal-background" @click="close"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">Modal title</p>
+          <p class="modal-card-title">第{{chapter}}章</p>
           <button class="delete" aria-label="close" @click="close"></button>
         </header>
         <section class="modal-card-body">
@@ -22,7 +22,7 @@ var modal = Vue.component("modal", {
       </div>
     </div>
 `,
-    props:["isopen", "data"],
+    props:["isopen", "data", "chapter"],
     methods:{
         close(){
             this.$emit("close")
