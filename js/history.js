@@ -5,14 +5,16 @@ var app = new Vue({
     return{
       selectTabIndex: 0,
       isOpen: false,
-
+      coreData: [],
     }
   },
   methods:{
     onTabClick(index){
       this.selectTabIndex = index;
     },
-    clicked(){
+    clicked(number){
+      var data = historyData[this.selectTabIndex][number]
+      this.coreData = data
       this.isOpen = true;
     },
     close(){

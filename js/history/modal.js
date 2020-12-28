@@ -9,7 +9,12 @@ var modal = Vue.component("modal", {
           <button class="delete" aria-label="close" @click="close"></button>
         </header>
         <section class="modal-card-body">
-          <!-- Content ... -->
+            <ul>
+                <li v-for="d of data">
+                    <div class="history-title">{{d.title}}</div>
+                    <div class="history-text">{{d.text}}</div>
+                </li>
+            </ul>
         </section>
         <footer class="modal-card-foot">
           <button class="button" @click="close">Cancel</button>
@@ -17,7 +22,7 @@ var modal = Vue.component("modal", {
       </div>
     </div>
 `,
-    props:["isopen"],
+    props:["isopen", "data"],
     methods:{
         close(){
             this.$emit("close")
