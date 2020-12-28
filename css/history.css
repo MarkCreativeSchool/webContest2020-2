@@ -62,3 +62,8 @@
   background-color: black;
   margin-top: 7px;
 }
+/*このままでいいのか？*/
+.endLine:hover{
+  background-color: black; !important
+  cursor: default; !important
+}
