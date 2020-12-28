@@ -60,3 +60,30 @@
 .nextback{
     text-align: center;
 }
+
+.two_profile{
+  font-family: "Noto Sans JP";
+  width: 47%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 18px;
+  text-indent: 1em;
+}
+.title_profile{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  width: 70%;
+  color: black;
+}
+
+
+.list_profile{
+  font-size: 18px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  width: 65%;
+  color: black;
+  list-style-type: circle;
+}
