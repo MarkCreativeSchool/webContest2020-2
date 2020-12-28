@@ -4,6 +4,8 @@ var app = new Vue({
   data() {
     return{
       selectTabIndex: 0,
+      isOpen: false,
+
     }
   },
   methods:{
@@ -11,8 +13,10 @@ var app = new Vue({
       this.selectTabIndex = index;
     },
     clicked(){
-      console.log("waaaaaaa")
-      alert("555")
+      this.isOpen = true;
     },
+    close(){
+      this.isOpen = false;
+    }
   }
 })

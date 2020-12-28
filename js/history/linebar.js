@@ -8,7 +8,6 @@ var lineBar = Vue.component("lineBar", {
 
     methods:{
         onClick(){
-            console.log("yay")
             this.$emit("clicked")
         }
     }
