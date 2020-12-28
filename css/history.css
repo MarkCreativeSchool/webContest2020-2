@@ -1,5 +1,5 @@
 .button_history:hover{
-  background-color: #F4D03F; !important
+  background-color: #F4D03F; !important;
 }
 .timeLine{
   width: 1524px;
@@ -28,10 +28,11 @@
   position: relative;
   border-radius: 10px;
   font-size: 8px;
-  text-indent: 5px;
   margin-bottom: 5px;
-  /*このあといらないかも*/
-  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 10px;
+  padding-top:10px;
 }
 .lineBar:hover{
   background-color: #f6d405;
@@ -60,10 +61,13 @@
 .endLine{
   height: 4px;
   background-color: black;
-  margin-top: 7px;
+  margin-top: 10px;
+  /*あまり好まないやり方*/
+  padding-top: 0px; !important;
+  padding-bottom: 0px; !important;
 }
-/*このままでいいのか？*/
+/*このままでいいのか？ / あまり好まないやり方*/
 .endLine:hover{
-  background-color: black; !important
-  cursor: default; !important
+  background-color: black; !important;
+  cursor: default; !important;
 }
