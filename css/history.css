@@ -1,6 +1,5 @@
 .button_history:hover{
   background-color: #F4D03F; !important
-
 }
 .timeLine{
   width: 1524px;
@@ -33,6 +32,10 @@
   margin-bottom: 5px;
   /*このあといらないかも*/
   height: 30px;
+}
+.lineBar:hover{
+  background-color: #f6d405;
+  cursor: pointer;
 }
 .endLine:after{
   content: "";
