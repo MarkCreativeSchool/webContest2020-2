@@ -24,6 +24,7 @@
   background-color:yellow;
   position: relative;
   border-radius: 20px;
+  font-size: 14px;
 }
 .endLine{
   height: 4px;
