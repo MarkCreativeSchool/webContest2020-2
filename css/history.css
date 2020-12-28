@@ -10,7 +10,10 @@
 }
 .yearList{
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .timeLineInner{
   background-color:#eee;
@@ -21,4 +24,9 @@
   background-color:yellow;
   position: relative;
   border-radius: 20px;
+}
+.endLine{
+  height: 4px;
+  background-color: black;
+  margin-top: 7px;
 }
