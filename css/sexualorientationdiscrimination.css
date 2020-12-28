@@ -17,13 +17,13 @@
     }
   
   .activity{
-      width: 75%;
+      width: 80%;
       margin: 0 auto;
       margin-top: 30px;
       font-family: "Noto Sans JP";
   }
   
-  .program_sexualorientation{
+  .program_orientation{
       width: 50%;
       margin: 0 auto;
       font-size: 21px;
@@ -34,7 +34,7 @@
     font-size: 12px;
   }
 
-  .campaign_sexualorientation{
+  .campaign_orientation{
     width: 50%;
     margin: 0 auto;
     font-size: 15px;

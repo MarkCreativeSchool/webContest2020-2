@@ -26,17 +26,16 @@
   
   
   .program_orientation{
-      width: 50%;
-      margin: 0 auto;
-      font-size: 21px;
-      font-weight: bold;
-  }
-  .campaign_orientation{
     width: 50%;
     margin: 0 auto;
-    font-size: 15px;
-  }
-  
+    font-size: 21px;
+    font-weight: bold;
+}
+.campaign_orientation{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 15px;
+}
   .sexualorientation{
       width: 325px;
       height: 350px;
@@ -75,3 +74,4 @@ mark {
   .under{
     border-bottom: solid 10px #ffa000;
   }
+
