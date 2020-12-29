@@ -73,12 +73,20 @@
 </div>
 
 <div id="app">
+    <!-- ショーンベル事件 -->
     <figure>
-        <button  class="button1" @click="openMap('ny')"><img src="./img/What.jpg"></button>
-        <figcaption>NewYork</figcaption>
-        <div class="circle"></div>
-    <!-- <button @click="openMap('or')"></button> -->
+        <button  class="button1" @click="openMap('ny')"><img class="image1" src="./img/black_1.jpg"></button>
+        <div class="figcaption1">ショーン・ベル<br>事件</div>
+        <div class="circle1"></div>
     </figure>
+    <div class="border1"></div>
+    <!-- エリック・ガーナー事件 -->
+    <figure>
+        <button  class="button2" @click="openMap('ny')"><img class="image2" src="./img/black_ny_2.png"></button>
+        <div class="figcaption2">エリック・ガーナー<br>事件</div>
+        <div class="circle2"></div>
+    </figure>
+    <div class="border2"></div>
     <modal :is-open="isOpen" @close="closeModal" :map-file-data="mapFileData" :map-articles="mapArticles"></modal>
 </div>
 <p class="usmap">
