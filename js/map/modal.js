@@ -1,7 +1,7 @@
 var modal = Vue.component("modal", {
     name: "modal",
     template: `
-    <div class="modal">
+    <div class="modal" v-if="isOpen === true">
   <div class="modal-background"></div>
   <div class="modal-card">
     <header class="modal-card-head">
@@ -18,4 +18,5 @@ var modal = Vue.component("modal", {
   </div>
 </div>
     `,
+    props: ["isOpen"]
 })

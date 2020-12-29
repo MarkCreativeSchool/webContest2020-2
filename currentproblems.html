@@ -73,7 +73,9 @@
 </div>
 
 <div id="app">
-    <modal></modal>
+    <button @click="openMap">1</button>
+    <button @click="openMap">2</button>
+    <modal :is-open="isOpen"></modal>
 </div>
 
 <!-- フッダー -->
