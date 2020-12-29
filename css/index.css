@@ -247,7 +247,7 @@
     top: 50%;
     margin-top: -153px;
     right: 10%;
-    z-index: 100000;
+    z-index: 99;
   }
 
   .usmap img{
@@ -263,6 +263,7 @@
     top: 50%;
     left: 10%;
     margin-top: -112.5px;
+    text-align: left;
   }
 
   .title-sub1{
@@ -272,3 +273,65 @@
   .title-sub2{
     font-size: 60px;
   }
+
+  .button1{
+    width: 100px;
+    height: 105px;
+    border-style: none;
+    background-color: #ffdd02;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 10px;
+    top: 100px;
+    right: 210px;
+    z-index: 100;
+}
+
+.image1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.figcaption1 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    position: absolute;
+    right: 175px;
+    top: 150px;
+    z-index: 110;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 800;
+    text-align: center;
+    color: #000000;
+}
+
+.circle1{
+    width: 10px;
+    height: 10px;
+    border: 3px solid saddlebrown;
+    border-radius: 50%;
+    background: gold;
+    position: absolute;
+    top: 270px;
+    right: 200px;
+    z-index: 100;
+}
+
+.border1{
+    height: 1px;
+    border: none;
+    border-top: 1px #ffffff solid;
+    transform: skewY(-130deg);
+    z-index: 99;
+    width: 60px;
+    position: absolute;
+    top: 240px;
+    right: 205px;
+}
