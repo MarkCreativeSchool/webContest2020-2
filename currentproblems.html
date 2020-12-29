@@ -73,11 +73,17 @@
 </div>
 
 <div id="app">
-    <button @click="openMap('ny')">1</button>
-    <button @click="openMap('or')">2</button>
+    <figure>
+        <button  class="button1" @click="openMap('ny')"><img src="./img/What.jpg"></button>
+        <figcaption>NewYork</figcaption>
+        <div class="circle"></div>
+    <!-- <button @click="openMap('or')"></button> -->
+    </figure>
     <modal :is-open="isOpen" @close="closeModal" :map-file-data="mapFileData" :map-articles="mapArticles"></modal>
 </div>
-
+<p class="usmap">
+    <img src="./img/usmap.png">
+</p>
 <!-- フッダー -->
 <div class="footer_jp">
     <ul>
