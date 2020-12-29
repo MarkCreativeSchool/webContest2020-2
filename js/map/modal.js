@@ -1,8 +1,8 @@
 var modal = Vue.component("modal", {
     name: "modal",
     template: `
-    <div class="modal" v-if="isOpen === true">
-  <div class="modal-background"></div>
+    <div class="modal is-active" v-if="isOpen === true">
+  <div class="modal-background" @click="close"></div>
   <div class="modal-card">
     <header class="modal-card-head">
       <p class="modal-card-title">Modal title</p>
@@ -18,5 +18,10 @@ var modal = Vue.component("modal", {
   </div>
 </div>
     `,
-    props: ["isOpen"]
+    props: ["isOpen"],
+    methods: {
+        close(){
+            this.$emit("close")
+        }
+    }
 })

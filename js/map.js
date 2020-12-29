@@ -9,6 +9,9 @@ var app = new Vue({
     methods: {
         openMap(){
             this.isOpen = true
+        },
+        closeModal(){
+            this.isOpen = false
         }
     }
 })
