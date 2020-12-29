@@ -3,11 +3,16 @@ var app = new Vue({
     components: {modal: modal,},
     data(){
         return {
-            isOpen: false
+            isOpen: false,
+            mapFileData: "",
+            mapArticles: []
         }
     },
     methods: {
-        openMap(){
+        openMap(location){
+            console.log(mapData["ny"])
+            this.mapFileData = mapData[location]["map"]
+            this.mapArticles = mapData[location]["articles"]
             this.isOpen = true
         },
         closeModal(){

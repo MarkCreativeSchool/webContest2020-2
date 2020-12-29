@@ -9,7 +9,16 @@ var modal = Vue.component("modal", {
       <button class="delete" aria-label="close"></button>
     </header>
     <section class="modal-card-body">
-      <!-- Content ... -->
+        {{ mapFileData }}
+        <!--
+        <img :src="'./img/' + mapFileData" />
+        -->
+        <ul>
+            <li v-for="article in mapArticles">
+                <div>{{ article.title }}({{ article.subtitle }})</div>
+                <p>{{ article.text }}</p>
+            </li>
+        </ul>
     </section>
     <footer class="modal-card-foot">
       <button class="button is-success">Save changes</button>
@@ -18,7 +27,7 @@ var modal = Vue.component("modal", {
   </div>
 </div>
     `,
-    props: ["isOpen"],
+    props: ["isOpen", "mapFileData", "mapArticles"],
     methods: {
         close(){
             this.$emit("close")

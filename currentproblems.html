@@ -73,9 +73,9 @@
 </div>
 
 <div id="app">
-    <button @click="openMap">1</button>
-    <button @click="openMap">2</button>
-    <modal :is-open="isOpen" @close="closeModal"></modal>
+    <button @click="openMap('ny')">1</button>
+    <button @click="openMap('or')">2</button>
+    <modal :is-open="isOpen" @close="closeModal" :map-file-data="mapFileData" :map-articles="mapArticles"></modal>
 </div>
 
 <!-- フッダー -->
@@ -89,6 +89,7 @@
     <a href="https://www.instagram.com/learning.racism/?hl=ja"><i class="fab fa-instagram-square"></i></a>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script type="text/javascript" src="js/map/data.js"></script>
 <script type="text/javascript" src="js/map/modal.js"></script>
 <script type="text/javascript" src="js/map.js"></script>
 </body>
