@@ -106,3 +106,15 @@
     height: 350px;
     padding-top: 10px;
 }
+
+.chart11{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#myChart11{
+    width: 775px;
+    height: 650px;
+    padding-top: 10px;
+}
