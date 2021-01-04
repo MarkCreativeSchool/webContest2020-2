@@ -102,17 +102,19 @@
             var myPieChart = new Chart(ctx, {
                 type: 'bar',
                 data: {
-                labels: ["黒人・アフリカ系アメリカ人", "ヒスパニック・ラテンアメリカ人", "白人", "アジア人"],
+                labels: ["白人：全教科", "黒人：全教科", "白人：数学", "黒人：数学", "白人：理科", "黒人：理科"],
                 datasets: [
                     {
                     label: 'Data One',
                     backgroundColor: [
                         'rgba(255, 99, 132)',
                         'rgba(128, 128,128)',
+                        'rgba(255, 99, 132)',
                         'rgba(128, 128,128)',
+                        'rgba(255, 99, 132)',
                         'rgba(128, 128,128)',
                         ],
-                    data: [8.4, 5.8, 4.3, 3.6],
+                    data: [40, 23, 17, 6, 16, 8],
                     },
                 ],
                 },
@@ -122,7 +124,7 @@
                     responsive: false,  // canvasサイズ自動設定機能を使わない。HTMLで指定したサイズに固定   
                 title: {
                     display: true,
-                    text:'主要な人種及民族グループによる実業者人口4.9%内の失業率（％単位）',   
+                    text:'中等学校で科目および人種による単位取得率',   
                     position: "top" },
             　　　　legend: {                          // 凡例
                     display: false,                     // 表示の有無
@@ -133,7 +135,7 @@
       ticks: {
         beginAtZero: true,
         min: 0,
-        max: 10
+        max: 50
       }
     }
   ]
@@ -144,17 +146,8 @@
     <br>
 
 
-
-
-
-
-
-
-
-
-    <img class="bargraph" src="./img/edugraph.png">
     <p class="two_education">
-    上のグラフは中等学校での科目及び人種による単位取得率を表したグラフです。全ての教科において白人よりも黒人の方が単位取得率が低いことがわかります。U.S. Census Bureauによると、2019年に学士号を取得している25歳全体での割合では、白人は40.1%、黒人は26.1%であったと報告されています。この結果からもわかるように、黒人と白人の間では教育の格差があるとわかりました。
+    上のグラフは中等学校での科目及び人種によるアドバンスプレースメントの単位取得率を表したグラフです（アドバンスプレースメント(AP)とはアメリカなどで取れるカリキュラム・課程の事。米国の多くの学校で取り入れている）。全ての教科において白人よりも黒人の方が単位取得率が低いことがわかります。U.S. Census Bureauによると、2019年に学士号を取得している25歳全体での割合では、白人は40.1%、黒人は26.1%であったと報告されています。この結果からもわかるように、黒人と白人の間では教育の格差があるとわかりました。
     <br>
     <small class="sourcecaption">(出典：<a href="https://nces.ed.gov/programs/raceindicators/indicator_rce.asp" target="_blank">https://nces.ed.gov/programs/raceindicators/indicator_rce.asp</a>より)</small>
     <br>    

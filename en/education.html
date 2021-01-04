@@ -90,10 +90,67 @@
       <small class="sourcecaption">(From: 「アメリカ黒人とスポーツ」ー井上果笛)</small>
       <br>
     </p>
-  <img class="bargraph" src="../img/edugrapheng.png">
+
+    <div class="logograph">
+            <div class="row" style="width: 100%;" >
+                <div class="chart12">
+                    <canvas id="myChart12"></canvas>
+                </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+            <script src="https://unpkg.com/chartjs-plugin-colorschemes"></script>
+            <script>
+                Chart.defaults.global.legend.labels.usePointStyle = false; //以降の凡例スタイルを矩形を円に変える
+                var ctx = document.getElementById("myChart12");
+                var myPieChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                    labels: ["White: All Subjects", "Black: All Subjects", "White: Mathematics", "Black: Mathematics", "White: Science", "Black: Science"],
+                    datasets: [
+                        {
+                        label: 'Data One',
+                        backgroundColor: [
+                            'rgba(255, 99, 132)',
+                            'rgba(128, 128,128)',
+                            'rgba(255, 99, 132)',
+                            'rgba(128, 128,128)',
+                            'rgba(255, 99, 132)',
+                            'rgba(128, 128,128)',
+                            ],
+                        data: [40, 23, 17, 6, 16, 8],
+                        },
+                    ],
+                    },
+                    options: {
+                    plugins: {
+                            colorschemes: {scheme: 'office.Slice6'}},
+                        responsive: false,  // canvasサイズ自動設定機能を使わない。HTMLで指定したサイズに固定   
+                    title: {
+                        display: true,
+                        text:'Advance course credit earned in secondary school, by subject and race',   
+                        position: "top" },
+                　　　　legend: {                          // 凡例
+                        display: false,                     // 表示の有無
+                        position: 'bottom' },           // 表示位置    
+                        scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+            min: 0,
+            max: 50
+          }
+        }
+      ]
+    }         
+                }}); 
+            </script>
+        </div>
+        <br>
+
   <p class="two_education">
   However, there are still disparities amongst black people within education.
-  The graph represents the credit acquisition rate for each subject in middle schools according to race.
+  The graph represents the credit acquisition rate for each subject in the advanced placement program in middle schools according to race (Advanced Placement (AP) is a school curriculum that is used often in schools in America, which allows credits to apply for college).
    Looking at the figures for blue (representing all subjects), we can see that the acquisition rate for white people is <b>40%</b>, while that for blacks is about half, <b>20%</b>.
    In addition, the US Department of Education reported in 2013 that non-Hispanic whites earned <b>twice</b> as much science credit,  and <b>2.8 times</b> as many math credit compared to black students.
    Furthermore, according to the U.S. Census Bureau, the overall view of 25-year-olds with a bachelor's degree in 2019 was reported to be <b>26.1% </b>for blacks compared to<b> 40.1%</b> for whites.
