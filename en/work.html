@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/bulma.css" />
     <link rel="stylesheet" href="../css/work.css">
     <link rel="stylesheet" href="../css/shared.css">
+    <link rel="stylesheet" href="../css/chart.css" />
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <meta name="description" content="米国の仕事場で未だにある格差などを紹介、解説しています。">
     <title>高校生の高校生による高校生のための黒人差別問題</title>
@@ -90,7 +91,61 @@
         <small class="sourcecaption">(From: 「アメリカ黒人とスポーツ」ー井上果笛)</small>
         <br>
     </p>
- <img class="bargraph" src="../img/workgrapheng.png">
+    <div class="logograph">
+            <div class="row" style="width: 100%;" >
+                <div class="chart11">
+                    <canvas id="myChart11"></canvas>
+                </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+            <script src="https://unpkg.com/chartjs-plugin-colorschemes"></script>
+            <script>
+                Chart.defaults.global.legend.labels.usePointStyle = false; //以降の凡例スタイルを矩形を円に変える
+                var ctx = document.getElementById("myChart11");
+                var myPieChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                    labels: ["Black/African American", "Hispanic/Latino", "White", "Asian"],
+                    datasets: [
+                        {
+                        label: 'Data One',
+                        backgroundColor: [
+                            'rgba(255, 99, 132)',
+                            'rgba(128, 128,128)',
+                            'rgba(128, 128,128)',
+                            'rgba(128, 128,128)',
+                            ],
+                        data: [8.4, 5.8, 4.3, 3.6],
+                        },
+                    ],
+                    },
+                    options: {
+                    plugins: {
+                            colorschemes: {scheme: 'office.Slice6'}},
+                        responsive: false,  // canvasサイズ自動設定機能を使わない。HTMLで指定したサイズに固定   
+                    title: {
+                        display: true,
+                        text:'Unemployment rate by major race and ethnicity groups out of 4.9% of population unemployed (%)',   
+                        position: "top" },
+                　　　　legend: {                          // 凡例
+                        display: false,                     // 表示の有無
+                        position: 'bottom' },           // 表示位置    
+                        scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+            min: 0,
+            max: 10
+          }
+        }
+      ]
+    }         
+                }}); 
+            </script>
+        </div>
+        <br>
+ 
         <p class="two_work">
                 However, even today, work disparities against black discrimination are still a problem in the United States.
                 The table on the left shows the <b>unemployment rate </b>for 2018 by major racial and democratic groups in the United States.
