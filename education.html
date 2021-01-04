@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/bulma.css" />
     <link rel="stylesheet" href="./css/education.css">
     <link rel="stylesheet" href="./css/shared.css">
+    <link rel="stylesheet" href="./css/chart.css" />
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <meta name="description" content="米国の教育の場での格差などを紹介、解説しています。">
     <title>高校生の高校生による高校生のための黒人差別問題</title>
@@ -85,6 +86,72 @@
       <br>
     </p>
     <br>
+    
+
+    <div class="logograph">
+        <div class="row" style="width: 100%;" >
+            <div class="chart12">
+                <canvas id="myChart12"></canvas>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <script src="https://unpkg.com/chartjs-plugin-colorschemes"></script>
+        <script>
+            Chart.defaults.global.legend.labels.usePointStyle = false; //以降の凡例スタイルを矩形を円に変える
+            var ctx = document.getElementById("myChart12");
+            var myPieChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                labels: ["黒人・アフリカ系アメリカ人", "ヒスパニック・ラテンアメリカ人", "白人", "アジア人"],
+                datasets: [
+                    {
+                    label: 'Data One',
+                    backgroundColor: [
+                        'rgba(255, 99, 132)',
+                        'rgba(128, 128,128)',
+                        'rgba(128, 128,128)',
+                        'rgba(128, 128,128)',
+                        ],
+                    data: [8.4, 5.8, 4.3, 3.6],
+                    },
+                ],
+                },
+                options: {
+                plugins: {
+                        colorschemes: {scheme: 'office.Slice6'}},
+                    responsive: false,  // canvasサイズ自動設定機能を使わない。HTMLで指定したサイズに固定   
+                title: {
+                    display: true,
+                    text:'主要な人種及民族グループによる実業者人口4.9%内の失業率（％単位）',   
+                    position: "top" },
+            　　　　legend: {                          // 凡例
+                    display: false,                     // 表示の有無
+                    position: 'bottom' },           // 表示位置    
+                    scales: {
+  yAxes: [
+    {
+      ticks: {
+        beginAtZero: true,
+        min: 0,
+        max: 10
+      }
+    }
+  ]
+}         
+            }}); 
+        </script>
+    </div>
+    <br>
+
+
+
+
+
+
+
+
+
+
     <img class="bargraph" src="./img/edugraph.png">
     <p class="two_education">
     上のグラフは中等学校での科目及び人種による単位取得率を表したグラフです。全ての教科において白人よりも黒人の方が単位取得率が低いことがわかります。U.S. Census Bureauによると、2019年に学士号を取得している25歳全体での割合では、白人は40.1%、黒人は26.1%であったと報告されています。この結果からもわかるように、黒人と白人の間では教育の格差があるとわかりました。
