@@ -166,8 +166,8 @@
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
-                <div class="yearListFirst">1700</div>
-                <div class="yearListEnd">1890</div>
+                <div class="yearListFirst">1854</div>
+                <div class="yearListEnd">1865</div>
             </div>
         </div>
     </div>
@@ -184,26 +184,25 @@
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
-                <div class="yearListFirst">1700</div>
-                <div class="yearListEnd">1890</div>
+                <div class="yearListFirst">1914</div>
+                <div class="yearListEnd">1918</div>
             </div>
         </div>
     </div>
     <!--六章-->
     <div class="timeLine" v-if="selectTabIndex === 5">
         <div class="timeLineInner">
-            <div class="timeLineTitle">第六章:</div>
+            <div class="timeLineTitle">第六章: 第二次世界大戦</div>
             <div class="timeLineMain">
-                <line-bar left="100" width="100">a</line-bar>
-                <line-bar>b</line-bar>
-                <line-bar>c</line-bar>
-                <line-bar>d</line-bar>
-                <line-bar>e</line-bar>
+                <line-bar left="25" width="50" number="0" @clicked="clicked">ポーランド侵攻(1939年)</line-bar>
+                <line-bar left="500" width="50" number="1" @clicked="clicked">太平洋戦争の勃発(1941年)</line-bar>
+                <line-bar left="900" width="50" number="2" @clicked="clicked">ミッドウェー海戦(1942年) ...</line-bar>
+                <line-bar left="1400" width="50" number="3" @clicked="clicked">戦争の終結(1945年)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
-                <div class="yearListFirst">1700</div>
-                <div class="yearListEnd">1890</div>
+                <div class="yearListFirst">1939</div>
+                <div class="yearListEnd">1944</div>
             </div>
         </div>
     </div>
@@ -212,70 +211,53 @@
         <div class="timeLineInner">
             <div class="timeLineTitle">第七章:</div>
             <div class="timeLineMain">
-                <line-bar left="100" width="100">a</line-bar>
-                <line-bar>b</line-bar>
-                <line-bar>c</line-bar>
-                <line-bar>d</line-bar>
-                <line-bar>e</line-bar>
+                <line-bar left="25" width="50" number="0" @clicked="clicked">核爆弾の開発(1944年)</line-bar>
+                <line-bar left="100" width="50" number="1" @clicked="clicked">ヤルタ会談(1945年) ...</line-bar>
+                <line-bar left="300" width="50" number="2" @clicked="clicked">マーシャル・プラン (1947~1948) ...</line-bar>
+                <line-bar left="500" width="50" number="3" @clicked="clicked">北大西洋条約機構[NATO](1949年 4月)</line-bar>
+                <line-bar left="700" width="50" number="4" @clicked="clicked">朝鮮戦争(1950年~) ...</line-bar>
+                <line-bar left="900" width="50" number="5" @clicked="clicked">ベトナム戦争(1955年~1975年)</line-bar>
+                <line-bar left="1100" width="50" number="6" @clicked="clicked">キューバ危機(1962年)</line-bar>
+                <line-bar left="1300" width="50" number="7" @clicked="clicked">冷戦の終結(1989年)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
-                <div class="yearListFirst">1700</div>
-                <div class="yearListEnd">1890</div>
+                <div class="yearListFirst">1945</div>
+                <div class="yearListEnd">1989</div>
             </div>
         </div>
     </div>
     <!--八章-->
     <div class="timeLine" v-if="selectTabIndex === 7">
         <div class="timeLineInner">
-            <div class="timeLineTitle">第八章:</div>
+            <div class="timeLineTitle">第八章: 21世期のアメリカ</div>
             <div class="timeLineMain">
-                <line-bar left="100" width="100">a</line-bar>
-                <line-bar>b</line-bar>
-                <line-bar>c</line-bar>
-                <line-bar>d</line-bar>
-                <line-bar>e</line-bar>
+                <line-bar left="25" width="50">アメリカ同時多発テロ(2001年9月11日)</line-bar>
+                <line-bar left="700" width="50">イラク戦争(2003年)</line-bar>
+                <line-bar left="1300" width="50">バラク・オバマ大統領就任(2009年)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
-                <div class="yearListFirst">1700</div>
-                <div class="yearListEnd">1890</div>
-            </div>
-        </div>
-    </div>
-    <!--九章-->
-    <div class="timeLine" v-if="selectTabIndex === 8">
-        <div class="timeLineInner">
-            <div class="timeLineTitle">第九章:</div>
-            <div class="timeLineMain">
-                <line-bar left="100" width="100">a</line-bar>
-                <line-bar>b</line-bar>
-                <line-bar>c</line-bar>
-                <line-bar>d</line-bar>
-                <line-bar>e</line-bar>
-                <p class="endLine"></p>
-            </div>
-            <div class="yearList">
-                <div class="yearListFirst">1700</div>
-                <div class="yearListEnd">1890</div>
+                <div class="yearListFirst">2001</div>
+                <div class="yearListEnd">2009</div>
             </div>
         </div>
     </div>
     <!--黒人差別-->
     <div class="timeLine" v-if="selectTabIndex === 9">
         <div class="timeLineInner">
-            <div class="timeLineTitle">黒人差別:</div>
+            <div class="timeLineTitle">黒人差別の歴史</div>
             <div class="timeLineMain">
-                <line-bar left="100" width="100">a</line-bar>
-                <line-bar>b</line-bar>
-                <line-bar>c</line-bar>
-                <line-bar>d</line-bar>
-                <line-bar>e</line-bar>
+                <line-bar left="25" width="50">奴隷貿易(1619年)</line-bar>
+                <line-bar left="400" width="50">奴隷制度成立(1670年)</line-bar>
+                <line-bar left="700" width="50">奴隷解放宣言(1861年)</line-bar>
+                <line-bar left="1000" width="50">バス・ボイコット運動(1955年)</line-bar>
+                <line-bar left="1400" width="50">ワシントン大行進(1963年8月28日)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
-                <div class="yearListFirst">1700</div>
-                <div class="yearListEnd">1890</div>
+                <div class="yearListFirst">1619</div>
+                <div class="yearListEnd">1963</div>
             </div>
         </div>
     </div>
