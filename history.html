@@ -87,8 +87,7 @@
         <li><a href="#" class="button_history" @click="onTabClick(5)">第六章</a></li>
         <li><a href="#" class="button_history" @click="onTabClick(6)">第七章</a></li>
         <li><a href="#" class="button_history" @click="onTabClick(7)">第八章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(8)">第九章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(9)">黒人差別</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(8)">黒人差別</a></li>
       </ul>
     </div>
     <!-- 実際のテーブル-->
@@ -232,9 +231,9 @@
         <div class="timeLineInner">
             <div class="timeLineTitle">第八章: 21世期のアメリカ</div>
             <div class="timeLineMain">
-                <line-bar left="25" width="50">アメリカ同時多発テロ(2001年9月11日)</line-bar>
-                <line-bar left="700" width="50">イラク戦争(2003年)</line-bar>
-                <line-bar left="1300" width="50">バラク・オバマ大統領就任(2009年)</line-bar>
+                <line-bar left="25" width="50" number="0" @clicked="clicked">アメリカ同時多発テロ(2001年9月11日)</line-bar>
+                <line-bar left="700" width="50" number="1" @clicked="clicked">イラク戦争(2003年)</line-bar>
+                <line-bar left="1300" width="50" number="2" @clicked="clicked">バラク・オバマ大統領就任(2009年)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
@@ -244,15 +243,15 @@
         </div>
     </div>
     <!--黒人差別-->
-    <div class="timeLine" v-if="selectTabIndex === 9">
+    <div class="timeLine" v-if="selectTabIndex === 8">
         <div class="timeLineInner">
             <div class="timeLineTitle">黒人差別の歴史</div>
             <div class="timeLineMain">
-                <line-bar left="25" width="50">奴隷貿易(1619年)</line-bar>
-                <line-bar left="400" width="50">奴隷制度成立(1670年)</line-bar>
-                <line-bar left="700" width="50">奴隷解放宣言(1861年)</line-bar>
-                <line-bar left="1000" width="50">バス・ボイコット運動(1955年)</line-bar>
-                <line-bar left="1400" width="50">ワシントン大行進(1963年8月28日)</line-bar>
+                <line-bar left="25" width="50" number="0" @clicked="clicked">奴隷貿易(1619年)</line-bar>
+                <line-bar left="400" width="50" number="1" @clicked="clicked">奴隷制度成立(1670年)</line-bar>
+                <line-bar left="700" width="50" number="2" @clicked="clicked">奴隷解放宣言(1861年)</line-bar>
+                <line-bar left="1000" width="50" number="3" @clicked="clicked">バス・ボイコット運動(1955年)</line-bar>
+                <line-bar left="1400" width="50" number="4" @clicked="clicked">ワシントン大行進(1963年8月28日)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">

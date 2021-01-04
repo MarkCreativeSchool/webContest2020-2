@@ -5,7 +5,8 @@ var modal = Vue.component("modal", {
       <div class="modal-background" @click="close"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">第{{chapter}}章</p>
+          <p class="modal-card-title" v-if="chapter === '黒人差別の歴史'">{{chapter}}</p>
+          <p class="modal-card-title" v-else>第{{chapter}}章</p>
           <button class="delete" aria-label="close" @click="close"></button>
         </header>
         <section class="modal-card-body">
