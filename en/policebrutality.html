@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/bulma.css" />
     <link rel="stylesheet" href="../css/policebrutality.css">
     <link rel="stylesheet" href="../css/shared.css">
+    <link rel="stylesheet" href="../css/chart.css" />
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <meta name="description" content="米国で起きてる警察の黒人に対する不行為、差別意識などを紹介しています。">
     <title>高校生の高校生による高校生のための黒人差別問題</title>
@@ -82,14 +83,69 @@
       It has been investigated that the fatal shooting rate by police is disproportionate based on race.
       Though the percentage for the overall fatal shootings of Black Americans are approximately <b>26% (1345 out of 5109 people)</b> in 2020, it is<mark class="highlights"><b> disproportionate when taking the population of Black Americans to account</b></mark>.
        Black Americans take up approximately <b>12~15%</b> of the American population, which indicates the disproportionate rate of shooting kills though <b>50%</b> of those that were shot by the police were white.
-       It is shown on the graph that <b>30%</b> per million of Black Americans are shot, a significant amount compared to <b>12%</b> per million for White Americans.
-       This signifies that if the population were to be the same for both Black and White Americans, there will be a <b>18%</b> difference in fatal police shootings.
+       It is shown on the graph that <b>34</b> per million of Black Americans are shot, a significant amount compared to <b>14</b> per million for White Americans.
+       This signifies that black people are shot <b>twice as often</b> as white people are shot. 
        <br>
        <small class="sourcecaption">(From: <a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">https://www.washingtonpost.com/graphics/investigations/police-shootings-database/</a>)</small>
        <br>  
   </p>
 
-  <img class="bargraph" src="../img/policegraph.png">
+  <div class="logograph">
+        <div class="row" style="width: 100%;" >
+            <div class="chart13">
+                <canvas id="myChart13"></canvas>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <script src="https://unpkg.com/chartjs-plugin-colorschemes"></script>
+        <script>
+            Chart.defaults.global.legend.labels.usePointStyle = false; //以降の凡例スタイルを矩形を円に変える
+            var ctx = document.getElementById("myChart13");
+            var myPieChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                labels: ["Black", "Hispanic", "White", "Others"],
+                datasets: [
+                    {
+                    label: 'Data One',
+                    backgroundColor: [
+                        'rgba(255, 99, 132)',
+                        'rgba(128, 128,128)',
+                        'rgba(128, 128,128)',
+                        'rgba(128, 128,128)',
+                        ],
+                    data: [34, 25, 14, 5],
+                    },
+                ],
+                },
+                options: {
+                plugins: {
+                        colorschemes: {scheme: 'office.Slice6'}},
+                    responsive: false,  // canvasサイズ自動設定機能を使わない。HTMLで指定したサイズに固定   
+                title: {
+                    display: true,
+                    text:'Fatal police shooting per million, by race',   
+                    position: "top" },
+            　　　　legend: {                          // 凡例
+                    display: false,                     // 表示の有無
+                    position: 'bottom' },           // 表示位置    
+                    scales: {
+  yAxes: [
+    {
+      ticks: {
+        beginAtZero: true,
+        min: 0,
+        max: 40
+      }
+    }
+  ]
+  }         
+            }}); 
+        </script>
+    </div>
+    <br>
+  
+
   <p class="two_arrest">
   Another investigation reports that though the marijuana usage between black and white people over 12 are nearly the same, white being <b>16.5% </b>and blacks being <b>17.8%</b>, it was reported that <mark class="highlights"><b>the arrest rates per 100k in the US is 3 times more for black people</b></mark> than it is for white people, shown and compared in the two graphs above.
   This could suggest that the police have a tendency to discriminate against certain races among others, causing the disparity in the arrest rates even though the usage rate is nearly the same.
@@ -97,13 +153,91 @@
   <small class="sourcecaption">(From: <a href="https://www.businessinsider.com/us-systemic-racism-in-charts-graphs-data-2020-6#black-men-are-roughly-five-times-more-likely-to-be-imprisoned-than-their-white-counterparts-and-nearly-13-times-as-likely-in-the-18-19-age-group-21" target="_blank">https://www.businessinsider.com/us-systemic-racism-in-charts-graphs-data-2020-6#black-men-are-roughly-five-times-more-likely-to-be-imprisoned-than-their-white-counterparts-and-nearly-13-times-as-likely-in-the-18-19-age-group-21</a>)</small>
   <br>   
 </p>
-<div class="bardata">
-  <img class="bargraph2" src="../img/usage.png">
-  <img class="bargraph2" src="../img/arrestrate.png">
-  </div>
-  <br />
 
-
+<div class="arrestgraph">
+        <div class="row" style="width: 100%;" >
+            <div class="chart14">
+                <canvas id="myChart14"></canvas>
+            </div>
+            <div class="chart15">
+                <canvas id="myChart15"></canvas>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <script src="https://unpkg.com/chartjs-plugin-colorschemes"></script>
+        <script>
+            Chart.defaults.global.legend.labels.usePointStyle = false; //以降の凡例スタイルを矩形のまま
+            var ctx = document.getElementById("myChart14");
+            var myPieChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+              labels: ['Black', 'White'],
+                datasets: [
+                    {
+                    label: 'Data One',
+                    backgroundColor: [
+                   　　　 'rgba(255, 99, 132)',
+                    　　　'rgba(128, 128,128)',
+                        ],
+                    data: [17.8,16.5],
+                    },
+                ],
+                },
+                options: {
+                plugins: {
+                        colorschemes: {scheme: 'office.Slice6'}},
+                    responsive: false,  // canvasサイズ自動設定機能を使わない。HTMLで指定したサイズに固定   
+                title: {
+                    display: true,
+                    text:'Marijuana Usage in 2018, ages 12+ (%)',   
+                    position: "top" },
+            　　　　legend: {                          // 凡例
+                    display: false,                     // 表示の有無
+                    position: 'bottom' }           // 表示位置                
+                }});
+            Chart.defaults.global.legend.labels.usePointStyle = true; //以降の凡例スタイルを矩形を円に変える
+            var ctx = document.getElementById("myChart15");
+            var myPieChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                labels: ['Black', 'White'],
+                datasets: [
+                    {
+                    label: 'Data One',
+                    backgroundColor: [
+                   　　　 'rgba(255, 99, 132)',
+                    　　　'rgba(128, 128,128)',
+                        ],
+                    data: [156.1,567.5],
+                    },
+                ],
+                },
+                options: {
+                plugins: {
+                        colorschemes: {scheme: 'office.Slice6'}},
+                    responsive: false,  // canvasサイズ自動設定機能を使わない。HTMLで指定したサイズに固定   
+                title: {
+                    display: true,
+                    text:'Marijuana Possession arrest rates per 100k (2018)',   
+                    position: "top" },
+            　　　　legend: {                          // 凡例
+                    display: false,                     // 表示の有無
+                    position: 'bottom' },           // 表示位置      
+                    scales: {
+      yAxes: [
+        {
+          ticks: {
+            beginAtZero: true,
+            min: 0,
+            max: 600
+          }
+        }
+      ]
+    }       
+                }}); 
+        </script>
+    </div>
+    <br>
 
   </div>
   <div class="nextback">

@@ -87,3 +87,12 @@
   color: black;
   list-style-type: circle;
 }
+
+.experience{
+  font-size: 18px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  width: 65%;
+  color: black;
+  list-style-type: circle;
+}

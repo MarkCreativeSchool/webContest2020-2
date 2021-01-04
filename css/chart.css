@@ -106,3 +106,62 @@
     height: 350px;
     padding-top: 10px;
 }
+
+.chart11{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#myChart11{
+    width: 775px;
+    height: 650px;
+    padding-top: 10px;
+}
+
+.chart12{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#myChart12{
+    width: 775px;
+    height: 650px;
+    padding-top: 10px;
+}
+
+.chart13{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#myChart13{
+    width: 775px;
+    height: 650px;
+    padding-top: 10px;
+}
+
+.chart14{
+    position: relative;
+    display: block;
+    left: 250px;
+}
+
+#myChart14{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
+}
+
+.chart15{
+    position: relative;
+    left: 250px;
+}
+
+#myChart15{
+    width: 450px;
+    height: 350px;
+    padding-top: 10px;
+}

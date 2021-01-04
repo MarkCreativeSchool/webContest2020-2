@@ -1,6 +1,10 @@
 .button_history:hover{
+<<<<<<< HEAD
   background-color: #F4D03F; !important;
   transition:1s;
+=======
+  background-color: #F4D03F !important;
+>>>>>>> 5aa3712bf1e6a3ba3d21c02358f216f95bf08805
 }
 .timeLine{
   width: 1524px;
@@ -43,39 +47,38 @@
   background-color: #f6d405;
   cursor: pointer;
 }
-.endLine{
-  height: 4px;
-  background-color: black;
-  margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  position:relative;
-  width: 1505px;
-}
 .endLine:after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 4px;
-    height: 20px;
-    background: black;
-    left: 0;
-    top: -8px;
-}
-.endLine:before{
   content: "";
     display: block;
     position: absolute;
     width: 4px;
     height: 20px;
-    background: black;
+    left: 0;
+    top: -8px;
+}
+.endLine:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 20px;
     right: 0;
     top: -8px;
 }
+
+.endLine{
+  height: 4px;
+  background-color: black;
+  margin-top: 10px;
+  width: 1518px;
+  /*あまり好まないやり方*/
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
 /*このままでいいのか？ / あまり好まないやり方*/
 .endLine:hover{
-  background-color: black; !important;
-  cursor: default; !important;
+  background-color: black !important;
+  cursor: default !important;
 }
 .button{
   background-color: #00c7a9;
