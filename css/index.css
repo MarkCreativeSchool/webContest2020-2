@@ -274,6 +274,8 @@
     font-size: 60px;
   }
 
+  /* ショーンベル事件 */
+
   .button1{
     width: 100px;
     height: 105px;
@@ -282,8 +284,8 @@
     cursor: pointer;
     position: absolute;
     border-radius: 10px;
-    top: 100px;
-    right: 210px;
+    top: 15%;
+    right: 14%;
     z-index: 100;
 }
 
@@ -302,8 +304,8 @@
     margin-inline-start: 40px;
     margin-inline-end: 40px;
     position: absolute;
-    right: 175px;
-    top: 150px;
+    right: 11.8%;
+    top: 22.5%;
     z-index: 110;
     cursor: pointer;
     font-size: 13px;
@@ -319,8 +321,8 @@
     border-radius: 50%;
     background: gold;
     position: absolute;
-    top: 270px;
-    right: 200px;
+    top: 40.5%;
+    right: 15.3%;
     z-index: 100;
 }
 
@@ -328,10 +330,326 @@
     height: 1px;
     border: none;
     border-top: 1px #ffffff solid;
-    transform: skewY(-130deg);
+    transform: skewY(-110deg);
     z-index: 99;
-    width: 60px;
+    width: 30px;
     position: absolute;
-    top: 240px;
-    right: 205px;
+    top: 35%;
+    right: 15.5%;
+}
+
+/* エリック・ガーナー事件 */
+
+.button2{
+  width: 100px;
+  height: 105px;
+  border-style: none;
+  background-color: #ffdd02;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+  top: 30%;
+  right: 2.5%;
+  z-index: 100;
+}
+
+.image2{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.figcaption2 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  position: absolute;
+  right: 0%;
+  top: 38.5%;
+  z-index: 110;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 800;
+  text-align: center;
+  color: #000000;
+}
+
+.circle2{
+  width: 10px;
+  height: 10px;
+  border: 3px solid saddlebrown;
+  border-radius: 50%;
+  background: gold;
+  position: absolute;
+  top: 40%;
+  right: 14%;
+  z-index: 100;
+}
+
+.border2{
+  height: 1px;
+  border: none;
+  border-top: 1px #ffffff solid;
+  transform: skewY(170deg);
+  z-index: 99;
+  width: 100px;
+  position: absolute;
+  top: 39.5%;
+  right: 7.5%;
+}
+
+/* 催涙ガス */
+.button3{
+  width: 100px;
+  height: 95px;
+  border-style: none;
+  background-color: #ffdd02;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+  top: 18%;
+  left: 48%;
+  z-index: 100;
+}
+
+.image3{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.figcaption3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  position: absolute;
+  left: 47%;
+  top: 26%;
+  z-index: 110;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  text-align: center;
+  color: #000000;
+}
+
+.circle3{
+  width: 10px;
+  height: 10px;
+  border: 3px solid saddlebrown;
+  border-radius: 50%;
+  background: gold;
+  position: absolute;
+  top: 40%;
+  left: 58%;
+  z-index: 100;
+}
+
+.border3{
+  height: 1px;
+  border: none;
+  border-top: 1px #ffffff solid;
+  transform: skewY(-150deg);
+  z-index: 99;
+  width: 120px;
+  position: absolute;
+  top: 35.5%;
+  left: 50%;
+}
+
+/*　オスカー・グラント事件 */
+.button4{
+  width: 100px;
+  height: 110px;
+  border-style: none;
+  background-color: #ffdd02;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+  top: 45%;
+  left: 45%;
+  z-index: 100;
+}
+
+.image4{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.figcaption4 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  position: absolute;
+  left: 42.5%;
+  top: 55%;
+  z-index: 110;
+  cursor: pointer;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-align: center;
+  color: #000000;
+}
+
+.circle4{
+  width: 10px;
+  height: 10px;
+  border: 3px solid saddlebrown;
+  border-radius: 50%;
+  background: gold;
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  z-index: 100;
+}
+
+.border4{
+  height: 1px;
+  border: none;
+  border-top: 1px #ffffff solid;
+  transform: skewY(-190deg);
+  z-index: 99;
+  width: 100px;
+  position: absolute;
+  top: 52%;
+  left: 50.5%;
+}
+
+/* フィランド・カスティール死亡事件 */
+.button5{
+  width: 100px;
+  height: 120px;
+  border-style: none;
+  background-color: #ffdd02;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+  top: 12%;
+  right: 27%;
+  z-index: 100;
+}
+
+.image5{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.figcaption5 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  position: absolute;
+  right: 25.5%;
+  top: 20.5%;
+  z-index: 110;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+  color: #000000;
+}
+
+.circle5{
+  width: 10px;
+  height: 10px;
+  border: 3px solid saddlebrown;
+  border-radius: 50%;
+  background: gold;
+  position: absolute;
+  top: 39%;
+  right: 25%;
+  z-index: 100;
+}
+
+.border5{
+  height: 1px;
+  border: none;
+  border-top: 1px #ffffff solid;
+  transform: skewY(-130deg);
+  z-index: 99;
+  width: 105px;
+  position: absolute;
+  top: 30.5%;
+  right: 25.5%;
+}
+
+/* マイケル・ブラウン射殺事件 */
+.button6{
+  width: 105px;
+  height: 115px;
+  border-style: none;
+  background-color: #ffdd02;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+  top: 75%;
+  right: 45%;
+  z-index: 100;
+}
+
+.image6{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.figcaption6 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  position: absolute;
+  right: 42.5%;
+  top: 84.5%;
+  z-index: 110;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+  color: #000000;
+}
+
+.circle6{
+  width: 10px;
+  height: 10px;
+  border: 3px solid saddlebrown;
+  border-radius: 50%;
+  background: gold;
+  position: absolute;
+  top: 54%;
+  right: 24%;
+  z-index: 100;
+}
+
+.border6{
+  height: 1px;
+  border: none;
+  border-top: 1px #ffffff solid;
+  transform: skewY(-215deg);
+  z-index: 99;
+  width: 300px;
+  position: absolute;
+  top: 70%;
+  right: 24.5%;
 }
