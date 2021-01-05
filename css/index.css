@@ -220,7 +220,7 @@
     display: inline-block;
   }
   
-  figure {
+  /* figure {
     padding: 2px;
     margin: auto;
   }
@@ -230,7 +230,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 12px;
-  }
+  } */
   
   .next{
       display: inline-block;
@@ -248,12 +248,7 @@
     margin-top: -153px;
     right: 10%;
     z-index: 99;
-  }
-
-  .usmap img{
-    /* border: solid 1px red; */
-    border-radius: 10px;
-    /* padding: 0px 50px; */
+    background: rgba(255,0,0,0.5);
   }
 
   .header-title-area{
@@ -274,133 +269,110 @@
     font-size: 30px;
   }
 
-  /* ショーンベル事件 */
+  /* マップのやつ */
 
-  .button1{
+  .usmap .figures figure{
     width: 100px;
     height: 105px;
     border-style: none;
-    background-color: #f5deb3;
     cursor: pointer;
     position: absolute;
     border-radius: 10px;
-    top: 15%;
-    right: 14%;
     z-index: 100;
-}
-
-.image1{
-    position: absolute;
+  }
+  .usmap .figures figure .image {
     top: 0px;
     left: 0px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-.figcaption1 {
+  }
+  .usmap .figures figure .fig_caption {
+    color: #000000;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-    position: absolute;
-    right: 11.8%;
-    top: 22.5%;
+    padding: 2.5px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
     z-index: 110;
     cursor: pointer;
-    font-size: 13px;
-    font-weight: 800;
-    text-align: center;
-    color: #000000;
-}
+  }
 
-.circle1{
+  .usmap .circles .circle {
     width: 10px;
     height: 10px;
     border: 3px solid saddlebrown;
     border-radius: 50%;
     background: gold;
     position: absolute;
-    top: 40.5%;
-    right: 15.3%;
     z-index: 100;
-}
+  }  
 
-.border1{
+  .usmap .borders .border{
     height: 1px;
     border: none;
     border-top: 1px #ffffff solid;
-    transform: skewY(-110deg);
     z-index: 99;
-    width: 30px;
     position: absolute;
-    top: 35%;
-    right: 15.5%;
-}
+  }
+  
+
+  /* ショーンベル事件 */
+  .usmap .figures figure.ny1 {
+    top: -91px;
+    right: -91px;
+    background: #f5deb3;
+  }
+
+  .usmap .circles .circle.ny1 {
+    top: 85px;
+    right: 60px;
+  }
+
+  .usmap .borders .border.ny1{
+    width: 79px;
+    transform: skewY(-50deg);
+    top: 44px;
+    right: -14px;
+  }
 
 /* エリック・ガーナー事件 */
-
-.button2{
-  width: 100px;
-  height: 105px;
-  border-style: none;
-  background-color: #ffb371;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 30%;
-  right: 2.5%;
-  z-index: 100;
+.usmap .figures figure.ny2 {
+  top: 55px;
+  right: -114px;
+  background: #ffb371;
 }
 
-.image2{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.ny2 {
+  top: 92px;
+  right: 48px;
 }
 
-.figcaption2 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  right: 0%;
-  top: 38.5%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 10px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
+.usmap .borders .border.ny2{
+  width: 79px;
+  transform: skewY(6deg);
+  top: 100px;
+  right: -25px;
 }
 
-.circle2{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top: 40%;
-  right: 14%;
-  z-index: 100;
+/* 催涙ガス */
+.usmap .figures figure.or {
+  top: 5px;
+  left: -150px;
+  background: #87ceeb;
 }
 
-.border2{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(170deg);
-  z-index: 99;
-  width: 100px;
-  position: absolute;
-  top: 39.5%;
-  right: 7.5%;
+.usmap .circles .circle.or {
+  top: 92px;
+  left: 48px;
 }
+
+.usmap .borders .border.or{
+  width: 115px;
+  transform: skewY(13deg);
+  top: 84px;
+  left: -58px;
+}
+
 
 /* 催涙ガス */
 .button3{
@@ -1219,4 +1191,9 @@
   position: absolute;
   top: 47%;
   left: 30%;
+}
+
+/* モーダルデザイン */
+.modal-card{
+  width: 80%;
 }
