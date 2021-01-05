@@ -10,7 +10,6 @@ var app = new Vue({
     },
     methods: {
         openMap(location){
-            console.log(mapData["ny"])
             this.mapFileData = mapData[location]["map"]
             this.mapArticles = mapData[location]["articles"]
             this.isOpen = true
