@@ -1,0 +1,93 @@
+.button_history:hover{
+  background-color: #F4D03F; !important;
+  transition:1s;
+  background-color: #F4D03F !important;
+}
+.timeLine{
+  width: 1524px;
+  margin: 0 auto;
+  border: solid 3px black;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.timeLineTitle{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.yearList{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1518px;
+}
+.timeLineInner{
+  background-color:#eee;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-x: auto;
+}
+.lineBar{
+  background-color:yellow;
+  position: relative;
+  border-radius: 10px;
+  font-size: 8px;
+  margin-bottom: 5px;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+.lineBar:hover{
+  background-color: #f6d405;
+  cursor: pointer;
+}
+.endLine:after{
+  content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    background-color:black;
+    height: 20px;
+    left: 0;
+    top: -8px;
+}
+.endLine:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    background-color:black;
+    right: 0;
+    top: -8px;
+}
+
+.endLine{
+  height: 4px;
+  background-color: black;
+  margin-top: 10px;
+  width: 1518px;
+  position:relative;
+  /*あまり好まないやり方*/
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+/*このままでいいのか？ / あまり好まないやり方*/
+.endLine:hover{
+  background-color: black !important;
+  cursor: default !important;
+}
+.button{
+  background-color: #00c7a9;
+  margin: 0 auto;
+}
+.history-title{
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.history-text{
+  text-indent: 20px;
+}

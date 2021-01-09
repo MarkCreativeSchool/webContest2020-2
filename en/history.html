@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="../css/bulma.css" />
-    <link rel="stylesheet" href="../css/history.css">
-    <link rel="stylesheet" href="../css/shared.css">
+    <link rel="stylesheet" href="../css/en/history.css">
+    <link rel="stylesheet" href="../css/en/shared.css">
 <!--    <script type="text/javascript" src="./js/history.js"></script>-->
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <meta name="description" content="このサイトを作成するために使用した文献がリスト上表記されています。">
@@ -66,7 +66,69 @@
     </div>
 </div>
 <!--ここに作れ-->
+<div class="currentproblems" id="app">
+    <!-- 章を分けるタブ-->
+    <div class="tabs is-centered currentproblems">
+      <ul>
+<!--          class="is-active"-->
+        <li><a href="#" class="button_history" @click="onTabClick(0)">第一章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(1)">第二章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(2)">第三章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(3)">第四章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(4)">第五章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(5)">第六章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(6)">第七章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(7)">第八章</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(8)">黒人差別</a></li>
+      </ul>
+    </div>
+    <!-- 実際のテーブル-->
+    <!--一章-->
+    <div class="timeLine" v-if="selectTabIndex === 0">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第一章: 大陸の発見 / 13の植民地(13 colonies)の誕生</div>
+            <div class="timeLineMain">
+                <!-- 出来事-->
+                <line-bar left="25" width="50" number="0" @clicked="clicked">新大陸の発見</line-bar>
+                <line-bar left="100" width="50" number="1" @clicked="clicked">奴隷輸入</line-bar>
+                <line-bar left="750" width="50" number="2" @clicked="clicked">13の植民地誕生</line-bar>
+                <line-bar left="800" width="150" number="3" @clicked="clicked">七年戦争(1756年~1763年)</line-bar>
+                <line-bar left="1000" width="50" number="4" @clicked="clicked">砂糖法(1764年)</line-bar>
+                <line-bar left="1075" width="50" number="5" @clicked="clicked">印紙法(1765年)</line-bar>
+                <line-bar left="1150" width="50" number="6" @clicked="clicked">タウンゼンド諸法(1767年)</line-bar>
+                <line-bar left="1350" width="50" number="7" @clicked="clicked">ボストン茶会事件(1773年)</line-bar>
+                <line-bar left="1425" width="50" number="8" @clicked="clicked">強圧的諸条令(1774年)</line-bar>
+                <p class="endLine"></p>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1500</div>
+                <div class="yearListEnd">1774</div>
+            </div>
+        </div>
+    </div>
+    <!--二章-->
+    <div class="timeLine" v-if="selectTabIndex === 1">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第二章: 独立戦争の開幕</div>
+            <div class="timeLineMain">
+                <line-bar left="25" width="50" number="0" @clicked="clicked">レキシントン・コンコードの戦い(1775年)</line-bar>
+                <line-bar left="100" width="50" number="1" @clicked="clicked">第二回大陸会議(1775年5月)</line-bar>
+                <line-bar left="300" width="50" number="2" @clicked="clicked">トマス=ペインによる「コモン=センス」の発行(1776年1月)</line-bar>
+                <line-bar left="500" width="50" number="3" @clicked="clicked">アメリカ独立宣言(1776年7月)</line-bar>
+                <line-bar left="1150" width="50" number="4" @clicked="clicked">ヨークタウンの戦い(1781年9月〜10月)</line-bar>
+                <line-bar left="1350" width="50" number="5" @clicked="clicked">終戦(1783年9月)</line-bar>
+                <p class="endLine"></p>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1775</div>
+                <div class="yearListEnd">1783</div>
+            </div>
+        </div>
+    </div>
 
+    <modal :isopen="isOpen" :data="coreData" :chapter="chapter" @close="close"></modal>
+
+</div>
 
 
 <!-- eng ヘッダー -->
@@ -79,3 +141,11 @@
     <a href="https://twitter.com/learning_racism" target="_blank"><i class="fab fa-twitter"></i></a>
     <a href="https://www.instagram.com/learning.racism/?hl=ja"><i class="fab fa-instagram-square"></i></a>
 </div>
+
+<!-- javaScript -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script type="text/javascript" src="js/history/en/chapter.js"></script>
+<script type="text/javascript" src="js/history/en/data.js"></script>
+<script type="text/javascript" src="js/history/en/linebar.js"></script>
+<script type="text/javascript" src="js/history/en/modal.js"></script>
+<script type="text/javascript" src="js/history/en/history.js"></script>
