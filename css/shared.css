@@ -171,13 +171,20 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    margin-top: 100px;
     top: 100px;
 }
 
-.footer_jp p{
+.footer_all{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.footer_all p{
+    /* color: #ffa000;
+    margin-top: 50px; */
     color: #ffa000;
-    margin-top: 50px;
+    padding-top: 50px;
+    text-align: left;
 }
 
 .footer_jp ul li a{
@@ -192,3 +199,24 @@
     /* top: 50px; */
     /* right: 100px; */
 }
+
+.footer_jp .footer_title p{
+    color: #ffffff;
+    display: inline-block;
+    padding: 0px 50px;
+}
+.columns h5{
+    color: white;
+    border-bottom: 1px solid #ffa000;
+    text-align: left;
+}
+
+.column ul li a{
+    color: white;
+}
+
+.column ul li{
+    text-align: left;
+}
+
+
