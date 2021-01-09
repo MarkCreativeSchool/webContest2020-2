@@ -38,7 +38,7 @@ var historyData = [
         ],
         [/*seventh event*/
             {
-                title:"Townshend acts(1767)",
+                title:"Townshend Acts(1767)",
                 text:"An Act holding 5 laws that involved taxation amongst certain objects. Objects that were taxed include glass and lead. As a response, the daughters of liberty, a female association got up to address product patronage. Like this, several opposition movements started to intensify, and in 1770, the Act was abolished."
             }
         ],

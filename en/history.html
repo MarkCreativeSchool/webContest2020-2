@@ -86,18 +86,18 @@
     <!--一章-->
     <div class="timeLine" v-if="selectTabIndex === 0">
         <div class="timeLineInner">
-            <div class="timeLineTitle">第一章: 大陸の発見 / 13の植民地(13 colonies)の誕生</div>
+            <div class="timeLineTitle">Chapter 1: The Discovery of the Continent / The Birth of 13 Colonies</div>
             <div class="timeLineMain">
                 <!-- 出来事-->
-                <line-bar left="25" width="50" number="0" @clicked="clicked">新大陸の発見</line-bar>
-                <line-bar left="100" width="50" number="1" @clicked="clicked">奴隷輸入</line-bar>
-                <line-bar left="750" width="50" number="2" @clicked="clicked">13の植民地誕生</line-bar>
-                <line-bar left="800" width="150" number="3" @clicked="clicked">七年戦争(1756年~1763年)</line-bar>
-                <line-bar left="1000" width="50" number="4" @clicked="clicked">砂糖法(1764年)</line-bar>
-                <line-bar left="1075" width="50" number="5" @clicked="clicked">印紙法(1765年)</line-bar>
-                <line-bar left="1150" width="50" number="6" @clicked="clicked">タウンゼンド諸法(1767年)</line-bar>
-                <line-bar left="1350" width="50" number="7" @clicked="clicked">ボストン茶会事件(1773年)</line-bar>
-                <line-bar left="1425" width="50" number="8" @clicked="clicked">強圧的諸条令(1774年)</line-bar>
+                <line-bar left="25" width="50" number="0" @clicked="clicked">The Discovery of the Continent</line-bar>
+                <line-bar left="100" width="50" number="1" @clicked="clicked">The introduction of Slaves in the US</line-bar>
+                <line-bar left="750" width="50" number="2" @clicked="clicked">The 13 (Original) Colonies</line-bar>
+                <line-bar left="800" width="150" number="3" @clicked="clicked">Seven Years' War(1756~1763)</line-bar>
+                <line-bar left="1000" width="50" number="4" @clicked="clicked">The Sugar Act(1764)</line-bar>
+                <line-bar left="1075" width="50" number="5" @clicked="clicked">The Stamp Act(1765)</line-bar>
+                <line-bar left="1150" width="50" number="6" @clicked="clicked">Townshend Acts(1767)</line-bar>
+                <line-bar left="1350" width="50" number="7" @clicked="clicked">Boston Tea Party(1773年)</line-bar>
+                <line-bar left="1425" width="50" number="8" @clicked="clicked">Coercive Acts(1774年)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
@@ -122,6 +122,133 @@
             <div class="yearList">
                 <div class="yearListFirst">1775</div>
                 <div class="yearListEnd">1783</div>
+            </div>
+        </div>
+    </div>
+    <!--三章-->
+    <div class="timeLine" v-if="selectTabIndex === 2">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第三章: 独立戦争後のアメリカの歩み</div>
+            <div class="timeLineMain">
+                <line-bar left="25" width="50" number="0" @clicked="clicked">ルイジアナ買収(1803)</line-bar>
+                <line-bar left="500" width="50"number="1" @clicked="clicked">ハイチ独立の影響(1804年)</line-bar>
+                <line-bar left="1000" width="50" number="2" @clicked="clicked">米英戦争(1812年)</line-bar>
+                <line-bar left="1400" width="50" number="3" @clicked="clicked">モンロー教書のはっぴょう(1823年)</line-bar>
+                <p class="endLine"></p>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1800</div>
+                <div class="yearListEnd">1823</div>
+            </div>
+        </div>
+    </div>
+    <!--四章-->
+    <div class="timeLine" v-if="selectTabIndex === 3">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第四章: 南北戦争</div>
+            <div class="timeLineMain">
+                <line-bar left="25" width="50" number="0" @clicked="clicked">カンザス・ネブラスカ法(1854年)</line-bar>
+                <line-bar left="200" width="50" number="1" @clicked="clicked">ハーパーズ・フェリー襲撃事件(1859年)</line-bar>
+                <line-bar left="475" width="50" number="2" @clicked="clicked">エイブラハム・リンカーンが大統領に当選(1860年)</line-bar>
+                <line-bar left="650" width="50" number="3" @clicked="clicked">サムター要塞攻撃事件(1861年4月) ...</line-bar>
+                <line-bar left="825" width="50" number="4" @clicked="clicked">七日間の戦い(1862年) ...</line-bar>
+                <line-bar left="1150" width="50" number="5" @clicked="clicked">奴隷解放宣言(1863年) ...</line-bar>
+                <line-bar left="1400" width="50" number="6" @clicked="clicked">ステッドマン砦の戦い(1865年) ...</line-bar>
+                <p class="endLine"></p>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1854</div>
+                <div class="yearListEnd">1865</div>
+            </div>
+        </div>
+    </div>
+    <!--五章-->
+    <div class="timeLine" v-if="selectTabIndex === 4">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第五章: 第一次世界大戦の幕開け</div>
+            <div class="timeLineMain">
+                <line-bar left="25" width="50" number="0" @clicked="clicked">サラエボ事件(1914年6月28日) ...</line-bar>
+                <line-bar left="400" width="50" number="1" @clicked="clicked">ロンドン秘密条約調印(1915年4月)</line-bar>
+                <line-bar left="700" width="50" number="2" @clicked="clicked">ヴェルダン要塞攻防戦(1916年2月) ...</line-bar>
+                <line-bar left="1000" width="50" number="3" @clicked="clicked">十月革命(1917年11月) ...</line-bar>
+                <line-bar left="1400" width="50" number="4" @clicked="clicked">ウィルソンの十四ヶ条(1918年1月) ...</line-bar>
+                <p class="endLine"></p>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1914</div>
+                <div class="yearListEnd">1918</div>
+            </div>
+        </div>
+    </div>
+    <!--六章-->
+    <div class="timeLine" v-if="selectTabIndex === 5">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第六章: 第二次世界大戦</div>
+            <div class="timeLineMain">
+                <line-bar left="25" width="50" number="0" @clicked="clicked">ポーランド侵攻(1939年)</line-bar>
+                <line-bar left="500" width="50" number="1" @clicked="clicked">太平洋戦争の勃発(1941年)</line-bar>
+                <line-bar left="900" width="50" number="2" @clicked="clicked">ミッドウェー海戦(1942年) ...</line-bar>
+                <line-bar left="1400" width="50" number="3" @clicked="clicked">戦争の終結(1945年)</line-bar>
+                <p class="endLine"></p>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1939</div>
+                <div class="yearListEnd">1944</div>
+            </div>
+        </div>
+    </div>
+    <!--七章-->
+    <div class="timeLine" v-if="selectTabIndex === 6">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第七章:</div>
+            <div class="timeLineMain">
+                <line-bar left="25" width="50" number="0" @clicked="clicked">核爆弾の開発(1944年)</line-bar>
+                <line-bar left="100" width="50" number="1" @clicked="clicked">ヤルタ会談(1945年) ...</line-bar>
+                <line-bar left="300" width="50" number="2" @clicked="clicked">マーシャル・プラン (1947~1948) ...</line-bar>
+                <line-bar left="500" width="50" number="3" @clicked="clicked">北大西洋条約機構[NATO](1949年 4月)</line-bar>
+                <line-bar left="700" width="50" number="4" @clicked="clicked">朝鮮戦争(1950年~) ...</line-bar>
+                <line-bar left="900" width="50" number="5" @clicked="clicked">ベトナム戦争(1955年~1975年)</line-bar>
+                <line-bar left="1100" width="50" number="6" @clicked="clicked">キューバ危機(1962年)</line-bar>
+                <line-bar left="1300" width="50" number="7" @clicked="clicked">冷戦の終結(1989年)</line-bar>
+                <p class="endLine"></p>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1945</div>
+                <div class="yearListEnd">1989</div>
+            </div>
+        </div>
+    </div>
+    <!--八章-->
+    <div class="timeLine" v-if="selectTabIndex === 7">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">第八章: 21世期のアメリカ</div>
+            <div class="timeLineMain">
+                <line-bar left="25" width="50" number="0" @clicked="clicked">アメリカ同時多発テロ(2001年9月11日)</line-bar>
+                <line-bar left="700" width="50" number="1" @clicked="clicked">イラク戦争(2003年)</line-bar>
+                <line-bar left="1300" width="50" number="2" @clicked="clicked">バラク・オバマ大統領就任(2009年)</line-bar>
+                <p class="endLine"></p>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">2001</div>
+                <div class="yearListEnd">2009</div>
+            </div>
+        </div>
+    </div>
+    <!--黒人差別-->
+    <div class="timeLine" v-if="selectTabIndex === 8">
+        <div class="timeLineInner">
+            <div class="timeLineTitle">黒人差別の歴史</div>
+            <div class="timeLineMain">
+                <line-bar left="25" width="50" number="0" @clicked="clicked">奴隷貿易(1619年)</line-bar>
+                <line-bar left="400" width="50" number="1" @clicked="clicked">奴隷制度成立(1670年)</line-bar>
+                <line-bar left="700" width="50" number="2" @clicked="clicked">奴隷解放宣言(1861年)</line-bar>
+                <line-bar left="1000" width="50" number="3" @clicked="clicked">バス・ボイコット運動(1955年)</line-bar>
+                <line-bar left="1400" width="50" number="4" @clicked="clicked">ワシントン大行進(1963年8月28日)</line-bar>
+                <p class="endLine"></p>
+            </div>
+            <div class="yearList">
+                <div class="yearListFirst">1619</div>
+                <div class="yearListEnd">1963</div>
             </div>
         </div>
     </div>

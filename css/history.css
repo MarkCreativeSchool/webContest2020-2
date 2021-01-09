@@ -4,7 +4,8 @@
   background-color: #F4D03F !important;
 }
 .timeLine{
-  width: 1524px;
+  width: 90%;
+  /*px だと: 1524*/
   margin: 0 auto;
   border: solid 3px black;
   overflow-x: auto;
