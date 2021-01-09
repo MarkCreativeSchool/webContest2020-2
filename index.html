@@ -82,17 +82,41 @@
                 <div class="title-sub1">高校生の<br>高校生による<br>高校生のための</div>
                 <div class="title-sub2">黒人差別問題</div>
             </div>
-            <div class="usmap">
+            <div class="usmap" id="app">
                 <img src="./img/us_map_3.png">
                 <div class="circles">
                     <div class="circle ny1"></div>
                     <div class="circle ny2"></div>
                     <div class="circle or"></div>
+                    <div class="circle ca"></div>
+                    <div class="circle mn"></div>
+                    <div class="circle mo"></div>
+                    <div class="circle il"></div>
+                    <div class="circle ky"></div>
+                    <div class="circle fl"></div>
+                    <div class="circle ga"></div>
+                    <div class="circle md"></div>
+                    <div class="circle oh"></div>
+                    <div class="circle oh2"></div>
+                    <div class="circle pa"></div>
+                    <div class="circle ma"></div>
                 </div>
                 <div class="borders">
                     <div class="border ny1"></div>
                     <div class="border ny2"></div>
                     <div class="border or"></div>
+                    <div class="border ca"></div>
+                    <div class="border mn"></div>
+                    <div class="border mo"></div>
+                    <div class="border il"></div>
+                    <div class="border ky"></div>
+                    <div class="border fl"></div>
+                    <div class="border ga"></div>
+                    <div class="border md"></div>
+                    <div class="border oh"></div>
+                    <div class="border oh2"></div>
+                    <div class="border pa"></div>
+                    <div class="border ma"></div>
                 </div>
                 <div class="figures">
                     <figure @click="openMap('ny')" class="ny1">
@@ -107,100 +131,55 @@
                         <img class="image" src="./img/or_black.jpg">
                         <div class="fig_caption">催涙ガス</div>
                     </figure>
+                    <figure @click="openMap('ca')" class="ca">
+                        <img class="image" src="./img/ca_black.jpg">
+                        <div class="fig_caption">オスカー・グラント事件</div>
+                    </figure>
+                    <figure @click="openMap('mn')" class="mn">
+                        <img class="image" src="./img/mn_black.jpg">
+                        <div class="fig_caption">フィランド・カスティール死亡事件</div>
+                    </figure>
+                    <figure @click="openMap('mo')" class="mo">
+                        <img class="image" src="./img/mn_black.jpg">
+                        <div class="fig_caption">マイケル・ブラウン射殺事件</div>
+                    </figure>
+                    <figure @click="openMap('il')" class="il">
+                        <img class="image" src="./img/il_black.jpg">
+                        <div class="fig_caption">市長宅デモ事件</div>
+                    </figure>
+                    <figure @click="openMap('ky')" class="ky">
+                        <img class="image" src="./img/ky_black.jpg">
+                        <div class="fig_caption">ブリオナ・テイラー死亡事件</div>
+                    </figure>
+                    <figure @click="openMap('fl')" class="fl">
+                        <img class="image" src="./img/fl_black.jpg">
+                        <div class="fig_caption">トレイボン・マーティン射殺事件</div>
+                    </figure>
+                    <figure @click="openMap('ga')" class="ga">
+                        <img class="image" src="./img/ga_black.jpg">
+                        <div class="fig_caption">アマード・アベリー死亡事件</div>
+                    </figure>
+                    <figure @click="openMap('md')" class="md">
+                        <img class="image" src="./img/md_black.jpg">
+                        <div class="fig_caption">フレディ・グレイ死亡事件</div>
+                    </figure>
+                    <figure @click="openMap('oh')" class="oh">
+                        <img class="image" src="./img/oh_black.jpg">
+                        <div class="fig_caption">ジョン・クロフォード射殺事件</div>
+                    </figure>
+                    <figure @click="openMap('oh')" class="oh2">
+                        <img class="image" src="./img/oh_black.jpg">
+                        <div class="fig_caption">タミル・ライス事件</div>
+                    </figure>
+                    <figure @click="openMap('pa')" class="pa">
+                        <img class="image" src="./img/oh_black.jpg">
+                        <div class="fig_caption">アントワン・ローズ・ジュニア死亡事件</div>
+                    </figure>
+                    <figure @click="openMap('ma')" class="ma">
+                        <img class="image" src="./img/ma_black.jpg">
+                        <div class="fig_caption">ジョージ・フロイドの死</div>
+                    </figure>
                 </div>
-            </div>
-            <div id="app">
-                <!-- 催涙ガス -->
-                <!-- <figure>
-                    <button  class="button3" @click="openMap('or')"><img class="image3" src="./img/or_black.jpg"></button>
-                    <div class="figcaption3">催涙ガス</div>
-                    <div class="circle3"></div>
-                </figure>
-                <div class="border3"></div> -->
-                    <!-- オスカー・グラント事件 -->
-                <!-- <figure>
-                    <button  class="button4" @click="openMap('ca')"><img class="image4" src="./img/ca_black.jpg"></button>
-                    <div class="figcaption4">エリック・ガーナー<br>事件</div>
-                    <div class="circle4"></div>
-                </figure>
-                <div class="border4"></div> -->
-                <!-- フィランド・カスティール死亡事件 -->
-                <!-- <figure>
-                    <button  class="button5" @click="openMap('mn')"><img class="image5" src="./img/mn_black.jpg"></button>
-                    <div class="figcaption5">フィランド・<br>カスティール<br>死亡事件</div>
-                    <div class="circle5"></div>
-                </figure>
-                <div class="border5"></div> -->
-                <!-- マイケル・ブラウン射殺事件 -->
-                <!-- <figure>
-                    <button  class="button6" @click="openMap('mo')"><img class="image6" src="./img/mn_black.jpg"></button>
-                    <div class="figcaption6">マイケル・ブラウン<br>射殺事件</div>
-                    <div class="circle6"></div>
-                </figure>
-                <div class="border6"></div> -->
-                <!-- 市長宅デモ事件 -->
-                <figure>
-                    <!-- <button  class="button7" @click="openMap('il')"><img class="image7" src="./img/il_black.jpg"></button>
-                    <div class="figcaption7">市長宅デモ<br>事件</div>
-                    <div class="circle7"></div>
-                </figure>
-                <div class="border7"></div> -->
-                <!-- ブリオナ・テイラー死亡事件 -->
-                <!-- <figure>
-                    <button  class="button8" @click="openMap('ky')"><img class="image8" src="./img/ky_black.jpg"></button>
-                    <div class="figcaption8">ブリオナ・テイラー<br>死亡事件</div>
-                    <div class="circle8"></div>
-                </figure>
-                <div class="border8"></div> -->
-                <!-- トレイボン・マーティン射殺事件 -->
-                <!-- <figure>
-                    <button  class="button9" @click="openMap('fl')"><img class="image9" src="./img/fl_black.jpg"></button>
-                    <div class="figcaption9">トレイボン・マーティン<br>射殺事件</div>
-                    <div class="circle9"></div>
-                </figure>
-                <div class="border9"></div> -->
-                <!-- アマード・アベリー死亡事件 -->
-                <!-- <figure>
-                    <button  class="button10" @click="openMap('ga')"><img class="image10" src="./img/ga_black.jpg"></button>
-                    <div class="figcaption10">アマード・アベリー<br>死亡事件</div>
-                    <div class="circle10"></div>
-                </figure>
-                <div class="border10"></div> -->
-                <!-- フレディ・グレイ死亡事件 -->
-                <!-- <figure>
-                    <button  class="button11" @click="openMap('md')"><img class="image11" src="./img/md_black.jpg"></button>
-                    <div class="figcaption11">フレディ・グレイ<br>死亡事件</div>
-                    <div class="circle11"></div>
-                </figure>
-                <div class="border11"></div> -->
-                <!-- ジョン・クロフォード射殺事件 -->
-                <!-- <figure>
-                    <button  class="button12" @click="openMap('oh')"><img class="image12" src="./img/oh_black.jpg"></button>
-                    <div class="figcaption12">ジョン・クロフォード<br>射殺事件</div>
-                    <div class="circle12"></div>
-                </figure>
-                <div class="border12"></div> -->
-                <!-- タミル・ライス事件 -->
-                <!-- <figure>
-                    <button  class="button13" @click="openMap('oh')"><img class="image13" src="./img/oh_black.jpg"></button>
-                    <div class="figcaption13">タミル・ライス<br>事件</div>
-                    <div class="circle13"></div>
-                </figure>
-                <div class="border13"></div> -->
-                <!-- アントワン・ローズ・ジュニア死亡事件 -->
-                <!-- <figure>
-                    <button  class="button14" @click="openMap('pa')"><img class="image14" src="./img/oh_black.jpg"></button>
-                    <div class="figcaption14">アントワン・ローズ・<br>ジュニア死亡事件事件</div>
-                    <div class="circle14"></div>
-                </figure>
-                <div class="border14"></div> -->
-                <!-- ジョージ・フロイドの死 -->
-                <!-- <figure>
-                    <button  class="button15" @click="openMap('ma')"><img class="image15" src="./img/ma_black.jpg"></button>
-                    <div class="figcaption15">ジョージ・フロイドの死</div>
-                    <div class="circle15"></div>
-                </figure>
-                <div class="border15"></div> -->
                 <modal :is-open="isOpen" @close="closeModal" :map-file-data="mapFileData" :map-articles="mapArticles"></modal>
             </div>
         </div>

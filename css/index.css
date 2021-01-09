@@ -246,9 +246,8 @@
     position: absolute;
     top: 50%;
     margin-top: -153px;
-    right: 10%;
+    right: 15%;
     z-index: 99;
-    background: rgba(255,0,0,0.5);
   }
 
   .header-title-area{
@@ -324,21 +323,21 @@
   }
 
   .usmap .circles .circle.ny1 {
-    top: 85px;
-    right: 60px;
+    top: 72px;
+    right: 55px;
   }
 
   .usmap .borders .border.ny1{
-    width: 79px;
+    width: 71px;
     transform: skewY(-50deg);
-    top: 44px;
+    top: 32px;
     right: -14px;
   }
 
 /* エリック・ガーナー事件 */
 .usmap .figures figure.ny2 {
-  top: 55px;
-  right: -114px;
+  top: -55px;
+  right: 67px;
   background: #ffb371;
 }
 
@@ -349,9 +348,9 @@
 
 .usmap .borders .border.ny2{
   width: 79px;
-  transform: skewY(6deg);
-  top: 100px;
-  right: -25px;
+  transform: skewY(43deg);
+  top: 59px;
+  right: 52px;
 }
 
 /* 催涙ガス */
@@ -373,824 +372,231 @@
   left: -58px;
 }
 
-
-/* 催涙ガス */
-.button3{
-  width: 100px;
-  height: 95px;
-  border-style: none;
-  background-color: #87ceeb;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 18%;
-  left: 48%;
-  z-index: 100;
+/* オスカー・グラント事件 */
+.usmap .figures figure.ca {
+  top: 130px;
+  left: -150px;
+  background: #ffe4e1;
 }
 
-.image3{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.ca {
+  top: 155px;
+  left: 29px;
 }
 
-.figcaption3 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  left: 47%;
-  top: 26%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle3{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top: 40%;
-  left: 58%;
-  z-index: 100;
-}
-
-.border3{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(-150deg);
-  z-index: 99;
-  width: 120px;
-  position: absolute;
-  top: 35.5%;
-  left: 50%;
-}
-
-/*　オスカー・グラント事件 */
-.button4{
-  width: 100px;
-  height: 110px;
-  border-style: none;
-  background-color: #ffe4e1;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 45%;
-  left: 45%;
-  z-index: 100;
-}
-
-.image4{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.figcaption4 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  left: 42.5%;
-  top: 55%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 10.5px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle4{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top: 50%;
-  left: 57%;
-  z-index: 100;
-}
-
-.border4{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(-190deg);
-  z-index: 99;
-  width: 100px;
-  position: absolute;
-  top: 52%;
-  left: 50.5%;
+.usmap .borders .border.ca{
+  width: 115px;
+  transform: skewY(-13deg);
+  top: 170px;
+  left: -77px;
 }
 
 /* フィランド・カスティール死亡事件 */
-.button5{
-  width: 100px;
-  height: 120px;
-  border-style: none;
-  background-color: #e6e6fa;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 12%;
-  right: 27%;
-  z-index: 100;
+.usmap .figures figure.mn {
+  top: -40px;
+  left: 79px;
+  background: #e6e6fa;
 }
 
-.image5{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.mn {
+  top: 81px;
+  left: 276px;
 }
 
-.figcaption5 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  right: 25.5%;
-  top: 20.5%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 11px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle5{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top: 42%;
-  right: 25%;
-  z-index: 100;
-}
-
-.border5{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(-122deg);
-  z-index: 99;
+.usmap .borders .border.mn{
   width: 105px;
-  position: absolute;
-  top: 30.5%;
-  right: 25.5%;
+  transform: skewY(24deg);
+  top: 62px;
+  left: 173px;
 }
-
 /* マイケル・ブラウン射殺事件 */
-.button6{
-  width: 105px;
-  height: 115px;
-  border-style: none;
-  background-color: #f0e68c;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 75%;
-  right: 45%;
-  z-index: 100;
+.usmap .figures figure.mo {
+  top: 358px;
+  left: 135px;
+  background: #f0e68c;
 }
 
-.image6{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.mo {
+  top: 183px;
+  left: 290px;
 }
 
-.figcaption6 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  right: 42.5%;
-  top: 84.5%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 11px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle6{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top: 54%;
-  right: 24%;
-  z-index: 100;
-}
-
-.border6{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(-215deg);
-  z-index: 99;
-  width: 300px;
-  position: absolute;
-  top: 70%;
-  right: 24.5%;
+.usmap .borders .border.mo{
+  width: 119px;
+  transform: skewY(-60deg);
+  top: 289px;
+  left: 177px;
 }
 
 /* 市長宅デモ事件 */
-.button7{
-  width: 105px;
-  height: 105px;
-  border-style: none;
-  background-color: #8cb371;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 82%;
-  right: 33%;
-  z-index: 100;
+.usmap .figures figure.il {
+  top: 257px;
+  left: -29px;
+  background: #8cb371;
 }
 
-.image7{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.il {
+  top: 153px;
+  left: 320px;
 }
 
-.figcaption7 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  right: 31.5%;
-  top: 89%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle7{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top: 52%;
-  right: 21.5%;
-  z-index: 100;
-}
-
-.border7{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(-231deg);
-  z-index: 99;
-  width: 245px;
-  position: absolute;
-  top: 74.5%;
-  right: 21.5%;
+.usmap .borders .border.il{
+  width: 262px;
+  transform: skewY(-28deg);
+  top: 224px;
+  left: 65px;
 }
 
 /* ブリオナ・テイラー死亡事件 */
-.button8{
-  width: 105px;
-  height: 110px;
-  border-style: none;
-  background-color: #40e0ed;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 82%;
-  right: 23%;
-  z-index: 100;
+.usmap .figures figure.ky {
+  top: 309px;
+  left: 262px;
+  background: #40e0ed;
 }
 
-.image8{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.ky {
+  top: 174px;
+  left: 365px;
 }
 
-.figcaption8 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  right: 20.5%;
-  top: 91.5%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 11px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle8{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top:53%;
-  right: 18%;
-  z-index: 100;
-}
-
-.border8{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(-245deg);
-  z-index: 99;
-  width: 120px;
-  position: absolute;
-  top: 72%;
-  right: 18.3%;
+.usmap .borders .border.ky{
+  width: 88px;
+  transform: skewY(-65deg);
+  top: 276px;
+  right: 133px;
 }
 
 /* トレイボン・マーティン射殺事件 */
-.button9{
-  width: 125px;
-  height: 115px;
-  border-style: none;
-  background-color: #3cb371;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 80%;
-  right: 12%;
-  z-index: 100;
+.usmap .figures figure.fl {
+  top: 363px;
+  right: -7px;
+  background: #3cb371;
 }
 
-.image9{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.fl {
+  top: 296px;
+  right: 83px;
 }
 
-.figcaption9 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  right: 9.5%;
-  top: 90.5%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 11px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
+.usmap .borders .border.fl{
+  width: 47px;
+  transform: skewY(59deg);
+  top: 339px;
+  right: 39px;
 }
 
-.circle9{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top:71%;
-  right: 15.5%;
-  z-index: 100;
+/* トレイボン・マーティン射殺事件 */
+.usmap .figures figure.ga {
+  top: 251px;
+  right: -75px;
+  background: #48d1cc;
 }
 
-.border9{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(-70deg);
-  z-index: 99;
-  width: 20px;
-  position: absolute;
-  top: 76%;
-  right: 16%;
+.usmap .circles .circle.ga {
+  top: 244px;
+  right: 106px;
 }
 
-/* アマード・アベリー死亡事件 */
-.button10{
-  width: 100px;
-  height: 105px;
-  border-style: none;
-  background-color: #48d1cc;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 70%;
-  right: 4%;
-  z-index: 100;
-}
-
-.image10{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.figcaption10 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  right: 1.4%;
-  top: 78%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 11px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle10{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top:63%;
-  right: 17%;
-  z-index: 100;
-}
-
-.border10{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(45deg);
-  z-index: 99;
-  width: 90px;
-  position: absolute;
-  top: 70%;
-  right: 11%;
+.usmap .borders .border.ga{
+  width: 93px;
+  transform: skewY(31deg);
+  top: 276px;
+  right: 20px;
 }
 
 /* フレディ・グレイ死亡事件 */
-.button11{
-  width: 100px;
-  height: 110px;
-  border-style: none;
-  background-color: #ffa07a;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 50%;
-  right: 2%;
-  z-index: 100;
+.usmap .figures figure.md {
+  top: 131px;
+  right: -98px;
+  background: #ffa07a;
 }
 
-.image11{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.md {
+  top: 152px;
+  right: 37px;
 }
 
-.figcaption11 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  right: 0%;
-  top: 59.5%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 11px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle11{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top:50%;
-  right: 12.5%;
-  z-index: 100;
-}
-
-.border11{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(45deg);
-  z-index: 99;
-  width: 90px;
-  position: absolute;
-  top: 56.5%;
-  right: 7%;
+.usmap .borders .border.md{
+  width: 93px;
+  transform: skewY(16deg);
+  top: 169px;
+  right: -51px;
 }
 
 /* ジョン・クロフォード射殺事件 */
-.button12{
-  width: 110px;
-  height: 115px;
-  border-style: none;
-  background-color: #f08080;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 27%;
-  left: 35%;
-  z-index: 100;
+.usmap .figures figure.oh {
+  top: -55px;
+  right: 193px;
+  background:#f08080;
 }
 
-.image12{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.oh {
+  top: 120px;
+  right: 98px;
 }
 
-.figcaption12 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  left: 32.5%;
-  top: 37.5%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 10.5px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
+.usmap .borders .border.oh{
+  width: 172px;
+  transform: skewY(30deg);
+  top: 77px;
+  right: 102px;
 }
 
-.circle12{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top:46%;
-  right: 17.5%;
-  z-index: 100;
+/* タミル・ライス事件 */
+.usmap .figures figure.oh2 {
+  top: -70px;
+  right: 430px;
+  background:#afeeee;
 }
 
-.border12{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(5deg);
-  z-index: 99;
-  width: 640px;
-  position: absolute;
-  top: 42.5%;
-  left: 38%;
+.usmap .circles .circle.oh2 {
+  top: 121px;
+  right: 115px;
 }
 
-/* タミル・ライス事件*/
-.button13{
-  width: 110px;
-  height: 115px;
-  border-style: none;
-  background-color: #afeeee;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 65%;
-  left: 37%;
-  z-index: 100;
-}
-
-.image13{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.figcaption13 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  left: 35.3%;
-  top: 74.5%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 11px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle13{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top:47%;
-  right: 18%;
-  z-index: 100;
-}
-
-.border13{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(-18deg);
-  z-index: 99;
-  width: 640px;
-  position: absolute;
-  top: 62%;
-  left: 38%;
-}
-
-/* アントワン・ローズ・ジュニア死亡事件*/
-.button14{
-  width: 110px;
-  height: 115px;
-  border-style: none;
-  background-color: #ffffe0;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-  top: 14%;
-  left: 57%;
-  z-index: 100;
-}
-
-.image14{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.figcaption14 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  left: 54.5%;
-  top: 23.5%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 10.5px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
-}
-
-.circle14{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top:45%;
-  right: 15%;
-  z-index: 100;
-}
-
-.border14{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
+.usmap .borders .border.oh2{
+  width: 324px;
   transform: skewY(17deg);
-  z-index: 99;
-  width: 340px;
-  position: absolute;
-  top: 38%;
-  left: 61%;
+  top: 74px;
+  right: 122px;
 }
 
-/* ジョージ・フロイドの死*/
-.button15{
-  width: 115px;
-  height: 115px;
-  border-style: none;
-  background-color: #66cdaa;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 9.5px;
-  top: 45%;
-  left: 27%;
-  z-index: 100;
+/* アントワン・ローズ・ジュニア死亡事件 */
+.usmap .figures figure.pa {
+  top: 254px;
+  left: -166px;
+  background:#ffffe0;
 }
 
-.image15{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+.usmap .circles .circle.pa {
+  top: 117px;
+  right: 62px;
 }
 
-.figcaption15 {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
-  position: absolute;
-  left: 24.3%;
-  top: 56%;
-  z-index: 110;
-  cursor: pointer;
-  font-size: 9.5px;
-  font-weight: 800;
-  text-align: center;
-  color: #000000;
+.usmap .borders .border.pa{
+  width: 525px;
+  transform: skewY(162deg);
+  top: 205px;
+  left: -95px;
 }
 
-.circle15{
-  width: 10px;
-  height: 10px;
-  border: 3px solid saddlebrown;
-  border-radius: 50%;
-  background: gold;
-  position: absolute;
-  top:38%;
-  right: 11%;
-  z-index: 100;
+/* ジョージフロイドの死 */
+.usmap .figures figure.ma {
+  top: 21px;
+  right: -125px;
+  background:#66cdaa;
 }
 
-.border15{
-  height: 1px;
-  border: none;
-  border-top: 1px #ffffff solid;
-  transform: skewY(-8deg);
-  z-index: 99;
-  width: 850px;
-  position: absolute;
-  top: 47%;
-  left: 30%;
+.usmap .circles .circle.ma {
+  top: 69px;
+  right: 18px;
+}
+
+.usmap .borders .border.ma{
+  width: 100px;
+  transform: skewY(178deg);
+  top: 70px;
+  right: -79px;
 }
 
 /* モーダルデザイン */
