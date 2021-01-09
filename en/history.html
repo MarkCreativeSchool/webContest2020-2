@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/bulma.css" />
     <link rel="stylesheet" href="../css/en/history.css">
     <link rel="stylesheet" href="../css/en/shared.css">
+    <link rel="stylesheet" href="../css/en/eventLine.css">
 <!--    <script type="text/javascript" src="./js/history.js"></script>-->
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <meta name="description" content="このサイトを作成するために使用した文献がリスト上表記されています。">
@@ -71,15 +72,15 @@
     <div class="tabs is-centered currentproblems">
       <ul>
 <!--          class="is-active"-->
-        <li><a href="#" class="button_history" @click="onTabClick(0)">第一章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(1)">第二章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(2)">第三章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(3)">第四章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(4)">第五章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(5)">第六章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(6)">第七章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(7)">第八章</a></li>
-        <li><a href="#" class="button_history" @click="onTabClick(8)">黒人差別</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(0)">Chapter: 1</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(1)">Chapter: 2</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(2)">Chapter: 3</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(3)">Chapter: 4</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(4)">Chapter: 5</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(5)">Chapter: 6</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(6)">Chapter: 7</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(7)">Chapter: 8</a></li>
+        <li><a href="#" class="button_history" @click="onTabClick(8)">History of Racism</a></li>
       </ul>
     </div>
     <!-- 実際のテーブル-->
@@ -89,15 +90,15 @@
             <div class="timeLineTitle">Chapter 1: The Discovery of the Continent / The Birth of 13 Colonies</div>
             <div class="timeLineMain">
                 <!-- 出来事-->
-                <line-bar left="25" width="50" number="0" @clicked="clicked">The Discovery of the Continent</line-bar>
-                <line-bar left="100" width="50" number="1" @clicked="clicked">The introduction of Slaves in the US</line-bar>
-                <line-bar left="750" width="50" number="2" @clicked="clicked">The 13 (Original) Colonies</line-bar>
+                <line-bar left="25" width="150" number="0" @clicked="clicked">The Discovery of the Continent</line-bar>
+                <line-bar left="100" width="200" number="1" @clicked="clicked">The introduction of Slaves in the US</line-bar>
+                <line-bar left="750" width="150" number="2" @clicked="clicked">The 13 (Original) Colonies</line-bar>
                 <line-bar left="800" width="150" number="3" @clicked="clicked">Seven Years' War(1756~1763)</line-bar>
-                <line-bar left="1000" width="50" number="4" @clicked="clicked">The Sugar Act(1764)</line-bar>
-                <line-bar left="1075" width="50" number="5" @clicked="clicked">The Stamp Act(1765)</line-bar>
-                <line-bar left="1150" width="50" number="6" @clicked="clicked">Townshend Acts(1767)</line-bar>
-                <line-bar left="1350" width="50" number="7" @clicked="clicked">Boston Tea Party(1773年)</line-bar>
-                <line-bar left="1425" width="50" number="8" @clicked="clicked">Coercive Acts(1774年)</line-bar>
+                <line-bar left="1000" width="150" number="4" @clicked="clicked">The Sugar Act(1764)</line-bar>
+                <line-bar left="1075" width="150" number="5" @clicked="clicked">The Stamp Act(1765)</line-bar>
+                <line-bar left="1150" width="150" number="6" @clicked="clicked">Townshend Acts(1767)</line-bar>
+                <line-bar left="1350" width="150" number="7" @clicked="clicked">Boston Tea Party(1773年)</line-bar>
+                <line-bar left="1425" width="150" number="8" @clicked="clicked">Coercive Acts(1774年)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
@@ -109,14 +110,14 @@
     <!--二章-->
     <div class="timeLine" v-if="selectTabIndex === 1">
         <div class="timeLineInner">
-            <div class="timeLineTitle">第二章: 独立戦争の開幕</div>
+            <div class="timeLineTitle">Chapter 2: Start of the Revolutionary War</div>
             <div class="timeLineMain">
-                <line-bar left="25" width="50" number="0" @clicked="clicked">レキシントン・コンコードの戦い(1775年)</line-bar>
-                <line-bar left="100" width="50" number="1" @clicked="clicked">第二回大陸会議(1775年5月)</line-bar>
-                <line-bar left="300" width="50" number="2" @clicked="clicked">トマス=ペインによる「コモン=センス」の発行(1776年1月)</line-bar>
-                <line-bar left="500" width="50" number="3" @clicked="clicked">アメリカ独立宣言(1776年7月)</line-bar>
-                <line-bar left="1150" width="50" number="4" @clicked="clicked">ヨークタウンの戦い(1781年9月〜10月)</line-bar>
-                <line-bar left="1350" width="50" number="5" @clicked="clicked">終戦(1783年9月)</line-bar>
+                <line-bar left="25" width="50" number="0" @clicked="clicked">Battles of Lexington and Concord(1775 April)</line-bar>
+                <line-bar left="100" width="50" number="1" @clicked="clicked">Second Continental Congress(1775 May)</line-bar>
+                <line-bar left="300" width="50" number="2" @clicked="clicked">Common Sense by Thomas Paine(1776 January)</line-bar>
+                <line-bar left="500" width="50" number="3" @clicked="clicked">Declaration for Independence(1776 July)</line-bar>
+                <line-bar left="1150" width="50" number="4" @clicked="clicked">Siege of Yorktown[Battle of Yorktown](1781 September~October)</line-bar>
+                <line-bar left="1350" width="50" number="5" @clicked="clicked">End of the Revolutionary War(1783 September)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
@@ -128,12 +129,12 @@
     <!--三章-->
     <div class="timeLine" v-if="selectTabIndex === 2">
         <div class="timeLineInner">
-            <div class="timeLineTitle">第三章: 独立戦争後のアメリカの歩み</div>
+            <div class="timeLineTitle">Chapter 3: History after the Revolutionary War</div>
             <div class="timeLineMain">
-                <line-bar left="25" width="50" number="0" @clicked="clicked">ルイジアナ買収(1803)</line-bar>
-                <line-bar left="500" width="50"number="1" @clicked="clicked">ハイチ独立の影響(1804年)</line-bar>
-                <line-bar left="1000" width="50" number="2" @clicked="clicked">米英戦争(1812年)</line-bar>
-                <line-bar left="1400" width="50" number="3" @clicked="clicked">モンロー教書のはっぴょう(1823年)</line-bar>
+                <line-bar left="25" width="50" number="0" @clicked="clicked">Louisiana Purchase(1803)</line-bar>
+                <line-bar left="500" width="50"number="1" @clicked="clicked">Haitian Revolution’s influence(1804)</line-bar>
+                <line-bar left="1000" width="50" number="2" @clicked="clicked">War of 1812(1812)</line-bar>
+                <line-bar left="1400" width="50" number="3" @clicked="clicked">Monroe Doctrine(1823)</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
@@ -145,15 +146,15 @@
     <!--四章-->
     <div class="timeLine" v-if="selectTabIndex === 3">
         <div class="timeLineInner">
-            <div class="timeLineTitle">第四章: 南北戦争</div>
+            <div class="timeLineTitle">Chapter 4: American Civil War</div>
             <div class="timeLineMain">
-                <line-bar left="25" width="50" number="0" @clicked="clicked">カンザス・ネブラスカ法(1854年)</line-bar>
-                <line-bar left="200" width="50" number="1" @clicked="clicked">ハーパーズ・フェリー襲撃事件(1859年)</line-bar>
-                <line-bar left="475" width="50" number="2" @clicked="clicked">エイブラハム・リンカーンが大統領に当選(1860年)</line-bar>
-                <line-bar left="650" width="50" number="3" @clicked="clicked">サムター要塞攻撃事件(1861年4月) ...</line-bar>
-                <line-bar left="825" width="50" number="4" @clicked="clicked">七日間の戦い(1862年) ...</line-bar>
-                <line-bar left="1150" width="50" number="5" @clicked="clicked">奴隷解放宣言(1863年) ...</line-bar>
-                <line-bar left="1400" width="50" number="6" @clicked="clicked">ステッドマン砦の戦い(1865年) ...</line-bar>
+                <line-bar left="25" width="50" number="0" @clicked="clicked">Kansas-Nebraska Act(1854)</line-bar>
+                <line-bar left="200" width="50" number="1" @clicked="clicked">John Brown's raid on Harpers Ferry(1859)</line-bar>
+                <line-bar left="475" width="50" number="2" @clicked="clicked">Abraham Lincoln is Elected for President(1860)</line-bar>
+                <line-bar left="650" width="50" number="3" @clicked="clicked">Battle of Fort Sumter (1861 April) ...</line-bar>
+                <line-bar left="825" width="50" number="4" @clicked="clicked">Seven Days Battles (1862 June~July) ...</line-bar>
+                <line-bar left="1150" width="50" number="5" @clicked="clicked">Emancipation Proclamation (1863) ...</line-bar>
+                <line-bar left="1400" width="50" number="6" @clicked="clicked">Battle of Fort Stedman(1865) ...</line-bar>
                 <p class="endLine"></p>
             </div>
             <div class="yearList">
@@ -165,7 +166,7 @@
     <!--五章-->
     <div class="timeLine" v-if="selectTabIndex === 4">
         <div class="timeLineInner">
-            <div class="timeLineTitle">第五章: 第一次世界大戦の幕開け</div>
+            <div class="timeLineTitle">Chapter 5: World War I</div>
             <div class="timeLineMain">
                 <line-bar left="25" width="50" number="0" @clicked="clicked">サラエボ事件(1914年6月28日) ...</line-bar>
                 <line-bar left="400" width="50" number="1" @clicked="clicked">ロンドン秘密条約調印(1915年4月)</line-bar>

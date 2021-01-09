@@ -1,0 +1,36 @@
+.linePoint{
+    background-color: black;
+    width: 10px;
+    height: 5px;
+    border-radius: 50px;
+    margin: 0 auto;
+    height: 10px;
+}
+.lineBalloon{
+    background-color: yellow;
+    text-align:center;
+    border-radius: 5px;
+    border: solid 3px black;
+}
+.eventLine{
+    position:relative;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.lineBorder{
+    height: 5px;
+    border: none;
+    border-top: 1px black solid;
+    position: absolute;
+    top: 5px;
+    width: 100px;
+    /*transform: rotate(30deg);*/
+}
+.lineBorder .borderLine1{
+    left: 5px;
+    transform: rotate(30deg);
+}
+.lineBorder .borderLine2{
+    left:5px;
+    transform: rotate(-30deg);
+}
