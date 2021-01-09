@@ -24,6 +24,6 @@ var chapterData = [
         chapter:"8"
     },
     {
-        chapter:"黒人差別の歴史"
+        chapter:"History of Racism"
     },
 ]
