@@ -1,6 +1,5 @@
 var mapData = {
     "ny":{
-        map:"nyu.png",
         articles: [
             {
                 title: "ショーン・ベル事件",
