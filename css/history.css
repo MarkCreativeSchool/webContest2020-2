@@ -1,10 +1,7 @@
 .button_history:hover{
-<<<<<<< HEAD
   background-color: #F4D03F; !important;
   transition:1s;
-=======
   background-color: #F4D03F !important;
->>>>>>> 5aa3712bf1e6a3ba3d21c02358f216f95bf08805
 }
 .timeLine{
   width: 1524px;
@@ -52,6 +49,7 @@
     display: block;
     position: absolute;
     width: 4px;
+    background-color:black;
     height: 20px;
     left: 0;
     top: -8px;
@@ -62,6 +60,7 @@
     position: absolute;
     width: 4px;
     height: 20px;
+    background-color:black;
     right: 0;
     top: -8px;
 }
@@ -71,6 +70,7 @@
   background-color: black;
   margin-top: 10px;
   width: 1518px;
+  position:relative;
   /*あまり好まないやり方*/
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -82,6 +82,7 @@
 }
 .button{
   background-color: #00c7a9;
+  margin: 0 auto;
 }
 .history-title{
   font-weight: bold;
