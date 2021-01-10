@@ -71,6 +71,7 @@
 .endLine:before{
     content: "";
     display: block;
+  padding-right: 3px;
     position: absolute;
     width: 4px;
     height: 20px;
@@ -82,7 +83,7 @@
   height: 4px;
   background-color: black;
   margin-top: 10px;
-  width: 1119px;
+  width: 1584px;
   position:absolute;
   /*あまり好まないやり方*/
   padding-top: 0px !important;
