@@ -1,257 +1,637 @@
 .introbutton{
-    background-color: #ffa000;
-    color: #000000;
-    font-size: 13px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-radius: 5px;
-    padding: 5px;
-    width: 100px;
-    border: none;
-    box-shadow: 3px 3px 0px #cc8800;
-  }
-  
-  .introbutton:hover{
-    box-shadow: none;
-    position: relative;
-    top: 3px;
-    left: 3px;
-  }
-  
-  .introlink{
-    color: #000000;
-  }
-  
-  .introlink:hover{
-    color: #000000;
-  }
-  
-  .biggertitle_en{
-    font-weight: bold;
-    font-size: 30px;
-    margin: 0 auto;
-    width: 70%;
-    color: black;
-  }
-  
-  .discrimination{
+  background-color: #ffa000;
+  color: #000000;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  border: none;
+  box-shadow: 3px 3px 0px #cc8800;
+}
+
+.top_video{
+  top: -97px;
+  position: relative;
+  z-index: 50;
+}
+
+.introbutton:hover{
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+.introlink{
+  color: #000000;
+}
+
+.introlink:hover{
+  color: #000000;
+}
+
+.top_video_inner{
+  position: relative;
+  text-align: center;
+  height: calc(100vh - 0px);
+  overflow: hidden;
+
+}
+
+.introhome{
+  font-family: "Noto Sans JP";
+  font-size: 14px;
+  font-weight: none;
+  margin-top: 10px;
+}
+
+.maku{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5)
+}
+
+.aaa{
+  color: white;
+  font-size: 15px;
+  right: 0%;
+  top: 100px;
+  width: 25%;
+}
+
+
+/*.two{
+  font-family: "Noto Sans JP";
+  width: 63%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 18px;
+}*/
+
+.three{
+  font-family: "Noto Sans JP";
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 17px;
+  text-indent: 1em;
+  color: black;
+}
+
+
+.start{
+  font-family: "Noto Sans JP";
+  color: #ffffff;
+  background-color: #000000;
+  background-position: center center;
+  width: 83%;
+  margin: 0 auto;
+  font-size: 30px;
+  border-radius: 3px;
+  text-shadow: 0.5px 0.5px #f6d405;
+  text-align: center;
+}
+
+.biggertitle_jp{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  width: 70%;
+  color: black;
+}
+
+.discrimination{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-left: 18%;
+  background-color:  #f5f5f5;
+  padding:  25px;
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination li{
+  color: black;
+}
+
+.discrimination1{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-right: 13%;
+  background-color:  #f5f5f5;
+  padding:  25px;
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination1 li{
+  color: black;
+}
+
+.discrimination2{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-left: 18%;
+  background-color:  #f5f5f5;
+  padding:  25px;
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination2 li{
+  color: black;
+}
+
+.discrimination3{
+  display: inline-block;
+  list-style: none;
+  vertical-align: center;
+  margin: 40px;
+  margin-right: 13%;
+  background-color:  #f5f5f5;
+  padding:  25px;
+  height:250px;
+  width: 24%;
+  position: relative;
+  left: 5%;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.discrimination3 li{
+  color: black;
+}
+.under {
+  /* top: 10%;
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 1em;
+  background: #ffa500; */
+  border-bottom: solid 10px #ffa000;
+}
+
+.hometitle{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  width: 53%;
+
+}
+.graphimage{
+    width: 35%;
+    height: 2%;
     display: inline-block;
-    list-style: none;
-    vertical-align: center;
-    margin: 40px;
-    margin-left: 18%;
-    background-color:  #f5f5f5;
-    padding:  25px;
-    height:250px;
-    width: 24%;
-    position: relative;
-    left: 5%;
-    font-size: 25px;
-    font-weight: 800;
-  }
-  
-  .discrimination li{
-    color: black;
-  }
-  
-  .discrimination1{
-    display: inline-block;
-    list-style: none;
-    vertical-align: center;
-    margin: 40px;
-    margin-right: 13%;
-    background-color:  #f5f5f5;
-    padding:  25px;
-    height:250px;
-    width: 24%;
-    position: relative;
-    left: 5%;
-    font-size: 25px;
-    font-weight: 800;
-  }
-  
-  .discrimination1 li{
-    color: black;
-  }
-  
-  .discrimination2{
-    display: inline-block;
-    list-style: none;
-    vertical-align: center;
-    margin: 40px;
-    margin-left: 18%;
-    background-color:  #f5f5f5;
-    padding:  25px;
-    height:250px;
-    width: 24%;
-    position: relative;
-    left: 5%;
-    font-size: 25px;
-    font-weight: 800;
-  }
-  
-  .discrimination2 li{
-    color: black;
-  }
-  
-  .discrimination3{
-    display: inline-block;
-    list-style: none;
-    vertical-align: center;
-    margin: 40px;
-    margin-right: 13%;
-    background-color:  #f5f5f5;
-    padding:  25px;
-    height:250px;
-    width: 24%;
-    position: relative;
-    left: 5%;
-    font-size: 25px;
-    font-weight: 800;
-  }
-  
-  .discrimination3 li{
-    color: black;
-  }
-  
-  .introhome{
-    font-family: "Rockwell";
-    font-size: 14px;
-    font-weight: none;
-    margin-top: 10px;
-  }
-  
-  
-  /*.biggertitle{
-    font-weight: bold;
-    font-size: 24px;
-    font-family: "Noto Sans JP";
     margin: 0 auto;
-     width: 68%;
-  }*/
-  
-  mark {
+}
+
+/* .logograph{
+  display: inline-block;
+  text-align: center;
+} */
+
+.row{
+  display: inline-block;
+}
+
+/* figure {
+  padding: 2px;
+  margin: auto;
+}
+
+figcaption {
+  font-family: "Noto Sans JP";
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+} */
+
+.next{
     display: inline-block;
-    line-height: 0em;
-    padding-bottom: 0.5em;
-    background: #f6d405;
-  }
-  
-  .hometitle{
-    font-weight: bold;
-    font-size: 24px;
-    margin: 0 auto;
-     width: 53%;
-  }
-  
-  .three{
-    width: 53%;
-    margin: 0 auto;
-    margin-top: 10px;
-    font-size: 18px;
-  }
-  
-  .start{
-    color: #ffffff;
-    background-color: #000000;
-    background-position: center center;
-    width: 83%;
-    margin: 0 auto;
-    font-size: 30px;
-    border-radius: 3px;
-    text-shadow: 0.5px 0.5px #f6d405;
-    text-align: center;
-  }
-  .drawing{
-    display: block;
+    float: right;
     margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    height: 575px;
-    margin-top: 0px;
-  }
-  
-  
-  .graphimage{
-      width: 35%;
-      height: 2%;
-      display: inline-block;
-      margin: 0 auto;
-  }
-  
-  .logograph{
-      text-align: center;
-  }
-  
-  figure {
-    padding: 2px;
-    margin: auto;
-  }
-  
-  figcaption {
-    text-align: center;
-    font-weight: bold;
-    font-size: 12px;
-  }
-  .next{
-      display: inline-block;
-      float: right;
-      margin-left: auto;
-      margin-right: 40px;
-      width: 100px;
-  }
-  
-  .back{
-      display: inline-block;
-      margin-left: 40px;
-      float: left;
-      margin-right: auto;
-      width: 100px;
-  }
-  
-  .nextback{
-      text-align: center;
-  }
-  
-  
-  .top_video_inner{
-    position: relative;
-    text-align: center;
-    height: calc(100vh - 0px);
-    overflow: hidden;
-  
-  }
-  .top_video{
-    top: -97px;
-    position: relative;
-    z-index: 50;
-  }
+    margin-right: 40px;
+    width: 100px;
+}
 
-  .maku{
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 11;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.5)
-  }
-  
-  .aaa{
-    color: white;
-    font-size: 15px;
-    right: 0%;
-    top: 100px;
-    width: 25%;
-  }
+.usmap{
+  margin: 0 auto;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  margin-top: -153px;
+  right: 15%;
+  z-index: 99;
+}
 
-  .under {
-    /* top: 10%;
-    display: inline-block;
-    line-height: 0em;
-    padding-bottom: 1em;
-    background: #ffa500; */
-    border-bottom: solid 10px #ffa000;
-  }
-  
+.header-title-area{
+  z-index: 12;
+  color: #ffffff;
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  margin-top: -112.5px;
+  text-align: left;
+}
+
+.title-sub1{
+  font-size: 15px;
+}
+
+.title-sub2{
+  font-size: 30px;
+}
+
+/* マップのやつ */
+
+.usmap .figures figure{
+  width: 100px;
+  height: 105px;
+  border-style: none;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+  z-index: 100;
+}
+.usmap .figures figure .image {
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.usmap .figures figure .fig_caption {
+  color: #000000;
+  display: block;
+  padding: 2.5px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 10px;
+  z-index: 110;
+  cursor: pointer;
+}
+
+.usmap .circles .circle {
+  width: 10px;
+  height: 10px;
+  border: 3px solid saddlebrown;
+  border-radius: 50%;
+  background: gold;
+  position: absolute;
+  z-index: 100;
+}  
+
+.usmap .borders .border{
+  height: 1px;
+  border: none;
+  border-top: 1px #ffffff solid;
+  z-index: 99;
+  position: absolute;
+}
+
+
+/* ショーンベル事件 */
+.usmap .figures figure.ny1 {
+  top: -91px;
+  right: -91px;
+  background: #f5deb3;
+}
+
+.usmap .circles .circle.ny1 {
+  top: 72px;
+  right: 55px;
+}
+
+.usmap .borders .border.ny1{
+  width: 71px;
+  transform: skewY(-50deg);
+  top: 32px;
+  right: -14px;
+}
+
+/* エリック・ガーナー事件 */
+.usmap .figures figure.ny2 {
+top: -55px;
+right: 67px;
+background: #ffb371;
+}
+
+.usmap .circles .circle.ny2 {
+top: 92px;
+right: 48px;
+}
+
+.usmap .borders .border.ny2{
+width: 79px;
+transform: skewY(43deg);
+top: 59px;
+right: 52px;
+}
+
+/* 催涙ガス */
+.usmap .figures figure.or {
+top: 5px;
+left: -150px;
+background: #87ceeb;
+}
+
+.usmap .circles .circle.or {
+top: 92px;
+left: 48px;
+}
+
+.usmap .borders .border.or{
+width: 115px;
+transform: skewY(13deg);
+top: 84px;
+left: -58px;
+}
+
+/* オスカー・グラント事件 */
+.usmap .figures figure.ca {
+top: 130px;
+left: -150px;
+background: #ffe4e1;
+}
+
+.usmap .circles .circle.ca {
+top: 155px;
+left: 29px;
+}
+
+.usmap .borders .border.ca{
+width: 115px;
+transform: skewY(-13deg);
+top: 170px;
+left: -77px;
+}
+
+/* フィランド・カスティール死亡事件 */
+.usmap .figures figure.mn {
+top: -40px;
+left: 79px;
+background: #e6e6fa;
+}
+
+.usmap .circles .circle.mn {
+top: 81px;
+left: 276px;
+}
+
+.usmap .borders .border.mn{
+width: 105px;
+transform: skewY(24deg);
+top: 62px;
+left: 173px;
+}
+/* マイケル・ブラウン射殺事件 */
+.usmap .figures figure.mo {
+top: 358px;
+left: 135px;
+background: #f0e68c;
+}
+
+.usmap .circles .circle.mo {
+top: 183px;
+left: 290px;
+}
+
+.usmap .borders .border.mo{
+width: 119px;
+transform: skewY(-60deg);
+top: 289px;
+left: 177px;
+}
+
+/* 市長宅デモ事件 */
+.usmap .figures figure.il {
+top: 257px;
+left: -29px;
+background: #8cb371;
+}
+
+.usmap .circles .circle.il {
+top: 153px;
+left: 320px;
+}
+
+.usmap .borders .border.il{
+width: 262px;
+transform: skewY(-28deg);
+top: 224px;
+left: 65px;
+}
+
+/* ブリオナ・テイラー死亡事件 */
+.usmap .figures figure.ky {
+top: 309px;
+left: 262px;
+background: #40e0ed;
+}
+
+.usmap .circles .circle.ky {
+top: 174px;
+left: 365px;
+}
+
+.usmap .borders .border.ky{
+width: 88px;
+transform: skewY(-65deg);
+top: 276px;
+right: 133px;
+}
+
+/* トレイボン・マーティン射殺事件 */
+.usmap .figures figure.fl {
+top: 363px;
+right: -7px;
+background: #3cb371;
+}
+
+.usmap .circles .circle.fl {
+top: 296px;
+right: 83px;
+}
+
+.usmap .borders .border.fl{
+width: 47px;
+transform: skewY(59deg);
+top: 339px;
+right: 39px;
+}
+
+/* トレイボン・マーティン射殺事件 */
+.usmap .figures figure.ga {
+top: 251px;
+right: -75px;
+background: #48d1cc;
+}
+
+.usmap .circles .circle.ga {
+top: 244px;
+right: 106px;
+}
+
+.usmap .borders .border.ga{
+width: 93px;
+transform: skewY(31deg);
+top: 276px;
+right: 20px;
+}
+
+/* フレディ・グレイ死亡事件 */
+.usmap .figures figure.md {
+top: 131px;
+right: -98px;
+background: #ffa07a;
+}
+
+.usmap .circles .circle.md {
+top: 152px;
+right: 37px;
+}
+
+.usmap .borders .border.md{
+width: 93px;
+transform: skewY(16deg);
+top: 169px;
+right: -51px;
+}
+
+/* ジョン・クロフォード射殺事件 */
+.usmap .figures figure.oh {
+top: -55px;
+right: 193px;
+background:#f08080;
+}
+
+.usmap .circles .circle.oh {
+top: 120px;
+right: 98px;
+}
+
+.usmap .borders .border.oh{
+width: 172px;
+transform: skewY(30deg);
+top: 77px;
+right: 102px;
+}
+
+/* タミル・ライス事件 */
+.usmap .figures figure.oh2 {
+top: -70px;
+right: 430px;
+background:#afeeee;
+}
+
+.usmap .circles .circle.oh2 {
+top: 121px;
+right: 115px;
+}
+
+.usmap .borders .border.oh2{
+width: 324px;
+transform: skewY(17deg);
+top: 74px;
+right: 122px;
+}
+
+/* アントワン・ローズ・ジュニア死亡事件 */
+.usmap .figures figure.pa {
+top: 254px;
+left: -166px;
+background:#ffffe0;
+}
+
+.usmap .circles .circle.pa {
+top: 117px;
+right: 62px;
+}
+
+.usmap .borders .border.pa{
+width: 525px;
+transform: skewY(162deg);
+top: 205px;
+left: -95px;
+}
+
+/* ジョージフロイドの死 */
+.usmap .figures figure.ma {
+top: 21px;
+right: -125px;
+background:#66cdaa;
+}
+
+.usmap .circles .circle.ma {
+top: 69px;
+right: 18px;
+}
+
+.usmap .borders .border.ma{
+width: 100px;
+transform: skewY(178deg);
+top: 70px;
+right: -79px;
+}
+
+/* モーダルデザイン */
+.modal-card{
+width: 50%;
+}
+
+.modal-background{
+overflow-y: hidden;
+}
+
+.modal{
+z-index: 1000000;
+}
+
+.article-title-wrapper{
+padding-left: 20px;
+text-align: left;
+padding-top: 20px;
+padding-bottom: 5px;
+}
+
+.article_title{
+display: inline-block;
+font-size: 30px;
+}
+
+.article_subtitle{
+display: inline-block;
+font-size: 20px;
+}
+
+.modal-card-body li p{
+text-align: left;
+text-indent: 1em;
+padding-left: 35px;
+padding-bottom: 10px;
+}

@@ -75,6 +75,110 @@
             <source src="../video/douga.mp4" type="video/mp4" />
           </video>
           <div class="maku"><div class="aaa"></div></div>
+          <div class="header-title-area">
+            <div class="title-sub1">高校生の<br>高校生による<br>高校生のための</div>
+            <div class="title-sub2">黒人差別問題</div>
+        </div>
+        <div class="usmap" id="app">
+            <img src="../img/us_map_3.png">
+            <div class="circles">
+                <div class="circle ny1"></div>
+                <div class="circle ny2"></div>
+                <div class="circle or"></div>
+                <div class="circle ca"></div>
+                <div class="circle mn"></div>
+                <div class="circle mo"></div>
+                <div class="circle il"></div>
+                <div class="circle ky"></div>
+                <div class="circle fl"></div>
+                <div class="circle ga"></div>
+                <div class="circle md"></div>
+                <div class="circle oh"></div>
+                <div class="circle oh2"></div>
+                <div class="circle pa"></div>
+                <div class="circle ma"></div>
+            </div>
+            <div class="borders">
+                <div class="border ny1"></div>
+                <div class="border ny2"></div>
+                <div class="border or"></div>
+                <div class="border ca"></div>
+                <div class="border mn"></div>
+                <div class="border mo"></div>
+                <div class="border il"></div>
+                <div class="border ky"></div>
+                <div class="border fl"></div>
+                <div class="border ga"></div>
+                <div class="border md"></div>
+                <div class="border oh"></div>
+                <div class="border oh2"></div>
+                <div class="border pa"></div>
+                <div class="border ma"></div>
+            </div>
+            <div class="figures">
+                <figure @click="openMap('ny')" class="ny1">
+                    <img class="image" src="../img/black_1.jpg">
+                    <div class="fig_caption">Shooting of Sean Bell</div>
+                </figure>
+                <figure @click="openMap('ny')" class="ny2">
+                    <img class="image" src="../img/black_1.jpg">
+                    <div class="fig_caption">Killing of Eric Garner</div>
+                </figure>
+                <figure @click="openMap('or')" class="or">
+                    <img class="image" src="../img/or_black.jpg">
+                    <div class="fig_caption">Tear gas</div>
+                </figure>
+                <figure @click="openMap('ca')" class="ca">
+                    <img class="image" src="../img/ca_black.jpg">
+                    <div class="fig_caption">Shooting of Oscar Grant</div>
+                </figure>
+                <figure @click="openMap('mn')" class="mn">
+                    <img class="image" src="../img/mn_black.jpg">
+                    <div class="fig_caption">Philando Castile death</div>
+                </figure>
+                <figure @click="openMap('mo')" class="mo">
+                    <img class="image" src="../img/mn_black.jpg">
+                    <div class="fig_caption">Shooting of Michael Brown</div>
+                </figure>
+                <figure @click="openMap('il')" class="il">
+                    <img class="image" src="../img/il_black.jpg">
+                    <div class="fig_caption">Demo Attack in Mayor’s House</div>
+                </figure>
+                <figure @click="openMap('ky')" class="ky">
+                    <img class="image" src="../img/ky_black.jpg">
+                    <div class="fig_caption">Shooting of Breonna Taylor</div>
+                </figure>
+                <figure @click="openMap('fl')" class="fl">
+                    <img class="image" src="../img/fl_black.jpg">
+                    <div class="fig_caption">Shooting of Trayvon Martin</div>
+                </figure>
+                <figure @click="openMap('ga')" class="ga">
+                    <img class="image" src="../img/ga_black.jpg">
+                    <div class="fig_caption">Shooting of Ahmaud Arbery</div>
+                </figure>
+                <figure @click="openMap('md')" class="md">
+                    <img class="image" src="../img/md_black.jpg">
+                    <div class="fig_caption">Death of Freddie Gray</div>
+                </figure>
+                <figure @click="openMap('oh')" class="oh">
+                    <img class="image" src="../img/oh_black.jpg">
+                    <div class="fig_caption">Shooting of John Crawford III</div>
+                </figure>
+                <figure @click="openMap('oh')" class="oh2">
+                    <img class="image" src="../img/oh_black.jpg">
+                    <div class="fig_caption">Shooting of Tamir Rice</div>
+                </figure>
+                <figure @click="openMap('pa')" class="pa">
+                    <img class="image" src="../img/oh_black.jpg">
+                    <div class="fig_caption">Shooting of Antwon Rose Jr.</div>
+                </figure>
+                <figure @click="openMap('ma')" class="ma">
+                    <img class="image" src="../img/ma_black.jpg">
+                    <div class="fig_caption">Racial Justice Rally in Boston</div>
+                </figure>
+            </div>
+            <modal :is-open="isOpen" @close="closeModal" :map-file-data="mapFileData" :map-articles="mapArticles"></modal>
+        </div>
         </div>
         <br>
         <h2 class="biggertitle_en"><span class="under">About Discrimination</span></h2>
@@ -188,5 +292,9 @@
             <p>第23回全国中学高校WEBコンテスト参加作品</p>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+    <script type="text/javascript" src="../js/map/en/data.js"></script>
+    <script type="text/javascript" src="../js/map/en/modal.js"></script>
+    <script type="text/javascript" src="../js/map.js"></script>
 </body>
 </html>
