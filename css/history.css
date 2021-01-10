@@ -1,7 +1,6 @@
 .button_history:hover{
-  background-color: #F4D03F; !important;
-  transition:1s;
   background-color: #F4D03F !important;
+  transition:1s;
 }
 .timeLine{
   width: 90%;
