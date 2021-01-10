@@ -14,7 +14,7 @@
 .timeLineTitle{
   font-weight: bold;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 23px;
   margin-bottom: 15px;
 }
 .yearList{
@@ -95,8 +95,31 @@
 }
 .history-title{
   font-weight: bold;
+  font-size: 20px;
   padding-bottom: 5px;
 }
 .history-text{
   text-indent: 20px;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.explainTitle{
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  padding-top:20px;
+  width: 11%;
+  text-align:center;
+  color: black;
+  border-bottom: solid 5px #ffa000;
+}
+.explainText{
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Noto Sans JP";
+  font-size: 20px;
+}
+.modal-card-title{
+  font-weight:bold;
 }
