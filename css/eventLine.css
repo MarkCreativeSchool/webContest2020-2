@@ -1,16 +1,9 @@
-.linePoint{
-    background-color: black;
-    width: 10px;
-    height: 5px;
-    border-radius: 50px;
-    margin: 0 auto;
-    height: 10px;
-}
 .lineBalloon{
     position: relative;
     background-color: yellow;
     left: 3px;
     text-align:center;
+    box-shadow: 10px 5px 5px #333333;
     border-radius: 5px;
     top: 14px;
     border: solid 3px black;
