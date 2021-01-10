@@ -68,3 +68,7 @@
 .nextback{
     text-align: center;
 }
+
+.under{
+  border-bottom: solid 10px #ffa000;
+}

@@ -245,3 +245,13 @@
     top: 100px;
     width: 25%;
   }
+
+  .under {
+    /* top: 10%;
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 1em;
+    background: #ffa500; */
+    border-bottom: solid 10px #ffa000;
+  }
+  
