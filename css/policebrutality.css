@@ -9,12 +9,28 @@
   
   .start_arrest{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Noto Sans JP";
     margin: 0 auto;
+    margin-top: 20px;
     width: 50%;
-    color: black;
-  }
+    color: white;
+    }
+
+    .description_arrest{
+      font-size: 14px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      width: 50%;
+      color: white;
+    }
+  
+    .top_arrest{
+      height: 230px; 
+      background-color: black;
+
+   }
+  
 
   .sourcecaption{
     font-size: 12px;
@@ -50,10 +66,6 @@
     width: 80%;
     margin: 0 auto;
     font-size: 15px;
-  }
-  
-  .under{
-    border-bottom: solid 10px #ffa000;
   }
   
   .next{

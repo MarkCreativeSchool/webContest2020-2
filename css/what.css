@@ -8,13 +8,28 @@
   }
   
    .start_what{
-      font-weight: bold;
-      font-size: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+    color: white;
+    }
+
+    .description_what{
+      font-size: 14px;
       font-family: "Noto Sans JP";
       margin: 0 auto;
       width: 50%;
-      color: black;
+      color: white;
     }
+  
+    .top_what{
+      height: 230px; 
+      background-color: black;
+
+   }
 
     .sourcecaption{
       font-size: 12px;

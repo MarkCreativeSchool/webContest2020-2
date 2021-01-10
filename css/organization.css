@@ -1,6 +1,6 @@
 .two_organization{
 font-family: "Noto Sans JP";
-width: 67%;
+width: 47%;
 margin: 0 auto;
 margin-top: 10px;
 font-size: 18px;
@@ -9,18 +9,32 @@ text-indent: 1em;
 }
 
 .start_organization{
-font-weight: bold;
-font-size: 30px;
-font-family: "Noto Sans JP";
-margin: 0 auto;
-width: 67%;
-color: black;
-}
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 50%;
+  color: white;
+  }
+
+  .description_organization{
+    font-size: 14px;
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+    width: 50%;
+    color: white;
+  }
+
+  .top_organization{
+    height: 230px; 
+    background-color: black;
+
+ }
 
 .logoblm{
   height: 250px;
   width: 250px;
-  display: inline-block;
   margin-top: 10px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -31,7 +45,6 @@ color: black;
 .logom4bl{
   width: 270px;
   height: 250px;
-  display: inline-block;
   margin-right: 10px;
   margin-top: 5px;
   margin-left: 40px;
@@ -143,8 +156,4 @@ font-size: 15px;
 
 .nextback{
   text-align: center;
-}
-
-.under{
-  border-bottom: solid 10px #ffa000;
 }
