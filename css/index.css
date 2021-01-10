@@ -673,117 +673,355 @@ hr{
 #container{
   width: 1024px;
   margin: 0 auto;
+  margin-top: 60px;
 }
 
+.columns h3{
+  font-size: 30px;
+  color: #ffa700;
+  font-weight: bold;
+}
+
+.columns p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.columns .button-original{
+  padding: 10px;
+}
+
+.columns .content-button{
+  display: inline-block;
+  font-size: 11pt;
+  text-align: center;
+  cursor: pointer;
+  padding: 12px 13px;
+  background: #db5872;
+  color: #ffffff;
+  line-height: 1em;
+  transition: .3s;
+  border: 2px solid #db5872;
+}
+
+.columns .content-button:hover {
+  color: #ff7f7f;
+  background: #ffffff;
+}
+
+/* 歴史ページ */
+
 .contentA{
+  box-shadow: 0 0 8px #aaa;
   height: 410px;
   display: flex;
 }
 
 .contentA .contentA-text{
-  background-color: snow;
+  padding: 25px;
+  background-color: black;
   flex: 1;
 }
 
+.contentA-text .button-original{
+  text-align: center;
+}
+
+.contentA-text .button-original .content-button{
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+
 .contentA .contentA-image{
-  background-image: url("../img/chapter2_background.jpeg");
+  background-image: url("../img/baji.jpg");
   background-size: cover;
   background-position: center;
   flex: 1;
 }
 
+/* 差別とは */
+
 .contentB1{
+  box-shadow: 0 0 8px #aaa;
   background-color: snow;
   height: 120px;
   display: flex;
 }
 
 .contentB1 .contentB1-text{
-  padding: 20px;
+  background-color: black;
+  padding: 10px;
   flex: 1;
+}
+
+.contentB1 .contentB1-text p{
+  font-size: 12px;
+}
+
+.contentB1 .contentB1-text h3{
+  font-size: 25px;
+  color: #ffa700;
+  font-weight: bold;
+}
+
+.contentB1-text .button-original{
+  padding: 0px;
+}
+
+.contentB1-text .button-original .content-button{
+  border-radius: 6px;
+  margin: 0 auto 5px;
 }
 
 .contentB1 .contentB1-image{
   width: 200px;
-  background-image: url("../img/chapter2_background.jpeg");
+  background-image: url("../img/What.jpg");
   background-size: cover;
   background-position: center;
 }
 
+/* アンケート結果 */
+
 .contentB2{
-  margin-top: 25px;
+  box-shadow: 0 0 8px #aaa;
   margin-bottom: 25px;
   background-color: snow;
-  height: 120px;
+  height: 192.5px;
   display: flex;
 }
 
 .contentB2 .contentB2-text{
-  padding: 20px;
+  background-color: black;
+  padding: 25px;
   flex: 1;
+}
+
+
+.contentB2 .contentB2-text h3{
+  font-size: 25px;
+  color: #ffa700;
+  font-weight: bold;
+}
+
+.contentB2-text .button-original{
+  padding: 0px;
+}
+
+.contentB2-text .button-original .content-button{
+  border-radius: 6px;
+  font-size: 12px;
+  margin: 0 auto 5px;
 }
 
 .contentB2 .contentB2-image{
   width: 200px;
-  background-image: url("../img/chapter2_background.jpeg");
+  background-image: url("../img/experienceenginter.png");
   background-size: cover;
   background-position: center;
 }
 
+/* SDGs */
+
 .contentB3{
+  box-shadow: 0 0 8px #aaa;
   background-color: snow;
-  height: 120px;
+  height: 192.5px;
   display: flex;
 }
 
 .contentB3 .contentB3-text{
-  padding: 20px;
+  background-color: black;
+  padding: 25px;
   flex: 1;
+}
+
+
+.contentB3 .contentB3-text h3{
+  font-size: 25px;
+  color: #ffa700;
+  font-weight: bold;
+}
+
+.contentB3-text .button-original{
+  padding: 0px;
+}
+
+.contentB3-text .button-original .content-button{
+  border-radius: 6px;
+  margin: 0 auto 5px;
 }
 
 .contentB3 .contentB3-image{
   width: 200px;
-  background-image: url("../img/chapter2_background.jpeg");
+  background-image: url("../img/sdgs.png");
   background-size: cover;
   background-position: center;
+}
+
+/* 差別の実態 */
+
+.contentC{
+  box-shadow: 0 0 8px #aaa;
 }
 
 .contentC .contentC-image{
   height: 200px;
-  background-image: url("../img/chapter2_background.jpeg");
+  background-image: url("../img/school.JPG");
   background-size: cover;
-  background-position: center;
+  background-position: right;
 }
 
 .contentC .contentC-text{
-  background-color: snow;
+  background-color: black;
   padding: 20px;
-  height: 250px;
+}
+
+.contentC .contentC-text h3{
+  text-align: center;
+}
+
+.contentC-text-content{
+  flex: 1;
+  font-size: 10px;
+}
+
+.contentC-text .button-original{
+  flex: 1;
+  text-align: center;
+}
+
+.contentC-text .button-original .content-button{
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+
+/* エンタメ業界 */
+
+.contentD{
+  box-shadow: 0 0 8px #aaa;
 }
 
 .contentD .contentD-image{
   height: 200px;
-  background-image: url("../img/chapter2_background.jpeg");
+  background-image: url("../img/discrimination2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .contentD .contentD-text{
-  background-color: snow;
+  background-color: black;
   padding: 20px;
-  height: 250px;
 }
 
+.contentD-text-content{
+  flex: 1;
+  font-size: 10px;
+}
+
+.contentD .contentD-text h3{
+  text-align: center;
+}
+
+.contentD-text .button-original{
+  flex: 1;
+  text-align: center;
+}
+
+.contentD-text .button-original .content-button{
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+/* 他の差別問題 */
+
+.contentE{
+  box-shadow: 0 0 8px #aaa;
+}
 
 .contentE .contentE-image{
   height: 200px;
-  background-image: url("../img/chapter2_background.jpeg");
+  background-image: url("../img/asia.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .contentE .contentE-text{
-  background-color: snow;
+  background-color: black;
   padding: 20px;
-  height: 250px;
 }
+
+.contentE-text-content{
+  flex: 1;
+  font-size: 10px;
+}
+
+.contentE .contentE-text h3{
+  text-align: center;
+}
+
+.contentE-text .button-original{
+  flex: 1;
+  text-align: center;
+}
+
+.contentE-text .button-original .content-button{
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+/* 組織・他 */
+.contentF{
+  box-shadow: 0 0 8px #aaa;
+}
+
+.contentF .contentF-image{
+  height: 200px;
+  background-image: url("../img/colorofchange.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contentF .contentF-text{
+  background-color: black;
+  padding: 20px;
+}
+
+.contentF-text-content{
+  flex: 1;
+  font-size: 10px;
+}
+
+.contentF .contentF-text h3{
+  text-align: center;
+}
+
+.contentF-text .button-original{
+  flex: 1;
+  text-align: center;
+}
+
+.contentF-text .button-original .content-button{
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 5px;
+}
+
+body{
+  background: #eeeeee;
+}
+
+.squea{
+  margin-top:-97px;
+  width: 100%;
+  height: 5px;
+  background: rgb(27,46,133);
+  background: linear-gradient(37deg, rgba(27,46,133,1) 0%, rgba(194,0,4,1) 24%, rgba(255,218,85,1) 69%, rgba(77,163,135,1) 100%);
+}
+
