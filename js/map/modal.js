@@ -5,8 +5,7 @@ var modal = Vue.component("modal", {
   <div class="modal-background" @click="close"></div>
   <div class="modal-card">
     <header class="modal-card-head">
-      <p class="modal-card-title">Modal title</p>
-      <button class="delete" aria-label="close"></button>
+      <!-- <button class="delete" aria-label="close"></button> -->
     </header>
     <section class="modal-card-body">
         {{ mapFileData }}
@@ -15,14 +14,16 @@ var modal = Vue.component("modal", {
         -->
         <ul>
             <li v-for="article in mapArticles">
-                <div>{{ article.title }}({{ article.subtitle }})</div>
-                <p>{{ article.text }}</p>
+              <div class="article-title-wrapper">
+                <div class="article_title">●{{ article.title }}</div>
+                <div class="article_subtitle">({{ article.year }})</div>
+              </div>
+              <p>{{ article.text }}</p>
             </li>
         </ul>
     </section>
     <footer class="modal-card-foot">
-      <button class="button is-success">Save changes</button>
-      <button class="button">Cancel</button>
+      <button class="button" @click="close">Close</button>
     </footer>
   </div>
 </div>

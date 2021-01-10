@@ -601,9 +601,37 @@
 
 /* モーダルデザイン */
 .modal-card{
-  width: 80%;
+  width: 50%;
+}
+
+.modal-background{
+  overflow-y: hidden;
 }
 
 .modal{
   z-index: 1000000;
+}
+
+.article-title-wrapper{
+  padding-left: 20px;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.article_title{
+  display: inline-block;
+  font-size: 30px;
+}
+
+.article_subtitle{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.modal-card-body li p{
+  text-align: left;
+  text-indent: 1em;
+  padding-left: 35px;
+  padding-bottom: 10px;
 }
