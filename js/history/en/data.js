@@ -334,6 +334,94 @@ var historyData = [
                 title:"Separatist Movement(1945)",
                 text:"During the year of the Cold war, what was originally one country separated into a socialist and capitalist country. Separist countries included Germany, Korea, and Vietnam The Soviet occupied territories in East Germany, and the US, British, and French occupied territories in West Germany. In addition, Berlin, which was the capital, was also divided into West Germany and East Germany by the \"Berlin Wall\", and West Berlin was isolated to East Germany as an excursion of West Germany. In Korea, the Soviet Union occupied the north side and the United States occupied the south side. In 1948, the Democratic People's Republic of Korea (North Korea) became independent on the north side, and the Republic of Korea (South Korea) became independent on the south side. In Vietnam, the Declaration of Independence was issued in 1945 in opposition to the fact that it was a French colony, but France rebelled against this. After the First Indochina War, the socialist Republic of Vietnam was born on the north side, and the capitalist Republic of South Vietnam was born on the south side."
             }
+        ],
+        [/*event3*/
+            {
+                title:"Marshall Plan (1947~1948)",
+                text:"The United States has begun to send enormous economic support to make Britain and France, which were destroyed by World War II, into breakwaters for communism. With the Marshall Plan, the United States sought to strengthen ties with Western Europe such as Britain and France."
+            }
+        ],
+        [/*event4*/
+            {
+                title:"North Atlantic Treaty Organization[NATO] (1949 April)",
+                text:"NATO formed a military alliance against the Soviet Union and tried to counter them. On the other hand, the Soviet Union also established COMECON, an economic cooperation system that supports communist countries in Eastern Europe to counter the United States. Furthermore, they created the Warsaw Pact and opposed the United States centered on communist countries."
+            }
+        ],
+        [/*event5*/
+            {
+                title:"Korean War (1950~1953 (the conflict still remains))",
+                text:"The Republic of Korea and the Democratic Republic of Korea started a war on the Korean Peninsula. The war has become a quagmire, with a large number of deaths, devastation of the town, and many war orphans. On July 27, 1953, the North and South representatives and the Soviet and American representatives met and signed an armistice agreement, which has not yet reached a substantial end of the war."
+            }
+        ],
+        [/*event6*/
+            {
+                title:"Vietnam War (1955~1975)",
+                text:"The Vietnam war is often called \"war without declaration of war”. At this time, Vietnam was separated into North and South territories. The civil war that took place in Vietnam was mainly a battle between the \"North Vietnam Army\" and the \"South Vietnam Army / US Army\". When North Vietnam caused the Gulf of Tonkin Incident in 1964, the United States began to intervene in the Vietnam War and entered a state of war with North Vietnam. The United States bombed North Vietnam, but struggled against guerrillas in North Vietnam. Eventually the United States withdrew from North Vietnam, whilst ending with a victory for North Vietnam in 1975."
+            }
+        ],
+        [/*event7*/
+            {
+                title:"Cuban Missile Crisis (1962)",
+                text:"Military tensions between the United States and the Soviet Union increased and a nuclear war between them was once imminent, which is often referred to as the ”Cuban Missile Crisis.\" The Soviet Union supported Cuba and threatened the United States by deploying nuclear missiles against Cuba. At that time, the United States was ready to wage a nuclear war against the Soviet Union but the Soviet Union made a last-minute concession and escaped the crisis. Since then, the United States and the Soviet Union have gradually come to terms with each other."
+            }
+        ],
+        [/*event8*/
+            {
+                title:"End of Cold War (1989)",
+                text:"In Eastern European countries, the Communist blacks are falling down in various places due to the Revolution of Eastern Europe. In the same year, the Berlin Wall collapsed. Furthermore, in the Soviet Union, the momentum of the Soviet Union steadily declined due to the financial collapse caused by the invasion of Afghanistan. The Soviet Union continued to reform with perestroika (Political Movement) by General Secretary Gorbachev. Then, a meeting was held between the United States and Malta, and the Cold War ended. Two years later, the Soviet Union collapsed and the Cold War era came to an end."
+            }
+        ]
+    ],
+    [/*第8章*/
+        [/*event1*/
+            {
+                title:"September 11 attacks (2001 September 11)",
+                text:"On 2001, September 11, 2 civilian aircraft were hijacked and crashed into the World Trade Center Twin tower and caused the building to collapse. Furthermore, another aircraft that was hijacked crashed into the Pentagon, the center of American defense and caused several deaths and injuries."
+            }
+        ],
+        [/*event2*/
+            {
+                title:"Iraq War (2003)",
+                text:"On 2003, March 20th, the US (led by President George Bush at the time) led coalition (including UK, Australia, and Portland) invaded Iraq which caused a military intervention. With conditions to cease the 1991 Gulf War, the UN Security Council mandated Iraq to \"destroy weapons of mass destruction.\" However, because Iraq did not support this suggestion, a military intervention to overthrow President Hussein, Iraq’s leader began. The Iraqi administration collapsed on April 9, 2003, when Baghdad crashed and President Hussein fled. Saddam Hussein was arrested on December 13th, 2003. As a result, terrorist activities became more active due to the deterioration of public security in Iraq. Until Barack Obama declared the end of battle and end of the Iraqi Free Front in 2001, December 15th, the coalition remained stationed in Iraq."
+            }
+        ],
+        [/*event3*/
+            {
+                title:"Barack Obama Becomes President(2009)",
+                text:"Barack Obama (Democratic), became the 44th president in 2008, and was heavily medialized due to him being the first black president. Though black lives have been severely discriminated against, with Obama becoming president, more people have become more aware and accepting of different races within the US."
+            }
+        ]
+    ],
+    [/*Hisotry of Racism*/
+        [/*event1*/
+            {
+                title:"Introduction of Slaves in the US (1619)",
+                text:"Twenty black Africans were sold to Jamestown, Virginia in 1619. It is said to be the first slave trade to occurr in the US. Slave trade flourished in the 18th century, and many black people were brought to their hometowns."
+            }
+        ],
+        [/*event2*/
+            {
+                title:"Establishment of Slavery (1670)",
+                text:"In Virginia, compared to approximately 2000 black slaves, there were approximately 6000 white indentured servants who resided. Indentured servants were dissatisfied with the labor force due to the cost of purchasing, various expenses during the year, and release benefits. Black slaves, on the other hand, had a high initial purchase cost, but they were lifelong slaves and the maintenance cost was low, so the labor force was satisfactory. By the time of the Revolutionary War in the late 18th century, few white annual servants were imported into the colonies."
+            }
+        ],
+        [/*event3*/
+            {
+                title:"Emancipation Proclamation (1861)",
+                text:"In 1861, a conflict broke out in the north, which denied slavery, and in the south, which affirmed slavery (Civil War). The war lasted four years and ended in a victory in the north. After that, the Emancipation Proclamation was issued, and the slaves in the southern states were released, though in some places, the slaves continued to be painfully contempted."
+            }
+        ],
+        [/*event4*/
+            {
+                title:"Montgomery bus boycott (1955)",
+                text:"Public facilities such as waiting rooms, toilets, drinking fountains, and parks at stations are equipped with display boards that say \"white people only\" and \"black people only,\" at the time, forbidding black people to use the same facilities as white people. On December 1, 1955, a black woman named Rosa Parks took a bus on her way home from work and sat right behind a white-only seat. A white man boarded there, and the bus driver ordered Parks to give up his seat. Parks, who did not respond to the request, was arrested."
+            }
+        ],
+        [/*event5*/
+            {
+                title:"March on Washington for Jobs and Freedom (1963 August 28)",
+                text:"On August 28, 1963, when the civil rights movement was at its peak, 250,000 people gathered in Washington, DC, under the slogan \"Complete liberation by 1963!\". Of the 250,000 people who participated in the march, 60,000 were white. At the end of the march, Rev. Wang's \"I have a dream.\" speech was given."
+            }
         ]
     ]
 ]

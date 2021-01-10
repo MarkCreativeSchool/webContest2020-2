@@ -19,6 +19,7 @@ var modal = Vue.component("modal", {
                 <div class="article_subtitle">({{ article.year }})</div>
               </div>
               <p>{{ article.text }}</p>
+              <h6><small>{{ article.source }}</h6></p>
             </li>
         </ul>
     </section>

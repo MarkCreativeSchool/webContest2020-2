@@ -4,7 +4,7 @@ var lineBar = Vue.component("lineBar", {
 <!--<p class="lineBar" :style="{ width: width + 'px', left: left + 'px'}" @click="onClick()">-->
 <!--    <slot></slot>-->
 <!--</p>-->
-<div class="eventLine" :style="{width:width + 'px', left: left + 'px'}" @click="onClick()">
+<div class="eventLine" :style="{width:width + 'px', left: left + 'px', top:top + 'px'}" @click="onClick()">
     <div class="linePoint"></div>
     <div class="lineBalloon"><slot></slot></div>
 </div>`,
