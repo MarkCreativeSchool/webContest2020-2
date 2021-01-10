@@ -6,6 +6,9 @@
 .button_history.active{
   background-color: #F4D03F !important;
 }
+.button_history{
+  font-size: 20px;
+}
 .timeLine{
   position:relative;
   width: 90%;
@@ -136,7 +139,7 @@
   font-weight:bold;
 }
 .chapterTitle{
-  font-size:21px;
+  font-size:25px;
   text-align: center;
   font-weight:bold;
   padding-bottom: 5px;
