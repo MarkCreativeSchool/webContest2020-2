@@ -59,21 +59,15 @@
     margin: 0 auto;
     padding-top: 20px;
     font-size: 18px;
-    display: inline-block;
-    float: left;
-    margin-left: 18%;
     color: black;
   }
   
   
   .paragraph3{
     font-family: "Noto Sans JP";
-    width: 42%;
+    width: 47%;
     font-size: 18px;
-    display: inline-block;
-    margin-left: 18%;
     padding-top: 25px;
-    float: left;
   }
   
   .program1{
