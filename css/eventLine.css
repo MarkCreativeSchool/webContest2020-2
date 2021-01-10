@@ -45,6 +45,7 @@
   padding: 0;
 }
 .eventLine{
+    display: inline-block;
     position:relative;
     cursor: pointer;
     padding-bottom: 27px;

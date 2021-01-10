@@ -14,6 +14,7 @@ var app = new Vue({
       this.selectTabIndex = index;
     },
     clicked(number){
+      console.log(number)
       var data = historyData[this.selectTabIndex][number]
       var section = chapterData[this.selectTabIndex].chapter
       this.chapter = section

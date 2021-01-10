@@ -98,7 +98,7 @@
                 <!-- 出来事-->
                 <line-bar left="25" width="150" number="0" @clicked="clicked">The Discovery of the Continent</line-bar>
                 <line-bar left="100" width="200" number="1" @clicked="clicked">The introduction of Slaves in the US</line-bar>
-                <line-bar left="750" width="150" number="2" @clicked="clicked">The 13 (Original) Colonies</line-bar>
+                <line-bar left="750" width="150" number="2" top="-10" @clicked="clicked">The 13 (Original) Colonies</line-bar>
                 <line-bar left="800" width="150" number="3" @clicked="clicked">Seven Years' War(1756~1763)</line-bar>
                 <line-bar left="1000" width="150" number="4" @clicked="clicked">The Sugar Act(1764)</line-bar>
                 <line-bar left="1075" width="150" number="5" @clicked="clicked">The Stamp Act(1765)</line-bar>
@@ -259,10 +259,8 @@
             </div>
         </div>
     </div>
-
-    <modal :isopen="isOpen" :data="coreData" :chapter="chapter" @close="close"></modal>
-
 </div>
+    <modal :isopen="isOpen" :data="coreData" :chapter="chapter" @close="close"></modal>
 
 
 <!-- eng ヘッダー -->
@@ -276,6 +274,7 @@
                     <li><a href="what.html">What</a></li>
                     <li><a href="survey.html">Survey</a></li>
                     <li><a href="sdgs.html">SGDs</a></li>
+                </ul>
             </div>
             <div class="column is-2">
                 <h5>History</h5>
@@ -306,12 +305,14 @@
                     <li><a href="asiandiscrimination.html">Asian</a></li>
                     <li><a href="sexualorientationdiscrimination.html">Sexual</a></li>
                     <li><a href="religiousdiscrimination.html">Religion</a></li>
+<!--                </ul>-->
             </div>
             <div class="column is-2">
                 <h5>Social</h5>
                 <ul>
                     <li><a href="https://twitter.com/learning_racism" target="_blank">Twitter</a></li>
                     <li><a href="https://www.instagram.com/learning.racism/?hl=jaInstagram" target="_blank">Instagram</a></li>
+<!--                </ul>-->
             </div>
         </div>
         <p>第23回全国中学高校WEBコンテスト参加作品</p>

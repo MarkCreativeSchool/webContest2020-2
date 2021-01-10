@@ -7,10 +7,28 @@ var lineBar = Vue.component("lineBar", {
 <div class="eventLine" :style="{width:width + 'px', left: left + 'px'}" @click="onClick()">
     <div class="linePoint"></div>
     <div class="lineBalloon"><slot></slot></div>
-</div>`
-    ,
+</div>`,
 
-    props:["width", "left", "number"],
+    props:{
+        width:{
+            type: String,
+            required:true
+        },
+        left:{
+            type: String,
+            required:true
+        },
+        number:{
+            type:String,
+            required:true
+        },
+        top:{
+            type:String,
+            required:false,
+            default:"0",
+        }
+    },
+    // props:["width", "left", "number"],
 
     methods:{
         onClick(){
