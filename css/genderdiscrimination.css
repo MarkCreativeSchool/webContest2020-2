@@ -7,14 +7,36 @@
     text-indent: 1em;
   }
   
-  .start_gender{
+  .top_gender{
+    height: 230px; 
+    background-color: black;
+
+ }
+    .start_gender{
       font-weight: bold;
-      font-size: 30px;
+      font-size: 40px;
       font-family: "Noto Sans JP";
       margin: 0 auto;
+      margin-top: 20px;
       width: 50%;
-      color: black;
-    }
+      color: white;
+      }
+      .start_gender2{
+        font-weight: bold;
+        font-size: 30px;
+        font-family: "Noto Sans JP";
+        margin: 0 auto;
+        width: 50%;
+        color: black;
+      }
+    
+      .description_gender{
+        font-size: 14px;
+        font-family: "Noto Sans JP";
+        margin: 0 auto;
+        width: 50%;
+        color: white;
+      }
 
     .sourcecaption{
       font-size: 12px;

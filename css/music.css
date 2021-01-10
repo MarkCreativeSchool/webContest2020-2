@@ -19,15 +19,29 @@
     text-shadow: 0.5px 0.5px #f6d405;
     text-align: center;
   } */
-  
-  .start_music{
-    font-weight: bold;
-    font-size: 30px;
-    font-family: "Noto Sans JP";
-    margin: 0 auto;
-    width: 50%;
-    color: black;
-  }
+
+  .top_music{
+    height: 230px; 
+    background-color: black;
+
+ }
+    .start_music{
+      font-weight: bold;
+      font-size: 40px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 50%;
+      color: white;
+      }
+    
+      .description_music{
+        font-size: 14px;
+        font-family: "Noto Sans JP";
+        margin: 0 auto;
+        width: 50%;
+        color: white;
+      }
 
   .smallhead{
     font-weight: bold;
@@ -42,10 +56,7 @@
     font-size: 12px;
   }
   
-  .under{
-    border-bottom: solid 10px #ffa000;
-  }
-  
+
   .activity{
       width: 80%;
       margin: 0 auto;

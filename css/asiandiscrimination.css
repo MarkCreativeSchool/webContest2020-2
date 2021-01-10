@@ -7,7 +7,7 @@
     text-indent: 1em;
   }
   
-  .start_asia{
+  .start_asia2{
       font-weight: bold;
       font-size: 30px;
       font-family: "Noto Sans JP";
@@ -15,6 +15,29 @@
       width: 50%;
       color: black;
     }
+    .start_asia{
+      font-weight: bold;
+      font-size: 40px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 50%;
+      color: white;
+      }
+  
+      .description_asia{
+        font-size: 14px;
+        font-family: "Noto Sans JP";
+        margin: 0 auto;
+        width: 50%;
+        color: white;
+      }
+    
+      .top_asia{
+        height: 230px; 
+        background-color: black;
+  
+     }
   
   .activity{
       width: 75%;

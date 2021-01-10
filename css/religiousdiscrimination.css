@@ -7,7 +7,7 @@
     text-indent: 1em;
   }
   
-  .start_religion{
+  .start_religion2{
       font-weight: bold;
       font-size: 30px;
       font-family: "Noto Sans JP";
@@ -15,6 +15,31 @@
       width: 50%;
       color: black;
     }
+
+    .top_religion{
+      height: 230px; 
+      background-color: black;
+  
+   }
+    
+     
+      .start_religion{
+        font-weight: bold;
+        font-size: 40px;
+        font-family: "Noto Sans JP";
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 50%;
+        color: white;
+        }
+    
+        .description_religion{
+          font-size: 14px;
+          font-family: "Noto Sans JP";
+          margin: 0 auto;
+          width: 50%;
+          color: white;
+        }
   
   .activity{
       width: 75%;
