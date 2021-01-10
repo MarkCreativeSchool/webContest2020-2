@@ -15,6 +15,9 @@
     border: solid 3px black;
     left: 3px;
 }
+.lineBalloon:hover{
+    background-color: #f6d405;
+}
 .lineBalloon:before {
   content: "";
   position: absolute;
