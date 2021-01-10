@@ -35,20 +35,18 @@ text-indent: 1em;
 .logoblm{
   height: 250px;
   width: 250px;
-  margin-top: 10px;
-  margin-right: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center;
-  margin-left: 100px;
 }
 
 .logom4bl{
-  width: 270px;
+  width: 350px;
   height: 250px;
-  margin-right: 10px;
-  margin-top: 5px;
-  margin-left: 40px;
-  margin-left: 100px;
+  margin: 0 auto;
+  display: block;
+  margin-top:20px;
 }
 
 .start_o{
@@ -57,7 +55,7 @@ color: black;
 /* background-color: #ffa000; */
 /* background-position: center center; */
 border-left: solid 10px #ffa000;
-width: 67%;
+width: 50%;
 margin: 0 auto;
 font-size: 30px;
 border-radius: 3px;
@@ -68,25 +66,19 @@ font-weight: 800;
 
 .paragraph{
 font-family: "Noto Sans JP";
-width: 42%;
+width: 47%;
 margin: 0 auto;
 padding-top: 20px;
 font-size: 18px;
-display: inline-block;
-float: left;
-margin-left: 18%;
 color: black;
 }
 
 
 .paragraph3{
 font-family: "Noto Sans JP";
-width: 42%;
+width: 47%;
 font-size: 18px;
-display: inline-block;
-margin-left: 18%;
 padding-top: 25px;
-float: left;
 }
 
 .program1{
