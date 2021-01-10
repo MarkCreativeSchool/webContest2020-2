@@ -59,7 +59,7 @@ var mapData = {
     "il":{
         articles: [
             {
-                title: "Demo Attack in Mayor’s House",
+                title: "Demo Attack in Mayor Lori Lightfoot's House",
                 subtitle: "Illinois",
                 year:"2020",
                 text: "In Chicago, protesters gathered around the mayor’s house. During this protest, the protesters threw rocks, fireworks, frozen bottles, and other objects to attack officers, which led to 18 officers getting injured. 12 protesters were arrested from this demo. The Civilian Office of Police Accountability (COPA) confirmed that they are currently investigating the numerous complaints that have been sent regarding police misconduct. With this incident, it has been reported that the security level of Chicago increased."
