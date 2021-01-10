@@ -135,10 +135,11 @@
 
 /* パンくずリスト */
 .bread{
-    padding: 7px;
     list-style: none;
-    margin-left: 150px;
+    padding-left: 360px;
+    padding-top: 30px;
     height: 30px;
+    color:white;
     }
    
     
@@ -149,13 +150,13 @@
     }
   
   .bread li+li:before{
-        padding: 5px;
+        padding: 6px;
         color: black;
         content: ">>";
       }
   
   .breadcrumb-item a{
-    color: #2e4053;
+    color: white;
     text-decoration: none;
   }
   
