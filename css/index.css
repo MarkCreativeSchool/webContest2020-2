@@ -669,44 +669,121 @@ hr{
   margin: 0 auto;
 }
 
-.grid{
-  width: 70%;
-  height: 30%;
+
+#container{
+  width: 1024px;
   margin: 0 auto;
 }
 
-#container {
-  display: grid; /* グリッドレイアウト */
-  grid-template-rows: 200px 200px;
-  grid-template-columns: 650px 1fr;
-}
-
-#itemA {
-  grid-row: 1 / 3;
-  grid-column: 1 / 2;
-  margin-right: 10px;
-  border: solid 1px whitesmoke;
+.contentA{
+  height: 410px;
   display: flex;
 }
 
-#itemA .Acontent{
-  background: pink;
+.contentA .contentA-text{
+  background-color: snow;
   flex: 1;
 }
 
-#itemA .Aimage{
+.contentA .contentA-image{
+  background-image: url("../img/chapter2_background.jpeg");
+  background-size: cover;
+  background-position: center;
   flex: 1;
 }
 
-
-#itemB {
-  grid-row: 1 / 2;
-  grid-column: 2 / 3;
-  margin-bottom: 10px;
-  border: solid 1px whitesmoke;
+.contentB1{
+  background-color: snow;
+  height: 120px;
+  display: flex;
 }
-#itemC {
-  grid-row: 2 / 3;
-  grid-column: 2 / 3;
-  border:solid 1px whitesmoke;
+
+.contentB1 .contentB1-text{
+  padding: 20px;
+  flex: 1;
+}
+
+.contentB1 .contentB1-image{
+  width: 200px;
+  background-image: url("../img/chapter2_background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contentB2{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: snow;
+  height: 120px;
+  display: flex;
+}
+
+.contentB2 .contentB2-text{
+  padding: 20px;
+  flex: 1;
+}
+
+.contentB2 .contentB2-image{
+  width: 200px;
+  background-image: url("../img/chapter2_background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contentB3{
+  background-color: snow;
+  height: 120px;
+  display: flex;
+}
+
+.contentB3 .contentB3-text{
+  padding: 20px;
+  flex: 1;
+}
+
+.contentB3 .contentB3-image{
+  width: 200px;
+  background-image: url("../img/chapter2_background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contentC .contentC-image{
+  height: 200px;
+  background-image: url("../img/chapter2_background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contentC .contentC-text{
+  background-color: snow;
+  padding: 20px;
+  height: 250px;
+}
+
+.contentD .contentD-image{
+  height: 200px;
+  background-image: url("../img/chapter2_background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contentD .contentD-text{
+  background-color: snow;
+  padding: 20px;
+  height: 250px;
+}
+
+
+.contentE .contentE-image{
+  height: 200px;
+  background-image: url("../img/chapter2_background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.contentE .contentE-text{
+  background-color: snow;
+  padding: 20px;
+  height: 250px;
 }
