@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/en/history.css">
     <link rel="stylesheet" href="../css/en/shared.css">
     <link rel="stylesheet" href="../css/en/eventLine.css">
+<!--        <link rel="icon" type="image/x-icon" href="../img/favicon.ico">-->
 <!--    <script type="text/javascript" src="./js/history.js"></script>-->
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
     <meta name="description" content="このサイトを作成するために使用した文献がリスト上表記されています。">
@@ -99,6 +100,9 @@
     <!--一章-->
     <div class="timeLine" v-if="selectTabIndex === 0">
         <div class="timeLineInner">
+<!--            style="opacity:0.2; background-image:url(../img/chapter1_background.jpeg)"-->
+            <img class="chapter1Background" src="../img/chapter1_background.jpeg">
+<!--        <img class="chapter1Background" src="../img/chapter1_background.jpeg">-->
             <div class="timeLineTitle">Chapter 1: The Discovery of the Continent / The Birth of 13 Colonies</div>
             <div class="timeLineMain">
                 <!-- 出来事-->
@@ -266,7 +270,7 @@
         </div>
     </div>
     <modal :isopen="isOpen" :data="coreData" :chapter="chapter" @close="close"></modal>
-</>
+</div>
 
 
 
