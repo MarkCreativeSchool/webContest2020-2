@@ -75,13 +75,25 @@
     font-size: 18px;
   }*/
   
-  .three{
+  /* .three{
     font-family: "Noto Sans JP";
-    width: 50%;
+    width: 47%;
+    text-align: center;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 17px;
     text-indent: 1em;
+
+  } */
+
+  .three p{
+    font-family: "Noto Sans JP";
+    width: 47%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 17px;
     color: black;
   }
   
@@ -104,8 +116,14 @@
     font-size: 30px;
     font-family: "Noto Sans JP";
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
     color: black;
+    margin-top: 20px;
+  }
+
+  .biggertitle_jp::first-letter{
+    font-size: 1.8em;
+    color: #ffa000
   }
   
   .discrimination{
@@ -646,3 +664,7 @@
   padding-bottom: 5px;
 }
 
+hr{
+  width: 50%;
+  margin: 0 auto;
+}
