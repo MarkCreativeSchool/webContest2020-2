@@ -56,14 +56,30 @@
     text-indent: 1em;
   }
   
-   .start_references{
+  .top_references{
+    height: 230px; 
+    background-color: black;
+
+ }
+  
+   
+    .start_references{
       font-weight: bold;
-      font-size: 30px;
+      font-size: 40px;
       font-family: "Noto Sans JP";
       margin: 0 auto;
+      margin-top: 20px;
       width: 50%;
-      color: black;
-    }
+      color: white;
+      }
+  
+      .description_references{
+        font-size: 14px;
+        font-family: "Noto Sans JP";
+        margin: 0 auto;
+        width: 50%;
+        color: white;
+      }
   
   .more{
     font-family: "Noto Sans JP";
