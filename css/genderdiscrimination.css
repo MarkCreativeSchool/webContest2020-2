@@ -73,3 +73,7 @@
     width: 50%;
     margin:0 auto;
   }
+
+  .under{
+    border-bottom: solid 10px #ffa000;
+  }
