@@ -1,8 +1,8 @@
 .two_survey{
     font-family: "Noto Sans JP";
-    width: 50%;
+    width: 47%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 18px;
     text-indent: 1em;
   }
@@ -32,10 +32,16 @@
   
   .surveytitle{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 27px;
     font-family: "Noto Sans JP";
     margin: 0 auto;
-     width: 67%;
+     width: 50%;
+     padding-top: 30px;
+  }
+
+  .surveytitle::first-letter{
+    font-size: 1.5em;
+    color: #ffa000;
   }
 
 
