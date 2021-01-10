@@ -41,7 +41,6 @@
 }
 .eventLine{
     position:relative;
-    /*display: inline-block;*/
     cursor: pointer;
     padding-bottom: 27px;
 }
