@@ -5,7 +5,7 @@ var lineBar = Vue.component("lineBar", {
 <!--    <slot></slot>-->
 <!--</p>-->
 <div class="eventLine" :style="{width:width + 'px', left: left + 'px', top:top + 'px'}" @click="onClick()">
-    <div class="linePoint"></div>
+    <i class="fas fa-map-pin"></i>
     <div class="lineBalloon"><slot></slot></div>
 </div>`,
 
