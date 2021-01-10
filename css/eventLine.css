@@ -9,11 +9,11 @@
 .lineBalloon{
     position: relative;
     background-color: yellow;
+    left: 3px;
     text-align:center;
     border-radius: 5px;
     top: 14px;
     border: solid 3px black;
-    left: 3px;
 }
 .lineBalloon:before {
   content: "";
