@@ -92,15 +92,15 @@
     <div class="tabs is-centered currentproblems">
       <ul>
 <!--          class="is-active"-->
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===0}" @click="onTabClick(0)">第一章</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===1}" @click="onTabClick(1)">第二章</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===2}" @click="onTabClick(2)">第三章</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===3}" @click="onTabClick(3)">第四章</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===4}" @click="onTabClick(4)">第五章</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===5}" @click="onTabClick(5)">第六章</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===6}" @click="onTabClick(6)">第七章</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===7}" @click="onTabClick(7)">第八章</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===8}" @click="onTabClick(8)">黒人差別</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===0}" @click="onTabClick(0)">第一章</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===1}" @click="onTabClick(1)">第二章</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===2}" @click="onTabClick(2)">第三章</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===3}" @click="onTabClick(3)">第四章</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===4}" @click="onTabClick(4)">第五章</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===5}" @click="onTabClick(5)">第六章</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===6}" @click="onTabClick(6)">第七章</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===7}" @click="onTabClick(7)">第八章</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===8}" @click="onTabClick(8)">黒人差別</a></li>
       </ul>
     </div>
     <!-- 実際のテーブル-->
@@ -114,16 +114,17 @@
             <div class="timeLineMain">
                 <!-- 出来事-->
                 <line-bar left="25" width="100" number="0" @clicked="clicked">新大陸の発見</line-bar>
-                <line-bar left="100" width="100" number="1" @clicked="clicked">奴隷輸入</line-bar>
-                <line-bar left="750" width="100" number="2" top="-10" @clicked="clicked">13の植民地誕生</line-bar>
-                <line-bar left="800" width="150" number="3" @clicked="clicked">七年戦争(1756年~1763年)</line-bar>
-                <line-bar left="1000" width="100" number="4" @clicked="clicked">砂糖法(1764年)</line-bar>
-                <line-bar left="1075" width="100" number="5" @clicked="clicked">印紙法(1765年)</line-bar>
-                <line-bar left="1150" width="100" number="6" @clicked="clicked">タウンゼンド諸法(1767年)</line-bar>
-                <line-bar left="1350" width="100" number="7" @clicked="clicked">ボストン茶会事件(1773年)</line-bar>
-                <line-bar left="1425" width="100" number="8" @clicked="clicked">強圧的諸条令(1774年)</line-bar>
-                <p class="endLine"></p>
+                <line-bar left="150" width="100" number="1" @clicked="clicked">奴隷輸入</line-bar>
+                <line-bar left="250" width="100" number="2" top="-10" @clicked="clicked">13の植民地誕生</line-bar>
+                <line-bar left="350" width="150" number="3" @clicked="clicked">七年戦争(1756年~1763年)</line-bar>
+                <line-bar left="500" width="100" number="4" @clicked="clicked">砂糖法(1764年)</line-bar>
+                <line-bar left="550" width="100" number="5" @clicked="clicked">印紙法(1765年)</line-bar>
+                <line-bar left="650" width="100" number="6" @clicked="clicked">タウンゼンド諸法(1767年)</line-bar>
+                <line-bar left="800" width="100" number="7" @clicked="clicked">ボストン茶会事件(1773年)</line-bar>
+                <line-bar left="1020" width="100" number="8" @clicked="clicked">強圧的諸条令(1774年)</line-bar>
+
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1500</div>
                 <div class="yearListEnd">1774</div>
@@ -143,8 +144,9 @@
                 <line-bar left="500" width="175" number="3" @clicked="clicked">アメリカ独立宣言(1776年7月)</line-bar>
                 <line-bar left="1150" width="175" number="4" @clicked="clicked">ヨークタウンの戦い(1781年9月〜10月)</line-bar>
                 <line-bar left="1350" width="175" number="5" @clicked="clicked">終戦(1783年9月)</line-bar>
-                <p class="endLine"></p>
+
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1775</div>
                 <div class="yearListEnd">1783</div>
@@ -162,8 +164,9 @@
                 <line-bar left="500" width="175"number="1" @clicked="clicked">ハイチ独立の影響(1804年)</line-bar>
                 <line-bar left="1000" width="175" number="2" @clicked="clicked">米英戦争(1812年)</line-bar>
                 <line-bar left="1400" width="175" number="3" @clicked="clicked">モンロー教書のはっぴょう(1823年)</line-bar>
-                <p class="endLine"></p>
+
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1800</div>
                 <div class="yearListEnd">1823</div>
@@ -184,8 +187,9 @@
                 <line-bar left="825" width="175" number="4" @clicked="clicked">七日間の戦い(1862年) ...</line-bar>
                 <line-bar left="1150" width="175" number="5" @clicked="clicked">奴隷解放宣言(1863年) ...</line-bar>
                 <line-bar left="1400" width="175" number="6" @clicked="clicked">ステッドマン砦の戦い(1865年) ...</line-bar>
-                <p class="endLine"></p>
+
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1854</div>
                 <div class="yearListEnd">1865</div>
@@ -204,8 +208,9 @@
                 <line-bar left="700" width="175" number="2" @clicked="clicked">ヴェルダン要塞攻防戦(1916年2月) ...</line-bar>
                 <line-bar left="1000" width="175" number="3" @clicked="clicked">十月革命(1917年11月) ...</line-bar>
                 <line-bar left="1400" width="175" number="4" @clicked="clicked">ウィルソンの十四ヶ条(1918年1月) ...</line-bar>
-                <p class="endLine"></p>
+
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1914</div>
                 <div class="yearListEnd">1918</div>
@@ -223,8 +228,9 @@
                 <line-bar left="500" width="175" number="1" @clicked="clicked">太平洋戦争の勃発(1941年)</line-bar>
                 <line-bar left="900" width="175" number="2" @clicked="clicked">ミッドウェー海戦(1942年) ...</line-bar>
                 <line-bar left="1400" width="175" number="3" @clicked="clicked">戦争の終結(1945年)</line-bar>
-                <p class="endLine"></p>
+
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1939</div>
                 <div class="yearListEnd">1944</div>
@@ -246,8 +252,9 @@
                 <line-bar left="900" width="150" number="5" @clicked="clicked">ベトナム戦争(1955年~1975年)</line-bar>
                 <line-bar left="1100" width="150" number="6" @clicked="clicked">キューバ危機(1962年)</line-bar>
                 <line-bar left="1300" width="150" number="7" @clicked="clicked">冷戦の終結(1989年)</line-bar>
-                <p class="endLine"></p>
+
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1945</div>
                 <div class="yearListEnd">1989</div>
@@ -264,8 +271,9 @@
                 <line-bar left="25" width="175" number="0" @clicked="clicked">アメリカ同時多発テロ(2001年9月11日)</line-bar>
                 <line-bar left="700" width="175" number="1" @clicked="clicked">イラク戦争(2003年)</line-bar>
                 <line-bar left="1300" width="175" number="2" @clicked="clicked">バラク・オバマ大統領就任(2009年)</line-bar>
-                <p class="endLine"></p>
+
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">2001</div>
                 <div class="yearListEnd">2009</div>
@@ -284,8 +292,9 @@
                 <line-bar left="700" width="150" number="2" @clicked="clicked">奴隷解放宣言(1861年)</line-bar>
                 <line-bar left="1000" width="150" number="3" @clicked="clicked">バス・ボイコット運動(1955年)</line-bar>
                 <line-bar left="1400" width="150" number="4" @clicked="clicked">ワシントン大行進(1963年8月28日)</line-bar>
-                <p class="endLine"></p>
+
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1619</div>
                 <div class="yearListEnd">1963</div>

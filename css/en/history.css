@@ -177,17 +177,3 @@
   height: 270px;
   background-color: black;
 }
-.verticalLine{
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  background: repeating-linear-gradient(
-    90deg,
-    #606dbc,
-    #606dbc 10px,
-    #465298 10px,
-    #465298 20px
-  );
-}
-/*#DDDCD7 100px, #FFFFFF 10px*/

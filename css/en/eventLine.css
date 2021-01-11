@@ -37,7 +37,6 @@
 .lineBalloon:hover:before{
       border-bottom: 12px solid #f6d405;
 }
-
 .lineBalloon p {
   margin: 0;
   padding: 0;
