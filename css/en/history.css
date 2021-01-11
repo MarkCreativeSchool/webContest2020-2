@@ -13,6 +13,7 @@
   position:relative;
   width: 1200px;
   height: 640px;
+  background-color: rgba(0,0,0,0.4);
   /*90%*/
   /*pxだと:1524*/
   margin: 0 auto;
@@ -98,8 +99,8 @@
 .chapterBackground{
   position: absolute;
   top: 0;
-  filter: grayscale(100%);
-  opacity: 0.2;
+  /*filter: grayscale(100%);*/
+  opacity: 0.4;
   width: 100%;
   left: 0;
   height: 100%;

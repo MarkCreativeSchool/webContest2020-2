@@ -18,7 +18,7 @@ var modal = Vue.component("modal", {
             </ul>
         </section>
         <footer class="modal-card-foot">
-          <button class="button" @click="close">Cancel</button>
+          <button class="button" @click="close">Close</button>
         </footer>
       </div>
     </div>
