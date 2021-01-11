@@ -8,6 +8,10 @@
 }
 .button_history{
   font-size: 20px;
+  font-weight: bold;
+}
+.tabs a{
+  width: 135px;
 }
 .timeLine{
   position:relative;
