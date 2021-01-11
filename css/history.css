@@ -1,18 +1,34 @@
 .button_history:hover{
   background-color: #F4D03F !important;
-  transition:1s;
 }
 .button_history.active{
   background-color: #F4D03F !important;
+  color: black;
+  padding:14px;
 }
 .button_history{
   font-size: 20px;
-  border: solid 1px #00358B;
   font-weight: bold;
-  height: 55px;
+  border-top-left-radius: 10px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border: solid 2px #F4D03F;
+  /*text-shadow: 0.5px 0.5px 0.5px #333333;*/
 }
 .tabs a{
   width: 135px;
+  border-bottom: none;
+  color: #555555;
+}
+.tabs.is-centered ul{
+  align-items: flex-end;
+}
+.tabs ul{
+  /*border-bottom: none;*/
+}
+.tabs li{
+  margin-right: 2px;
+  border-bottom:solid 4.5px #F4D03F;
 }
 .timeLine{
   position:relative;
