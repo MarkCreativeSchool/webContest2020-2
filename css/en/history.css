@@ -136,7 +136,8 @@
   cursor: default !important;
 }
 .button{
-  background-color: #00c7a9;
+  background-color: white;
+  border-color:#dbdbdb;
   margin: 0 auto;
 }
 .history-title{
