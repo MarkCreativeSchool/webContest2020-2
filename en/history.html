@@ -81,6 +81,7 @@
     <div class="top_history">
             <ol class="bread">
               <li class="breadcrumb-item"> <a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"> <a href="index.html">></a></li>
               <li class="breadcrumb-item"> <a href="history.html">History</a></li>
             </ol>
             <br>
@@ -94,15 +95,15 @@
     <div class="tabs is-centered currentproblems">
       <ul>
 <!--          class="is-active"-->
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===0}" @click="onTabClick(0)">Chapter: 1</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===1}" @click="onTabClick(1)">Chapter: 2</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===2}" @click="onTabClick(2)">Chapter: 3</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===3}" @click="onTabClick(3)">Chapter: 4</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===4}" @click="onTabClick(4)">Chapter: 5</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===5}" @click="onTabClick(5)">Chapter: 6</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===6}" @click="onTabClick(6)">Chapter: 7</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===7}" @click="onTabClick(7)">Chapter: 8</a></li>
-        <li><a href="#" class="button_history" :class="{active:selectTabIndex===8}" @click="onTabClick(8)">History of Racism</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===0}" @click="onTabClick(0)">Chapter: 1</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===1}" @click="onTabClick(1)">Chapter: 2</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===2}" @click="onTabClick(2)">Chapter: 3</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===3}" @click="onTabClick(3)">Chapter: 4</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===4}" @click="onTabClick(4)">Chapter: 5</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===5}" @click="onTabClick(5)">Chapter: 6</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===6}" @click="onTabClick(6)">Chapter: 7</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===7}" @click="onTabClick(7)">Chapter: 8</a></li>
+        <li><a href="javascript:void(0)" class="button_history" :class="{active:selectTabIndex===8}" @click="onTabClick(8)">History of Racism</a></li>
       </ul>
     </div>
     <!-- 実際のテーブル-->
@@ -119,12 +120,12 @@
                 <line-bar left="750" width="150" number="2" top="-10" @clicked="clicked">The 13 (Original) Colonies</line-bar>
                 <line-bar left="800" width="150" number="3" @clicked="clicked">Seven Years' War(1756~1763)</line-bar>
                 <line-bar left="1000" width="150" number="4" @clicked="clicked">The Sugar Act(1764)</line-bar>
-                <line-bar left="1075" width="150" number="5" @clicked="clicked">The Stamp Act(1765)</line-bar>
-                <line-bar left="1150" width="150" number="6" @clicked="clicked">Townshend Acts(1767)</line-bar>
-                <line-bar left="1350" width="150" number="7" @clicked="clicked">Boston Tea Party(1773)</line-bar>
-                <line-bar left="1425" width="150" number="8" @clicked="clicked">Coercive Acts(1774)</line-bar>
-                <p class="endLine"></p>
+                <line-bar left="0" width="150" number="5" @clicked="clicked">The Stamp Act(1765)</line-bar>
+                <line-bar left="0" width="150" number="6" @clicked="clicked">Townshend Acts(1767)</line-bar>
+                <line-bar left="0" width="150" number="7" @clicked="clicked">Boston Tea Party(1773)</line-bar>
+                <line-bar left="0" width="150" number="8" @clicked="clicked">Coercive Acts(1774)</line-bar>
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1500</div>
                 <div class="yearListEnd">1774</div>
@@ -144,8 +145,8 @@
                 <line-bar left="500" width="175" number="3" @clicked="clicked">Declaration for Independence(1776 July)</line-bar>
                 <line-bar left="1150" width="175" number="4" @clicked="clicked">Siege of Yorktown[Battle of Yorktown](1781 September~October)</line-bar>
                 <line-bar left="1350" width="175" number="5" @clicked="clicked">End of the Revolutionary War(1783 September)</line-bar>
-                <p class="endLine"></p>
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1775</div>
                 <div class="yearListEnd">1783</div>
@@ -163,8 +164,8 @@
                 <line-bar left="500" width="175"number="1" @clicked="clicked">Haitian Revolution’s influence(1804)</line-bar>
                 <line-bar left="1000" width="175" number="2" @clicked="clicked">War of 1812(1812)</line-bar>
                 <line-bar left="1400" width="175" number="3" @clicked="clicked">Monroe Doctrine(1823)</line-bar>
-                <p class="endLine"></p>
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1800</div>
                 <div class="yearListEnd">1823</div>
@@ -185,8 +186,8 @@
                 <line-bar left="825" width="175" number="4" @clicked="clicked">Seven Days Battles (1862 June~July) ...</line-bar>
                 <line-bar left="1150" width="175" number="5" @clicked="clicked">Emancipation Proclamation (1863) ...</line-bar>
                 <line-bar left="1400" width="175" number="6" @clicked="clicked">Battle of Fort Stedman(1865) ...</line-bar>
-                <p class="endLine"></p>
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1854</div>
                 <div class="yearListEnd">1865</div>
@@ -205,8 +206,8 @@
                 <line-bar left="700" width="175" number="2" @clicked="clicked">Battle of Verdun (1916 February) ...</line-bar>
                 <line-bar left="1000" width="175" number="3" @clicked="clicked">October Revolution (1917 November) ...</line-bar>
                 <line-bar left="1400" width="175" number="4" @clicked="clicked">Fourteen Points (1918 January) ...</line-bar>
-                <p class="endLine"></p>
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1914</div>
                 <div class="yearListEnd">1918</div>
@@ -224,8 +225,8 @@
                 <line-bar left="500" width="175" number="1" @clicked="clicked">The Outbreak of the Pacific War (1941)</line-bar>
                 <line-bar left="900" width="175" number="2" @clicked="clicked">Battle of Midway (1942) ...</line-bar>
                 <line-bar left="1400" width="175" number="3" @clicked="clicked">End of War(1945)</line-bar>
-                <p class="endLine"></p>
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1939</div>
                 <div class="yearListEnd">1944</div>
@@ -247,8 +248,8 @@
                 <line-bar left="900" width="175" number="5" @clicked="clicked">Vietnam War (1955~1975)</line-bar>
                 <line-bar left="1100" width="175" number="6" @clicked="clicked">Cuban Missile Crisis (1962)</line-bar>
                 <line-bar left="1300" width="175" number="7" @clicked="clicked">End of Cold War (1989)</line-bar>
-                <p class="endLine"></p>
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1945</div>
                 <div class="yearListEnd">1989</div>
@@ -265,8 +266,8 @@
                 <line-bar left="25" width="175" number="0" @clicked="clicked">September 11 attacks (2001 September 11)</line-bar>
                 <line-bar left="700" width="175" number="1" @clicked="clicked">Iraq War (2003)</line-bar>
                 <line-bar left="1300" width="175" number="2" @clicked="clicked">Barack Obama Becomes President(2009)</line-bar>
-                <p class="endLine"></p>
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">2001</div>
                 <div class="yearListEnd">2009</div>
@@ -285,8 +286,8 @@
                 <line-bar left="700" width="175" number="2" @clicked="clicked">Emancipation Proclamation (1861)</line-bar>
                 <line-bar left="1000" width="175" number="3" @clicked="clicked">Montgomery bus boycott (1955)</line-bar>
                 <line-bar left="1400" width="175" number="4" @clicked="clicked">March on Washington for Jobs and Freedom (1963 August 28)</line-bar>
-                <p class="endLine"></p>
             </div>
+            <p class="endLine"></p>
             <div class="yearList">
                 <div class="yearListFirst">1619</div>
                 <div class="yearListEnd">1963</div>
@@ -309,6 +310,7 @@
                     <li><a href="what.html">What</a></li>
                     <li><a href="survey.html">Survey</a></li>
                     <li><a href="sdgs.html">SGDs</a></li>
+                </ul>
             </div>
             <div class="column is-2">
                 <h5>History</h5>

@@ -2,9 +2,13 @@
     font-family: "Noto Sans JP";
     width: 47%;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 18px;
     text-indent: 1em;
+    padding-bottom: 50px;
+  }
+  .highlights{
+    background:#ffff66;
   }
   
   /* .start{
@@ -45,12 +49,13 @@
    }
 
   .smallhead{
+    padding-top: 50px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
     font-family: "Noto Sans JP";
     margin: 0 auto;
     width: 48%;
-    color: black;
+    color: #333333;
   }
 
   .sourcecaption{

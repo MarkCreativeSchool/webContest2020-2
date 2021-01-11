@@ -11,11 +11,13 @@
 }
 .timeLine{
   position:relative;
-  width: 90%;
+  width: 1200px;
+  height: 640px;
+  /*90%*/
   /*pxだと:1524*/
   margin: 0 auto;
+  overflow-y:hidden;
   border: solid 3px #333333;
-  overflow-x: auto;
   max-width: 100%;
 }
 .timeLineTitle{
@@ -25,14 +27,21 @@
   font-size: 23px;
   margin-bottom: 15px;
 }
+.timeLineMain{
+  position:relative;
+  width: 100%;
+  /*overflow-x:hidden;*/
+}
 .yearList{
   display: flex;
   justify-content: space-between;
   font-weight: bold;
   padding-left: 15px;
-  padding-top: 10px;
+  position: absolute;
+  bottom: 15px;
+  padding-top: 18px;
   padding-right: 15px;
-  width: 1580px;
+  width: 100%;
   /*99%*/
   /*1518px*/
 }
@@ -41,7 +50,8 @@
   padding-left: 10px;
   padding-right: 10px;
   position:relative;
-  overflow-x: auto;
+  /*overflow-x: auto;*/
+  height: 640px;
 }
 .lineBar{
   background-color:yellow;
@@ -71,7 +81,7 @@
 .endLine:before{
     content: "";
     display: block;
-  padding-right: 3px;
+    padding-right: 3px;
     position: absolute;
     width: 4px;
     height: 20px;
@@ -82,8 +92,9 @@
 .endLine{
   height: 4px;
   background-color: black;
+  bottom: 40px;
   margin-top: 10px;
-  width: 1584px;
+  width: 99%;
   position:absolute;
   /*あまり好まないやり方*/
   padding-top: 0px !important;
@@ -97,7 +108,7 @@
   width: 1610px;
   left: 0;
   height: 100%;
-  z-index: -1;
+  z-index: -2;
 }
 /*このままでいいのか？ / あまり好まないやり方*/
 .endLine:hover{
@@ -159,15 +170,29 @@
   color: white;
   }
 
-  .description_history{
-    font-size: 14px;
-    font-family: "Noto Sans JP";
-    margin: 0 auto;
-    width: 50%;
-    color: white;
-  }
+.description_history{
+  font-size: 14px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  width: 50%;
+  color: white;
+}
 
-  .top_history{
-    height: 270px; 
-    background-color: black;
- }
+.top_history{
+  height: 270px;
+  background-color: black;
+}
+.verticalLine{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: repeating-linear-gradient(
+    90deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+}
+/*#DDDCD7 100px, #FFFFFF 10px*/
