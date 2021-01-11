@@ -756,7 +756,7 @@ margin: 0 auto 5px;
 
 
 .contentA .contentA-image{
-background-image: url("../../img/baji.jpg");
+background-image: url("../../img/timeline.png");
 background-size: cover;
 background-position: center;
 flex: 1;
@@ -810,7 +810,7 @@ margin: 0 auto 5px;
 
 .contentB2 .contentB2-image{
 width: 200px;
-background-image: url("../../img/experienceenginter.png");
+background-image: url("../../img/chart.png");
 background-size: cover;
 background-position: center;
 }
@@ -873,7 +873,7 @@ box-shadow: 0 0 8px #aaa;
 
 .contentC .contentC-image{
 height: 200px;
-background-image: url("../../img/school.JPG");
+background-image: url("../../img/equal.png");
 background-size: cover;
 background-position: right;
 }
