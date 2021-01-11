@@ -1,13 +1,13 @@
 .lineBalloon{
     position: relative;
-    background-color: white;
+    background-color: #333333;
     text-align:center;
     border-radius: 5px;
     top: 14px;
     box-shadow: 5px 5px 5px #333333;
-    line-height: 1.2;
+    color: white;
     padding: 10px;
-    border: solid 3px #555;
+    border: solid 3px white;
     left: 3px;
 }
 .lineBalloon:hover{
@@ -20,7 +20,7 @@
   left: 50%;
   margin-left: -15px;
   border: 12px solid transparent;
-  border-bottom: 12px solid #FFF;
+  border-bottom: 12px solid #333333;
   z-index: 11;
 }
 
@@ -31,7 +31,7 @@
   left: 50%;
   margin-left: -17px;
   border: 14px solid transparent;
-  border-bottom: 14px solid #555;
+  border-bottom: 14px solid white;
   z-index: 3;
 }
 .lineBalloon:hover:before{
@@ -50,5 +50,7 @@
     text-align:center;
     position: relative;
     top:5px;
+    color: white;
+    text-shadow: 1px 1px 1px red;
     font-size: 20px;
 }

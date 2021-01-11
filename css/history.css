@@ -13,7 +13,6 @@
   background-color: white;
   border-top-right-radius: 10px;
   border: solid 2px #F4D03F;
-  /*text-shadow: 0.5px 0.5px 0.5px #333333;*/
 }
 .tabs a{
   width: 135px;
@@ -22,9 +21,6 @@
 }
 .tabs.is-centered ul{
   align-items: flex-end;
-}
-.tabs ul{
-  /*border-bottom: none;*/
 }
 .tabs li{
   margin-right: 2px;
@@ -51,6 +47,7 @@
   padding-left:10px;
   font-size: 23px;
   margin-bottom: 15px;
+  text-shadow: 1px 1px 1px #000;
 }
 .timelineMain{
   position:relative;
@@ -175,7 +172,7 @@
   text-align: center;
   font-weight:bold;
   padding-bottom: 5px;
-  padding-top: 5px;
+  padding-top: 64px;
   color: black;
 }
 
@@ -187,20 +184,19 @@
   margin-top: 20px;
   width: 50%;
   color: white;
-  }
+}
 
-  .description_history{
-    font-size: 14px;
-    font-family: "Noto Sans JP";
-    margin: 0 auto;
-    width: 50%;
-    color: white;
-  }
-
-  .top_history{
-    height: 230px; 
-    background-color: black;
- }
+.description_history{
+  font-size: 14px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  width: 50%;
+  color: white;
+}
+.top_history{
+  height: 230px;
+  background-color: black;
+}
 .squea{
   margin-top:-27px;
   width: 100%;
