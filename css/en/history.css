@@ -30,7 +30,7 @@
   justify-content: space-between;
   font-weight: bold;
   padding-left: 15px;
-  padding-top: 10px;
+  padding-top: 18px;
   padding-right: 15px;
   width: 1580px;
   /*99%*/
@@ -71,7 +71,7 @@
 .endLine:before{
     content: "";
     display: block;
-  padding-right: 3px;
+    padding-right: 3px;
     position: absolute;
     width: 4px;
     height: 20px;
@@ -97,7 +97,7 @@
   width: 1610px;
   left: 0;
   height: 100%;
-  z-index: -1;
+  z-index: -2;
 }
 /*このままでいいのか？ / あまり好まないやり方*/
 .endLine:hover{
@@ -159,15 +159,29 @@
   color: white;
   }
 
-  .description_history{
-    font-size: 14px;
-    font-family: "Noto Sans JP";
-    margin: 0 auto;
-    width: 50%;
-    color: white;
-  }
+.description_history{
+  font-size: 14px;
+  font-family: "Noto Sans JP";
+  margin: 0 auto;
+  width: 50%;
+  color: white;
+}
 
-  .top_history{
-    height: 270px; 
-    background-color: black;
- }
+.top_history{
+  height: 270px;
+  background-color: black;
+}
+.verticalLine{
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background: repeating-linear-gradient(
+    90deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+}
+/*#DDDCD7 100px, #FFFFFF 10px*/
