@@ -148,7 +148,7 @@
 .chart14{
     position: relative;
     display: block;
-    left: 250px;
+    margin-left: auto;
 }
 
 #myChart14{
@@ -159,7 +159,7 @@
 
 .chart15{
     position: relative;
-    left: 250px;
+    margin-right: auto;
 }
 
 #myChart15{
