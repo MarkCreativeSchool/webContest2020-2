@@ -305,6 +305,7 @@ figcaption {
   z-index: 100;
 }
 .usmap .figures figure .image {
+  filter: grayscale(100%);
   top: 0px;
   left: 0px;
   border-top-left-radius: 10px;
