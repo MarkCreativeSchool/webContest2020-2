@@ -1,0 +1,103 @@
+.top_thoughts{
+    height: 230px; 
+    background-color: black;
+  
+  }
+  
+  .start_thoughts2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+    width: 50%;
+    color: black;
+  }
+   
+    .start_thoughts{
+      font-weight: bold;
+      font-size: 40px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 50%;
+      color: white;
+      }
+  
+      .description_thoughts{
+        font-size: 14px;
+        font-family: "Noto Sans JP";
+        margin: 0 auto;
+        width: 50%;
+        color: white;
+      }
+  
+  
+  .more{
+    font-family: "Noto Sans JP";
+    color: #ffffff;
+    background-color: #000000;
+    background-position: center center;
+    width: 83%;
+    margin: 0 auto;
+    font-size: 30px;
+    border-radius: 3px;
+    text-shadow: 0.5px 0.5px #f6d405;
+    text-align: center;
+    margin-top: 45px;
+  }
+  
+  .card{
+    width: 24%;
+    display: inline-block;
+    margin: 20px;
+    padding: 1px;
+    border-radius: 3px;
+    background-color: #000000;
+  }
+  
+  .profile{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .content{
+    font-size: 14px;
+    color: #f6d405;
+  }
+  
+  .two_profile{
+    font-family: "Noto Sans JP";
+    width: 47%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 18px;
+    text-indent: 1em;
+  }
+  .title_profile{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+    width: 70%;
+    color: black;
+  }
+  
+  
+  .list_profile{
+    font-size: 18px;
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+    width: 65%;
+    color: black;
+    list-style-type: circle;
+  }
+  
+  .experience{
+    font-size: 18px;
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+    width: 65%;
+    color: black;
+    list-style-type: circle;
+  }
