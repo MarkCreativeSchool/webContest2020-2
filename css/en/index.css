@@ -75,13 +75,32 @@
   font-size: 18px;
 }*/
 
-.three{
+/* .three{
   font-family: "Noto Sans JP";
-  width: 50%;
+  width: 47%;
+  text-align: center;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   font-size: 17px;
   text-indent: 1em;
+
+} */
+
+.three{
+  padding: 20px;
+  width: 1025px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.three p{
+  font-family: "Noto Sans JP";
+  padding-bottom: 20px;
+  width: 97%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 17px;
   color: black;
 }
 
@@ -104,8 +123,14 @@
   font-size: 30px;
   font-family: "Noto Sans JP";
   margin: 0 auto;
-  width: 70%;
+  width: 50%;
   color: black;
+  margin-top: 20px;
+}
+
+.biggertitle_en::first-letter{
+  font-size: 1.8em;
+  color: #ffa000
 }
 
 .discrimination{
@@ -612,6 +637,16 @@ overflow-y: hidden;
 z-index: 1000000;
 }
 
+.modal-card-body{
+color: black;
+}
+
+.modal-card-body h6{
+text-align: left;
+padding-left: 35px;
+font-size: 5px;
+}
+
 .article-title-wrapper{
 padding-left: 20px;
 text-align: left;
@@ -633,5 +668,437 @@ font-size: 20px;
 text-align: left;
 text-indent: 1em;
 padding-left: 35px;
+padding-bottom: 5px;
+}
+
+hr{
+width: 50%;
+margin: 0 auto;
+}
+
+
+#container{
+width: 1024px;
+margin: 0 auto;
+margin-top: 60px;
+margin-bottom: 60PX;
+}
+
+.columns h3{
+font-size: 30px;
+color: #ffa700;
+font-weight: bold;
+}
+
+.columns p{
+padding-top: 10px;
 padding-bottom: 10px;
+color: white;
+}
+
+.columns .button-original{
+padding: 10px;
+}
+
+.columns .content-button{
+display: inline-block;
+font-size: 11pt;
+text-align: center;
+cursor: pointer;
+padding: 12px 13px;
+background: #db5872;
+color: #ffffff;
+line-height: 1em;
+transition: .3s;
+border: 2px solid #db5872;
+}
+
+.columns .content-button:hover {
+color: #ff7f7f;
+background: #ffffff;
+}
+
+/* 歴史ページ */
+
+.contentA{
+box-shadow: 0 0 8px #aaa;
+height: 410px;
+display: flex;
+}
+
+.contentA .contentA-text{
+position: relative;
+padding: 25px;
+background-color: black;
+flex: 1;
+}
+
+.contentA-text .triangle{
+position: absolute;
+border-top: 20px solid transparent;
+border-bottom: 20px solid transparent;
+border-left: 20px solid black;
+right: -20px;
+top: 50%;
+margin-top: -10px;
+
+}
+
+.contentA-text .button-original{
+text-align: center;
+}
+
+.contentA-text .button-original .content-button{
+border-radius: 6px;
+display: block;
+margin: 0 auto 5px;
+}
+
+
+.contentA .contentA-image{
+background-image: url("../../img/baji.jpg");
+background-size: cover;
+background-position: center;
+flex: 1;
+}
+
+
+/* アンケート結果 */
+
+.contentB2{
+box-shadow: 0 0 8px #aaa;
+margin-bottom: 25px;
+background-color: snow;
+height: 192.5px;
+display: flex;
+}
+
+.contentB2 .contentB2-text{
+position: relative;
+background-color: black;
+padding: 25px;
+flex: 1;
+}
+
+
+.contentB2 .contentB2-text h3{
+font-size: 25px;
+color: #ffa700;
+font-weight: bold;
+}
+
+.contentB2-text .triangle{
+position: absolute;
+border-top: 20px solid transparent;
+border-bottom: 20px solid transparent;
+border-left: 20px solid black;
+right: -20px;
+top: 50%;
+margin-top: -10px;
+
+}
+
+.contentB2-text .button-original{
+padding: 0px;
+}
+
+.contentB2-text .button-original .content-button{
+border-radius: 6px;
+font-size: 12px;
+margin: 0 auto 5px;
+}
+
+.contentB2 .contentB2-image{
+width: 200px;
+background-image: url("../../img/experienceenginter.png");
+background-size: cover;
+background-position: center;
+}
+
+/* SDGs */
+
+.contentB3{
+box-shadow: 0 0 8px #aaa;
+background-color: snow;
+height: 192.5px;
+display: flex;
+}
+
+.contentB3 .contentB3-text{
+position: relative;
+background-color: black;
+padding: 25px;
+flex: 1;
+}
+
+
+.contentB3 .contentB3-text h3{
+font-size: 25px;
+color: #ffa700;
+font-weight: bold;
+}
+
+.contentB3-text .triangle{
+position: absolute;
+border-top: 20px solid transparent;
+border-bottom: 20px solid transparent;
+border-left: 20px solid black;
+right: -20px;
+top: 50%;
+margin-top: -10px;
+
+}
+
+.contentB3-text .button-original{
+padding: 0px;
+}
+
+.contentB3-text .button-original .content-button{
+border-radius: 6px;
+margin: 0 auto 5px;
+}
+
+.contentB3 .contentB3-image{
+width: 200px;
+background-image: url("../../img/sdgs.png");
+background-size: cover;
+background-position: center;
+}
+
+/* 差別の実態 */
+
+.contentC{
+box-shadow: 0 0 8px #aaa;
+}
+
+.contentC .contentC-image{
+height: 200px;
+background-image: url("../../img/school.JPG");
+background-size: cover;
+background-position: right;
+}
+
+.contentC .contentC-text{
+position: relative;
+height: 433px;
+background-color: black;
+padding: 20px;
+}
+
+.contentC .contentC-text h3{
+text-align: center;
+}
+
+.contentC-text .triangle{
+position: absolute;
+border-right: 20px solid transparent;
+border-bottom: 20px solid black;
+border-left: 20px solid transparent; 
+top: -20px;
+left: 50%;
+margin-left: -10px;
+
+}
+
+.contentC-text-content{
+flex: 1;
+font-size: 10px;
+}
+
+.contentC-text .button-original{
+flex: 1;
+text-align: center;
+}
+
+.contentC-text .button-original .content-button{
+border-radius: 6px;
+display: block;
+margin: 0 auto 5px;
+}
+
+
+/* エンタメ業界 */
+
+.contentD{
+box-shadow: 0 0 8px #aaa;
+}
+
+.contentD .contentD-image{
+height: 200px;
+background-image: url("../../img/discrimination2.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.contentD .contentD-text{
+position: relative;
+height: 433px;
+background-color: black;
+padding: 20px;
+}
+
+.contentD-text-content{
+flex: 1;
+font-size: 10px;
+}
+
+.contentD .contentD-text h3{
+text-align: center;
+}
+
+.contentD-text .triangle{
+position: absolute;
+border-right: 20px solid transparent;
+border-bottom: 20px solid black;
+border-left: 20px solid transparent; 
+top: -20px;
+left: 50%;
+margin-left: -10px;
+
+}
+
+.contentD-text .button-original{
+flex: 1;
+text-align: center;
+}
+
+.contentD-text .button-original .content-button{
+border-radius: 6px;
+display: block;
+margin: 0 auto 5px;
+}
+
+/* 他の差別問題 */
+
+.contentE{
+box-shadow: 0 0 8px #aaa;
+}
+
+.contentE .contentE-image{
+height: 200px;
+background-image: url("../../img/asia.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.contentE .contentE-text{
+position: relative;
+background-color: black;
+padding: 20px;
+}
+
+.contentE-text-content{
+flex: 1;
+font-size: 10px;
+}
+
+.contentE .contentE-text h3{
+text-align: center;
+}
+
+.contentE-text .triangle{
+position: absolute;
+border-right: 20px solid transparent;
+border-bottom: 20px solid black;
+border-left: 20px solid transparent; 
+top: -20px;
+left: 50%;
+margin-left: -10px;
+
+}
+
+.contentE-text .button-original{
+flex: 1;
+text-align: center;
+}
+
+.contentE-text .button-original .content-button{
+border-radius: 6px;
+display: block;
+margin: 0 auto 5px;
+}
+
+/* 組織・他 */
+.contentF{
+box-shadow: 0 0 8px #aaa;
+}
+
+.contentF .contentF-image{
+height: 200px;
+background-image: url("../../img/colorofchange.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.contentF .contentF-text{
+position: relative;
+height: 433px;
+background-color: black;
+padding: 20px;
+}
+
+.contentF-text-content{
+flex: 1;
+font-size: 10px;
+}
+
+.contentF .contentF-text h3{
+text-align: center;
+}
+
+.contentF-text .triangle{
+position: absolute;
+border-right: 20px solid transparent;
+border-bottom: 20px solid black;
+border-left: 20px solid transparent; 
+top: -20px;
+left: 50%;
+margin-left: -10px;
+}
+
+.contentF-text .button-original{
+flex: 1;
+text-align: center;
+}
+
+.contentF-text .button-original .content-button{
+border-radius: 6px;
+display: block;
+margin: 0 auto 5px;
+}
+
+
+.squea{
+margin-top:-97px;
+width: 100%;
+height: 5px;
+background: rgb(27,46,133);
+background: linear-gradient(37deg, rgba(27,46,133,1) 0%, rgba(194,0,4,1) 24%, rgba(255,218,85,1) 69%, rgba(77,163,135,1) 100%);
+}
+
+.three{
+padding: 20px;
+width: 1025px;
+background-color: white;
+margin: 0 auto;
+}
+
+.three p{
+font-family: "Noto Sans JP";
+padding-bottom: 20px;
+width: 97%;
+text-align: center;
+margin: 0 auto;
+font-size: 17px;
+color: black;
+}
+
+.site-title h2{
+width: 300px;
+border-bottom: 2px solid #ffa700;
+font-weight: bold;
+padding-bottom: 10px;
+text-align: center;
+margin: 0 auto;
+font-size: 30px;
 }
