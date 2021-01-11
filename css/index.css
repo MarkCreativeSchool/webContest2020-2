@@ -8,6 +8,7 @@
 }
 
 .first-loading-contener{
+  
   top: 0px;
   left: 0px;
   width: 100%;
@@ -20,6 +21,8 @@
 }
 
 .first-loading-content{
+  font-family: Rockwell, "Courier New", Courier, Georgia,
+  Times, "Times New Roman", serif;
   /* animation: blink 1.5s ease-in-out alternate;
   animation-iteration-count: 10; */
   animation-name: fadeIn;
