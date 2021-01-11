@@ -6,6 +6,7 @@ var app = new Vue({
       selectTabIndex: 0,
       isOpen: false,
       coreData: [],
+      scrollTop: 0,
       chapter: 0,
     }
   },
@@ -14,20 +15,22 @@ var app = new Vue({
       this.selectTabIndex = index;
     },
     clicked(number){
-      console.log(number)
       var data = historyData[this.selectTabIndex][number]
       var section = chapterData[this.selectTabIndex].chapter
       this.chapter = section
       this.coreData = data
       this.isOpen = true;
-      document.body.style.position = 'fixed';
+      console.log(window.scrollY)
+      this.scrollTop=window.scrollY
       document.body.style.top = `-${window.scrollY}px`;
+      document.body.style.position = 'fixed';
+
     },
     close(){
       this.isOpen = false;
       document.body.style.position = '';
       document.body.style.top = '';
-      window.scrollTo(0, parseInt(scrollY || '0') * -1);
+      window.scrollTo(0, parseInt(this.scrollTop || '0'));
     }
   }
 })
