@@ -136,7 +136,8 @@
 /* パンくずリスト */
 .bread{
     list-style: none;
-    padding-left: 360px;
+    margin: 0 auto;
+    width: 50%;
     padding-top: 30px;
     height: 30px;
     color:white;
