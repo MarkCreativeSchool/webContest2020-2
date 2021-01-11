@@ -87,12 +87,19 @@
 
   } */
 
+  .three{
+    padding: 20px;
+    width: 1025px;
+    background-color: white;
+    margin: 0 auto;
+  }
+
   .three p{
     font-family: "Noto Sans JP";
-    width: 47%;
+    padding-bottom: 20px;
+    width: 97%;
     text-align: center;
     margin: 0 auto;
-    margin-top: 30px;
     font-size: 17px;
     color: black;
   }
@@ -674,6 +681,7 @@ hr{
   width: 1024px;
   margin: 0 auto;
   margin-top: 60px;
+  margin-bottom: 60PX;
 }
 
 .columns h3{
@@ -719,9 +727,21 @@ hr{
 }
 
 .contentA .contentA-text{
+  position: relative;
   padding: 25px;
   background-color: black;
   flex: 1;
+}
+
+.contentA-text .triangle{
+  position: absolute;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid black;
+  right: -20px;
+  top: 50%;
+  margin-top: -10px;
+
 }
 
 .contentA-text .button-original{
@@ -742,46 +762,6 @@ hr{
   flex: 1;
 }
 
-/* 差別とは */
-
-.contentB1{
-  box-shadow: 0 0 8px #aaa;
-  background-color: snow;
-  height: 120px;
-  display: flex;
-}
-
-.contentB1 .contentB1-text{
-  background-color: black;
-  padding: 10px;
-  flex: 1;
-}
-
-.contentB1 .contentB1-text p{
-  font-size: 12px;
-}
-
-.contentB1 .contentB1-text h3{
-  font-size: 25px;
-  color: #ffa700;
-  font-weight: bold;
-}
-
-.contentB1-text .button-original{
-  padding: 0px;
-}
-
-.contentB1-text .button-original .content-button{
-  border-radius: 6px;
-  margin: 0 auto 5px;
-}
-
-.contentB1 .contentB1-image{
-  width: 200px;
-  background-image: url("../img/What.jpg");
-  background-size: cover;
-  background-position: center;
-}
 
 /* アンケート結果 */
 
@@ -794,6 +774,7 @@ hr{
 }
 
 .contentB2 .contentB2-text{
+  position: relative;
   background-color: black;
   padding: 25px;
   flex: 1;
@@ -804,6 +785,17 @@ hr{
   font-size: 25px;
   color: #ffa700;
   font-weight: bold;
+}
+
+.contentB2-text .triangle{
+  position: absolute;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid black;
+  right: -20px;
+  top: 50%;
+  margin-top: -10px;
+
 }
 
 .contentB2-text .button-original{
@@ -833,6 +825,7 @@ hr{
 }
 
 .contentB3 .contentB3-text{
+  position: relative;
   background-color: black;
   padding: 25px;
   flex: 1;
@@ -843,6 +836,17 @@ hr{
   font-size: 25px;
   color: #ffa700;
   font-weight: bold;
+}
+
+.contentB3-text .triangle{
+  position: absolute;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid black;
+  right: -20px;
+  top: 50%;
+  margin-top: -10px;
+
 }
 
 .contentB3-text .button-original{
@@ -875,12 +879,25 @@ hr{
 }
 
 .contentC .contentC-text{
+  position: relative;
+  height: 409px;
   background-color: black;
   padding: 20px;
 }
 
 .contentC .contentC-text h3{
   text-align: center;
+}
+
+.contentC-text .triangle{
+  position: absolute;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+  border-left: 20px solid transparent; 
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
+
 }
 
 .contentC-text-content{
@@ -914,6 +931,8 @@ hr{
 }
 
 .contentD .contentD-text{
+  position: relative;
+  height: 409px;
   background-color: black;
   padding: 20px;
 }
@@ -925,6 +944,17 @@ hr{
 
 .contentD .contentD-text h3{
   text-align: center;
+}
+
+.contentD-text .triangle{
+  position: absolute;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+  border-left: 20px solid transparent; 
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
+
 }
 
 .contentD-text .button-original{
@@ -952,6 +982,7 @@ hr{
 }
 
 .contentE .contentE-text{
+  position: relative;
   background-color: black;
   padding: 20px;
 }
@@ -963,6 +994,17 @@ hr{
 
 .contentE .contentE-text h3{
   text-align: center;
+}
+
+.contentE-text .triangle{
+  position: absolute;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+  border-left: 20px solid transparent; 
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
+
 }
 
 .contentE-text .button-original{
@@ -989,6 +1031,8 @@ hr{
 }
 
 .contentF .contentF-text{
+  position: relative;
+  height: 409px;
   background-color: black;
   padding: 20px;
 }
@@ -1000,6 +1044,16 @@ hr{
 
 .contentF .contentF-text h3{
   text-align: center;
+}
+
+.contentF-text .triangle{
+  position: absolute;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+  border-left: 20px solid transparent; 
+  top: -20px;
+  left: 50%;
+  margin-left: -10px;
 }
 
 .contentF-text .button-original{
@@ -1022,3 +1076,29 @@ hr{
   background: linear-gradient(37deg, rgba(27,46,133,1) 0%, rgba(194,0,4,1) 24%, rgba(255,218,85,1) 69%, rgba(77,163,135,1) 100%);
 }
 
+.three{
+  padding: 20px;
+  width: 1025px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.three p{
+  font-family: "Noto Sans JP";
+  padding-bottom: 20px;
+  width: 97%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 17px;
+  color: black;
+}
+
+.site-title h2{
+  width: 300px;
+  border-bottom: 2px solid #ffa700;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+}
