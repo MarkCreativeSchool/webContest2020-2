@@ -1,13 +1,13 @@
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   0% {
       opacity: 0;
   }
   100%{
       opacity: 1;
   }
-}
+} */
 
-.first-loading-contener{
+/* .first-loading-contener{
   
   top: 0px;
   left: 0px;
@@ -18,13 +18,13 @@
   background-image: url(../img/hand.png);
   background-size: cover;
   background-position: center center;
-}
+} */
 
-.first-loading-content{
+/* .first-loading-content{
   font-family: Rockwell, "Courier New", Courier, Georgia,
   Times, "Times New Roman", serif;
-  /* animation: blink 1.5s ease-in-out alternate;
-  animation-iteration-count: 10; */
+  animation: blink 1.5s ease-in-out alternate;
+  animation-iteration-count: 10;
   animation-name: fadeIn;
   animation-duration: 2.5s;
   animation-timing-function: linear;
@@ -36,16 +36,16 @@
   font-weight: 70;
   color: white;
   font-size: 25px;
-}
+} */
 
-.first-loading-content-japanese{
+/* .first-loading-content-japanese{
   position: relative;
   text-align: center;
   font-size: 40px;
-}
+} */
 
 .fh{
-  opacity: 0;
+  opacity: 1;
 }
 
 .introbutton{
