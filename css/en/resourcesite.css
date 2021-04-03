@@ -1,0 +1,143 @@
+.two_resourcesite{
+    font-family: "Noto Sans JP";
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 18px;
+    text-indent: 1em;
+  }
+  
+   
+  .start_resourcesite{
+      font-weight: bold;
+      font-size: 40px;
+      font-family: "Noto Sans JP";
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 50%;
+      color: white;
+      }
+  
+      .description_resourcesite{
+        font-size: 14px;
+        font-family: "Noto Sans JP";
+        margin: 0 auto;
+        width: 50%;
+        color: white;
+      }
+    
+      .top_resourcesite{
+        height: 230px; 
+        background-color: black;
+  
+     }
+  
+  .opening-title{
+      margin: 0 auto;
+      width: 50%;
+      font-weight: 800;
+      font-size: 20px;
+      color:red;
+  }
+  
+  .sub-title-resourcesite{
+    margin: 0 auto;
+      width: 50%;
+      font-weight: 800;
+      font-size: 25px;
+      color: black;
+  }
+  
+  .contents{
+      width: 50%;
+      margin: 0 auto;
+      font-size: 15px;
+      text-indent: 1em;
+      color: black;
+  }
+  .sourcecaption{
+    font-size: 12px;
+  }
+  
+  
+  .drawing3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 370px;
+    margin-top: 0px;
+  }
+  
+  .drawing1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 500px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  
+  .logograph{
+      text-align: center;
+  }
+  
+  .graphimage{
+      width: 35%;
+      height: 2%;
+      display: inline-block;
+      margin: 0 auto;
+  }
+  
+  .next{
+    display: inline-block;
+    float: right;
+    margin-left: auto;
+    margin-right: 40px;
+    width: 100px;
+  }
+  
+  .back{
+    display: inline-block;
+    margin-left: 40px;
+    float: left;
+    margin-right: auto;
+    width: 100px;
+  }
+  
+  table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  table tr{
+    border-bottom: solid 2px white;
+    margin: 0 auto;
+  }
+  
+  table tr:last-child{
+    border-bottom: none;
+  }
+  
+  table th{
+    position: relative;
+    text-align: center;
+    width: 10%;
+    background-color: #FF76A2;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  
+  
+  table td{
+    width: 70%;
+    background-color: rgb(246, 244, 244);
+    padding: 10px 10px;
+  }
+  
