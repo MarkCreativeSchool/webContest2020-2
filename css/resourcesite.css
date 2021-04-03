@@ -135,3 +135,19 @@
       margin-left: 15px;
       text-indent: 1em;
   }
+
+  .button-original{
+    text-align: center;
+    }
+.content-button{
+        display: inline-block;
+        font-size: 11pt;
+        text-align: center;
+        cursor: pointer;
+        padding: 12px 13px;
+        background: #db5872;
+        color: #ffffff;
+        line-height: 1em;
+        transition: .3s;
+        border: 2px solid #db5872;
+        }
