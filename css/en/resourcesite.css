@@ -49,11 +49,18 @@
       }
 
   
+#container{
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60PX;
+    display: flex;
+    }
 
   .contentS{
     box-shadow: 0 0 8px #aaa;
-    height: 410px;
-    width: 480px;
+    height: 380px;
+    width: 470px;
     display: flex;
     }
     
@@ -70,10 +77,26 @@
     }
 
 
-    
     .contentS .contentS-image{
     background-image: url("../../img/joinsdgs.png");
     background-size: cover;
     background-position: center;
     flex: 1;
     }
+
+    .joinsdgshead{
+        font-size: 36px;
+        font-weight: 800;
+        font-family: "Noto Sans JP";
+        display: block;
+        margin-left: 15px;
+    }
+
+
+    .joinsdgsintro{
+        font-size: 18px;
+        font-family: "Noto Sans JP";
+        display: block;
+        margin-left: 15px;
+    }
+
